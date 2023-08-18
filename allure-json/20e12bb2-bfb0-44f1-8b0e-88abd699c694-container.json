@@ -1,0 +1,1 @@
+{"uuid":"20e12bb2-bfb0-44f1-8b0e-88abd699c694","name":"Run BankGuru 99","children":["e5fbaa6f-4985-41ee-88f3-84b361da80ca"],"befores":[{"name":"initAllureReport","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1692355960281,"stop":1692355960314}],"afters":[],"start":1692355960235,"stop":1692355968146}

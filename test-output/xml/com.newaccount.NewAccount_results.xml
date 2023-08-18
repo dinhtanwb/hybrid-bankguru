@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.113">
+  <properties />
+  
+  
+            <testcase name="NA1" time="0.109" classname="com.newaccount.NewAccount" />
+                <testcase name="NA2" time="0.004" classname="com.newaccount.NewAccount" />
+      
+</testsuite>
