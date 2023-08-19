@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Run BankGuru 99]">
   <parameter name="url" value="https://demo.guru99.com/v4/"/>
   <listeners>
@@ -12,7 +12,7 @@
     <classes>
       <class name="com.newaccount.NewAccount">
         <methods>
-          <include name="NA1"/>
+          <include name="NC30_Email_is_Empty"/>
           <include name="beforeClass"/>
           <include name="initAllureReport"/>
           <include name="afterClass"/>

@@ -20,6 +20,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.NewCustomerPO;
+import pageUIs.GlobalUIs;
+
 public class BasePage {
 
 	public static BasePage getBasePageObject() {
@@ -170,7 +173,10 @@ public class BasePage {
 		WebElement element = getWebElement(driver, xpathLocator);
 		element.sendKeys(Keys.TAB);
 	}
-
+	public void moveToNextElementByTabKey(WebDriver driver, String xpathLocator, String...dynamicValue) {
+		WebElement element = getWebElement(driver, getDynamicLocator(driver, xpathLocator, dynamicValue));
+		element.sendKeys(Keys.TAB);
+	}
 
 	public void sendKeyToElement(WebDriver driver, String xpathLocator, String textValue, String... dynamicValue) {
 		WebElement element = getWebElement(driver, getDynamicLocator(driver, xpathLocator, dynamicValue));
@@ -503,48 +509,12 @@ public class BasePage {
 		return locator;
 	}
 
-
-	// Apply Page Element Component
-	/**
-	 * Input TextBox with Dynamic Locator by ID
-	 * 
-	 * @author Tan ProMax
-	 * @param driver
-	 * @param idTextBox
-	 * @param value
-	 */
-
-	/**
-	 * Select Radio with Dynamic Locator by Text
-	 * 
-	 * @author Tan ProMax
-	 * @param driver
-	 * @param text
-	 */
-
-	/**
-	 * Select Dropdown List with Dynamic Locator by Name Attribute
-	 * 
-	 * @author Tan ProMax
-	 * @param driver
-	 * @param nameAttribute
-	 * @param selectedValue
-	 */
-
-	/**
-	 * Select Dropdown List with Dynamic Locator by Name Attribute
-	 * @author Tan ProMax
-	 * @param driver
-	 * @param text
-	 */
-
-	/**
-	 * Verify TextBox by ID
-	 * @author Tan ProMax
-	 * @param driver
-	 * @param idTextBox
-	 * @param attribute
-	 * @return String
-	 */
-
+	public NewCustomerPO openNewCustomerPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.NEW_CUSTOMER_PAGE);
+		clickToElement(driver, GlobalUIs.NEW_CUSTOMER_PAGE);
+		return PageGeneratorManager.getNewCustomer(driver);
+		
+	}
+	
+	
 }

@@ -16,4 +16,9 @@ public class HomePagePO extends BasePage{
 		waitForElementVisible(driver, HomePageUI.LOGIN_SUCCESS);
 		return isElementDisplayed(driver, HomePageUI.LOGIN_SUCCESS);
 	}
+
+	public void openNewCustomerPage() {
+		// TODO Auto-generated method stub
+		
+	}
 }
