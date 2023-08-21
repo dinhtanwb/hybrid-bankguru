@@ -4,18 +4,18 @@
 <th>Method name</th>
 <th>Groups</th>
 </tr><tr>
-<td>com.bankguru.account.EditCustomer</td>
+<td>com.bankguru.customer.EditCustomer</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>EC_17_TelePhone_Cannot_Be_Empty</td>
+<td>EC_13_PIN_Must_Be_Numeric</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>EC_13_PIN_Must_Be_Numeric</td>
+<td>EC_17_TelePhone_Cannot_Be_Empty</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
@@ -63,11 +63,11 @@
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>EC_11_State_Cannot_Be_Special_Character</td>
+<td>EC_14_PIN_Cannot_Be_Special_Character</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>EC_14_PIN_Cannot_Be_Special_Character</td>
+<td>EC_11_State_Cannot_Be_Special_Character</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
@@ -106,53 +106,7 @@
 <td>afterClass</td>
 <td>&nbsp;</td></tr>
 <tr>
-<td>com.bankguru.account.DeleteCustomer</td>
-<td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr>
-<td align='center' colspan='3'>@Test</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>DC05_CustomerID_First_Character_Not_Have_Blank_Space</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>DC03_CustomerID_Have_Character_Special</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>DC02_CustomerID_Must_Be_Numeric</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>DC04_CustomerID_Have_Blank_Space</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>&nbsp;</td>
-<td>DC01_CustomerID_CannotBe_Empty</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td align='center' colspan='3'>@BeforeClass</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>beforeClass</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td align='center' colspan='3'>@BeforeMethod</td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@AfterMethod</td>
-</tr>
-<tr>
-<td align='center' colspan='3'>@AfterClass</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>afterClass</td>
-<td>&nbsp;</td></tr>
-<tr>
-<td>com.bankguru.account.NewCustomer</td>
+<td>com.bankguru.customer.NewCustomer</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
@@ -191,11 +145,11 @@
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>NC12_State_Is_Empty</td>
+<td>NC13_State_Is_Numeric</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>NC13_State_Is_Numeric</td>
+<td>NC12_State_Is_Empty</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
@@ -239,11 +193,11 @@
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>NC6_Address_Is_First_Blank_Space</td>
+<td>NC14_State_Is_Special</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
-<td>NC14_State_Is_Special</td>
+<td>NC6_Address_Is_First_Blank_Space</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td>&nbsp;</td>
@@ -272,6 +226,52 @@
 <tr>
 <td>&nbsp;</td>
 <td>NC17_Pin_Is_Numeric</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>beforeClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@BeforeMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterMethod</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>@AfterClass</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>afterClass</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>com.bankguru.customer.DeleteCustomer</td>
+<td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr>
+<td align='center' colspan='3'>@Test</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>DC05_CustomerID_First_Character_Not_Have_Blank_Space</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>DC03_CustomerID_Have_Character_Special</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>DC02_CustomerID_Must_Be_Numeric</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>DC04_CustomerID_Have_Blank_Space</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>DC01_CustomerID_CannotBe_Empty</td>
 <td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@BeforeClass</td>

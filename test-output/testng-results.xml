@@ -2,636 +2,636 @@
 <testng-results ignored="2" total="55" passed="53" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[2023-08-21 17:02:58,865] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+      <![CDATA[[2023-08-21 20:27:32,843] Step 01 - Open URL 'https://demo.guru99.com/v4/'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:05,269] Step 02 - Input to USERID value mngr522589
+      <![CDATA[[2023-08-21 20:27:38,294] Step 02 - Input to USERID value mngr522589
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:05,578] Step 03 - Input to Password value epEhEgY
+      <![CDATA[[2023-08-21 20:27:38,621] Step 03 - Input to Password value epEhEgY
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:05,740] Step 04 - Click to login button
+      <![CDATA[[2023-08-21 20:27:38,790] Step 04 - Click to login button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:06,724] Verify Login successfully
+      <![CDATA[[2023-08-21 20:27:39,927] Verify Login successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:06,905] NC1 01: Open New Customer Page
+      <![CDATA[[2023-08-21 20:27:40,189] NC1 01: Open New Customer Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:07,608] NC1 02: Enter to Customer Name ''
+      <![CDATA[[2023-08-21 20:27:40,413] NC1 02: Enter to Customer Name ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:07,771] NC1 03: Press TAB to navigate next field
+      <![CDATA[[2023-08-21 20:27:42,494] NC1 03: Press TAB to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:07,847] NC1 04: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:42,550] NC1 04: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,107] NC2 01: Enter to Customer Name value 'Acc1234'
+      <![CDATA[[2023-08-21 20:27:42,746] NC2 01: Enter to Customer Name value 'Acc1234'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,256] NC2 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:42,893] NC2 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,349] NC3 01: Enter to Customer Name value '123123@##!'
+      <![CDATA[[2023-08-21 20:27:42,977] NC3 01: Enter to Customer Name value '123123@##!'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,500] NC3 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:43,117] NC3 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,584] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+      <![CDATA[[2023-08-21 20:27:43,207] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,750] N4 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:43,362] N4 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,832] N5 01: Enter to Address value ''
+      <![CDATA[[2023-08-21 20:27:43,458] N5 01: Enter to Address value ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:08,981] N5 02: Press tab key to next field
+      <![CDATA[[2023-08-21 20:27:43,608] N5 02: Press tab key to next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,024] N5 03: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:43,655] N5 03: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,109] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+      <![CDATA[[2023-08-21 20:27:43,737] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,257] N6 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:43,895] N6 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,340] N8 01: Enter to City value ''
+      <![CDATA[[2023-08-21 20:27:43,986] N8 01: Enter to City value ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,461] N8 02: Press tab to navigate next field
+      <![CDATA[[2023-08-21 20:27:44,154] N8 02: Press tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,507] N8 03: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:44,204] N8 03: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,590] N9 01: Enter to City value '213123123'
+      <![CDATA[[2023-08-21 20:27:44,286] N9 01: Enter to City value '213123123'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,723] N9 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:44,443] N9 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,810] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+      <![CDATA[[2023-08-21 20:27:44,533] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:09,956] N10 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:44,689] N10 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,044] N11 01: Enter to City value ' dsdsdsdsdsd'
+      <![CDATA[[2023-08-21 20:27:44,781] N11 01: Enter to City value ' dsdsdsdsdsd'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,191] N11 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:44,936] N11 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,274] N12 01: Enter to State value ''
+      <![CDATA[[2023-08-21 20:27:45,032] N12 01: Enter to State value ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,410] N12 02: Press tab to navigate next field
+      <![CDATA[[2023-08-21 20:27:45,179] N12 02: Press tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,457] N12 03: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:45,229] N12 03: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,538] N13 01: Enter to State value '123123123123'
+      <![CDATA[[2023-08-21 20:27:45,310] N13 01: Enter to State value '123123123123'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,730] N13 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:45,462] N13 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,821] N14 01: Enter to State value '@&*!#^&*@!#^&'
+      <![CDATA[[2023-08-21 20:27:45,527] N14 01: Enter to State value '@&*!#^&*@!#^&'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:10,966] N14 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:45,682] N14 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,055] N15 01: Enter to State value ' dsdsdsdsdsd'
+      <![CDATA[[2023-08-21 20:27:45,772] N15 01: Enter to State value ' dsdsdsdsdsd'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,187] N15 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:45,902] N15 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,274] N16 01: Enter to PIN value ''
+      <![CDATA[[2023-08-21 20:27:45,991] N16 01: Enter to PIN value ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,422] N16 02: Press Tab to navigate next field
+      <![CDATA[[2023-08-21 20:27:46,141] N16 02: Press Tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,470] N16 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:46,190] N16 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,550] N17 01: Enter to PIN value '123PIN'
+      <![CDATA[[2023-08-21 20:27:46,270] N17 01: Enter to PIN value '123PIN'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,679] N17 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:46,398] N17 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,771] N18 01: Enter to PIN value '12345'
+      <![CDATA[[2023-08-21 20:27:46,478] N18 01: Enter to PIN value '12345'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,908] N18 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:46,614] N18 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:11,999] N19 01: Enter to PIN value '123$$$$'
+      <![CDATA[[2023-08-21 20:27:46,730] N19 01: Enter to PIN value '123$$$$'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,127] N19 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:46,879] N19 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,214] NC20 01: Enter to PIN value ' sadsadsad'
+      <![CDATA[[2023-08-21 20:27:46,970] NC20 01: Enter to PIN value ' sadsadsad'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,342] NC20 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:47,112] NC20 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,432] NC21 01: Enter to PIN value '23 454'
+      <![CDATA[[2023-08-21 20:27:47,200] NC21 01: Enter to PIN value '23 454'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,555] NC21 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:47,327] NC21 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,616] NC22 01: Enter to Telephone value ''
+      <![CDATA[[2023-08-21 20:27:47,405] NC22 01: Enter to Telephone value ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,751] NC22 02: Press Tab to navigate next field
+      <![CDATA[[2023-08-21 20:27:47,553] NC22 02: Press Tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,801] NC22 03: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:47,603] NC22 03: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:12,879] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+      <![CDATA[[2023-08-21 20:27:47,683] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,022] NC23 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:47,821] NC23 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,110] NC24 01: Enter to Telephone value '12312 34435'
+      <![CDATA[[2023-08-21 20:27:47,886] NC24 01: Enter to Telephone value '12312 34435'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,243] NC24 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:48,016] NC24 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,336] NC25 01: Enter to Telephone value '13123@##'
+      <![CDATA[[2023-08-21 20:27:48,103] NC25 01: Enter to Telephone value '13123@##'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,472] NC25 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:48,230] NC25 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,562] NC26 01: Enter to Email value ''
+      <![CDATA[[2023-08-21 20:27:48,321] NC26 01: Enter to Email value ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,699] NC26 01: Press Tab to navigate next field
+      <![CDATA[[2023-08-21 20:27:48,469] NC26 01: Press Tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,744] NC26 03: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:48,517] NC26 03: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,827] NC27 01: Enter to Email value '13123@##'
+      <![CDATA[[2023-08-21 20:27:48,580] NC27 01: Enter to Email value '13123@##'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:13,957] NC27 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:48,710] NC27 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,044] NC29 01: Enter to Email value ' asdasdasdasd'
+      <![CDATA[[2023-08-21 20:27:48,801] NC29 01: Enter to Email value ' asdasdasdasd'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,177] NC29 02: Verify error message is displayed
+      <![CDATA[[2023-08-21 20:27:48,933] NC29 02: Verify error message is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,264] NC30 01: Click to Reset Button to clear all field
+      <![CDATA[[2023-08-21 20:27:49,020] NC30 01: Click to Reset Button to clear all field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,372] NC30 02: Click to Submit Button
+      <![CDATA[[2023-08-21 20:27:49,154] NC30 02: Click to Submit Button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,481] NC30 03: Verify all field is required
+      <![CDATA[[2023-08-21 20:27:49,262] NC30 03: Verify all field is required
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,487] NC30 04: Accept Alert
+      <![CDATA[[2023-08-21 20:27:49,269] NC30 04: Accept Alert
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,509] NC31 01: Enter to Customer Name value is: 'Freeman Lakin'
+      <![CDATA[[2023-08-21 20:27:49,291] NC31 01: Enter to Customer Name value is: 'Emery Harvey'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,654] NC31 02: Select to Gender value is: 'Female'
+      <![CDATA[[2023-08-21 20:27:49,435] NC31 02: Select to Gender value is: 'Female'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,777] NC31 23: Enter to Date of birth value is: 08
+      <![CDATA[[2023-08-21 20:27:49,560] NC31 23: Enter to Date of birth value is: 08
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:14,978] NC31 04: Enter to Address value is: '86728 Marquardt Locks'
+      <![CDATA[[2023-08-21 20:27:49,743] NC31 04: Enter to Address value is: '82370 Malcolm Curve'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,124] NC31 05: Enter to City value is: 'East Marceloburgh'
+      <![CDATA[[2023-08-21 20:27:49,902] NC31 05: Enter to City value is: 'Byronmouth'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,263] NC31 06: Enter to State value is: 'New Mexico'
+      <![CDATA[[2023-08-21 20:27:50,032] NC31 06: Enter to State value is: 'Nevada'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,397] NC31 07: Enter to PIN value is: 123456
+      <![CDATA[[2023-08-21 20:27:50,173] NC31 07: Enter to PIN value is: 123456
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,533] NC31 08: Enter to Mobile Phone Number value is: '6553504101'
+      <![CDATA[[2023-08-21 20:27:50,310] NC31 08: Enter to Mobile Phone Number value is: '7048884595'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,673] NC31 09: Enter to Email value is: 'dudley.buckridge@hotmail.com'
+      <![CDATA[[2023-08-21 20:27:50,454] NC31 09: Enter to Email value is: 'bradford.beahan@hotmail.com'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,836] NC31 10: Enter to Email value is: 'ic4brx72ikxwmo'
+      <![CDATA[[2023-08-21 20:27:50,613] NC31 10: Enter to Email value is: '4e8lc9ja'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:15,987] NC31 11: Click to submit button
+      <![CDATA[[2023-08-21 20:27:50,762] NC31 11: Click to submit button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:17,135] NC31 12: Get Customer ID
+      <![CDATA[[2023-08-21 20:27:51,857] NC31 12: Get Customer ID
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:17,238] NC31 13: Customer ID value is: 96530
+      <![CDATA[[2023-08-21 20:27:51,937] NC31 13: Customer ID value is: 4126
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:17,242] OS name = windows 10
+      <![CDATA[[2023-08-21 20:27:51,942] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:17,242] Driver instance name = chromedriver: chrome on windows (83dc46339fc486eee267804977276288)
+      <![CDATA[[2023-08-21 20:27:51,942] Driver instance name = chromedriver: chrome on windows (f25ac0672bc411e7b9f5077b4a4e73d4)
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:17,626] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+      <![CDATA[[2023-08-21 20:27:52,333] Step 01 - Open URL 'https://demo.guru99.com/v4/'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:21,585] Step 02 - Input to USERID value mngr522589
+      <![CDATA[[2023-08-21 20:27:55,074] Step 02 - Input to USERID value mngr522589
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:21,837] Step 03 - Input to Password value epEhEgY
+      <![CDATA[[2023-08-21 20:27:55,349] Step 03 - Input to Password value epEhEgY
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:22,037] Step 04 - Click to login button
+      <![CDATA[[2023-08-21 20:27:55,582] Step 04 - Click to login button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:23,028] Verify Login successfully
+      <![CDATA[[2023-08-21 20:27:56,564] Verify Login successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:23,115] Step 01 - Open Edit Customer Page
+      <![CDATA[[2023-08-21 20:27:56,676] Step 01 - Open Edit Customer Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:23,951] Step 02 -Send key to Customer ID field value: ''
+      <![CDATA[[2023-08-21 20:27:57,610] Step 02 -Send key to Customer ID field value: ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,114] Step 03 -Press tab to navigate next field
+      <![CDATA[[2023-08-21 20:27:57,776] Step 03 -Press tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,164] Step 04 -Verify error message Customer ID field
+      <![CDATA[[2023-08-21 20:27:57,825] Step 04 -Verify error message Customer ID field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,331] Step 01 - Send key to Customer ID field value: '123ASD'
+      <![CDATA[[2023-08-21 20:27:57,919] Step 01 - Send key to Customer ID field value: '123ASD'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,459] Step 02 - Verify Error Message Displayed
+      <![CDATA[[2023-08-21 20:27:58,161] Step 02 - Verify Error Message Displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,562] Step 01 - Send key to Customer ID field value: '123$$$$$'
+      <![CDATA[[2023-08-21 20:27:58,241] Step 01 - Send key to Customer ID field value: '123$$$$$'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,721] Step 02 - Verify Error Message Displayed
+      <![CDATA[[2023-08-21 20:27:58,399] Step 02 - Verify Error Message Displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,807] Step 01 - Send key to Customer ID field value: '96530'
+      <![CDATA[[2023-08-21 20:27:58,486] Step 01 - Send key to Customer ID field value: '4126'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:24,948] Step 02 - Click to submit button
+      <![CDATA[[2023-08-21 20:27:58,609] Step 02 - Click to submit button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:25,898] Step 01 - Send key to Customer ID field value: '96530'
+      <![CDATA[[2023-08-21 20:27:59,415] Step 01 - Send key to Customer ID field value: '4126'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,236] Step 02 - Press Tab to navigate next field at Address Field
+      <![CDATA[[2023-08-21 20:27:59,642] Step 02 - Press Tab to navigate next field at Address Field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,294] Step 03 - Verify Error Message Address displayed
+      <![CDATA[[2023-08-21 20:27:59,816] Step 03 - Verify Error Message Address displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,392] Step 01 - Send key to City field value: 
+      <![CDATA[[2023-08-21 20:27:59,899] Step 01 - Send key to City field value: 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,531] Step 02 - Press Tab to navigate next field at City Field
+      <![CDATA[[2023-08-21 20:28:00,090] Step 02 - Press Tab to navigate next field at City Field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,575] Step 03 - Verify Error Message City displayed
+      <![CDATA[[2023-08-21 20:28:00,149] Step 03 - Verify Error Message City displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,654] Step 01 - Send key to City field value: 1234
+      <![CDATA[[2023-08-21 20:28:00,235] Step 01 - Send key to City field value: 1234
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,780] Step 02 - Verify Error Message City displayed
+      <![CDATA[[2023-08-21 20:28:00,376] Step 02 - Verify Error Message City displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:26,860] Step 01 - Send key to City field value: !@#$$$@!
+      <![CDATA[[2023-08-21 20:28:00,468] Step 01 - Send key to City field value: !@#$$$@!
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,003] Step 02 - Verify Error Message City displayed
+      <![CDATA[[2023-08-21 20:28:00,610] Step 02 - Verify Error Message City displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,096] Step 01 - Send key to State field value: 
+      <![CDATA[[2023-08-21 20:28:00,688] Step 01 - Send key to State field value: 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,238] Step 02 - Press Tab to navigate next field at State Field
+      <![CDATA[[2023-08-21 20:28:00,826] Step 02 - Press Tab to navigate next field at State Field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,289] Step 03 - Verify Error Message State displayed
+      <![CDATA[[2023-08-21 20:28:00,878] Step 03 - Verify Error Message State displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,369] Step 01 - Send key to State field value: 1234
+      <![CDATA[[2023-08-21 20:28:00,968] Step 01 - Send key to State field value: 1234
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,495] Step 02 - Verify Error Message State displayed
+      <![CDATA[[2023-08-21 20:28:01,097] Step 02 - Verify Error Message State displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,585] Step 01 - Send key to State field value: !@#$$$@!
+      <![CDATA[[2023-08-21 20:28:01,172] Step 01 - Send key to State field value: !@#$$$@!
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,733] Step 02 - Verify Error Message State displayed
+      <![CDATA[[2023-08-21 20:28:01,303] Step 02 - Verify Error Message State displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,814] Step 01 - Send key to PIN field value: 
+      <![CDATA[[2023-08-21 20:28:01,429] Step 01 - Send key to PIN field value: 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,950] Step 02 - Press Tab to navigate next field at State Field
+      <![CDATA[[2023-08-21 20:28:01,636] Step 02 - Press Tab to navigate next field at State Field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:27,997] Step 03 - Verify Error Message PIN displayed
+      <![CDATA[[2023-08-21 20:28:01,681] Step 03 - Verify Error Message PIN displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,064] Step 01 - Send key to PIN field value: 1234AB
+      <![CDATA[[2023-08-21 20:28:01,759] Step 01 - Send key to PIN field value: 1234AB
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,196] Step 02 - Verify Error Message PIN displayed
+      <![CDATA[[2023-08-21 20:28:01,906] Step 02 - Verify Error Message PIN displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,283] Step 01 - Send key to PIN field value: !@#$$$@!
+      <![CDATA[[2023-08-21 20:28:01,996] Step 01 - Send key to PIN field value: !@#$$$@!
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,419] Step 02 - Verify Error Message PIN displayed
+      <![CDATA[[2023-08-21 20:28:02,147] Step 02 - Verify Error Message PIN displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,501] Step 01 - Send key to PIN field value: 1234
+      <![CDATA[[2023-08-21 20:28:02,228] Step 01 - Send key to PIN field value: 1234
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,628] Step 02 - Verify Error Message PIN displayed
+      <![CDATA[[2023-08-21 20:28:02,357] Step 02 - Verify Error Message PIN displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,703] Step 01 - Send key to TelePhone field value: !@#$$$@!
+      <![CDATA[[2023-08-21 20:28:02,463] Step 01 - Send key to TelePhone field value: !@#$$$@!
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,839] Step 02 - Verify Error Message TelePhone displayed
+      <![CDATA[[2023-08-21 20:28:02,617] Step 02 - Verify Error Message TelePhone displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:28,922] Step 01 - Send key to TelePhone field value: ''
+      <![CDATA[[2023-08-21 20:28:02,696] Step 01 - Send key to TelePhone field value: ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,040] Step 02 - Verify Error Message TelePhone displayed
+      <![CDATA[[2023-08-21 20:28:02,833] Step 02 - Verify Error Message TelePhone displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,126] Step 01 - Send key to Email field value: ''
+      <![CDATA[[2023-08-21 20:28:02,910] Step 01 - Send key to Email field value: ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,284] Step 02 - Verify Error Message PIN displayed
+      <![CDATA[[2023-08-21 20:28:03,075] Step 02 - Verify Error Message PIN displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,375] Step 01 - Send key to TelePhone field value: guru99@gmail
+      <![CDATA[[2023-08-21 20:28:03,159] Step 01 - Send key to TelePhone field value: guru99@gmail
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,495] Step 02 - Verify Error Message Email displayed
+      <![CDATA[[2023-08-21 20:28:03,275] Step 02 - Verify Error Message Email displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,575] OS name = windows 10
+      <![CDATA[[2023-08-21 20:28:03,373] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,575] Driver instance name = chromedriver: chrome on windows (33150a15108adef423964ed321b85227)
+      <![CDATA[[2023-08-21 20:28:03,373] Driver instance name = chromedriver: chrome on windows (747272527ee538d3561f3cc4fd22c81d)
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:29,942] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+      <![CDATA[[2023-08-21 20:28:03,742] Step 01 - Open URL 'https://demo.guru99.com/v4/'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:33,780] Step 02 - Input to USERID value mngr522589
+      <![CDATA[[2023-08-21 20:28:06,621] Step 02 - Input to USERID value mngr522589
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:34,028] Step 03 - Input to Password value epEhEgY
+      <![CDATA[[2023-08-21 20:28:06,824] Step 03 - Input to Password value epEhEgY
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:34,176] Step 04 - Click to login button
+      <![CDATA[[2023-08-21 20:28:07,051] Step 04 - Click to login button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:35,161] Step 05 - Verify Login successfully
+      <![CDATA[[2023-08-21 20:28:08,066] Step 05 - Verify Login successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:35,250] Open Delete customer page
+      <![CDATA[[2023-08-21 20:28:08,149] Open Delete customer page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,106] Step 01 - Enter to customer ID value: ''
+      <![CDATA[[2023-08-21 20:28:08,339] Step 01 - Enter to customer ID value: ''
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,276] Step 02 - Press tab to navigate next field
+      <![CDATA[[2023-08-21 20:28:11,343] Step 02 - Press tab to navigate next field
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,322] Step 03 - Verify error message displayed
+      <![CDATA[[2023-08-21 20:28:11,393] Step 03 - Verify error message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,467] Step 01 - Enter to customer ID value: 'Acc12344'
+      <![CDATA[[2023-08-21 20:28:11,483] Step 01 - Enter to customer ID value: 'Acc12344'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,621] Step 02 - Verify error message displayed
+      <![CDATA[[2023-08-21 20:28:11,613] Step 02 - Verify error message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,687] Step 01 - Enter to customer ID value: '!@#$$$$'
+      <![CDATA[[2023-08-21 20:28:11,682] Step 01 - Enter to customer ID value: '!@#$$$$'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,818] Step 02 - Verify error message displayed
+      <![CDATA[[2023-08-21 20:28:11,811] Step 02 - Verify error message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:36,917] Step 01 - Enter to customer ID value: '123 2323'
+      <![CDATA[[2023-08-21 20:28:11,902] Step 01 - Enter to customer ID value: '123 2323'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:37,042] Step 02 - Verify error message displayed
+      <![CDATA[[2023-08-21 20:28:12,041] Step 02 - Verify error message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:37,116] Step 01 - Enter to customer ID value: ' '
+      <![CDATA[[2023-08-21 20:28:12,112] Step 01 - Enter to customer ID value: ' '
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:37,233] Step 02 - Verify error message displayed
+      <![CDATA[[2023-08-21 20:28:12,231] Step 02 - Verify error message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:37,315] OS name = windows 10
+      <![CDATA[[2023-08-21 20:28:12,295] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[2023-08-21 17:03:37,315] Driver instance name = chromedriver: chrome on windows (7f2ad17bf09d63214ca174c1b9e31747)
+      <![CDATA[[2023-08-21 20:28:12,295] Driver instance name = chromedriver: chrome on windows (25e0fa9089b6b8470fe50d0360b54fad)
 <br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-08-21T17:02:58 ICT" name="Run BankGuru 99" finished-at="2023-08-21T17:03:37 ICT" duration-ms="38829">
+  <suite started-at="2023-08-21T20:27:32 ICT" name="Run BankGuru 99" finished-at="2023-08-21T20:28:12 ICT" duration-ms="39852">
     <groups>
     </groups>
-    <test started-at="2023-08-21T17:02:58 ICT" name="Run on CHROME" finished-at="2023-08-21T17:03:37 ICT" duration-ms="38829">
-      <class name="com.bankguru.account.EditCustomer">
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:17 ICT" name="beforeClass" finished-at="2023-08-21T17:03:23 ICT" duration-ms="5486" status="PASS">
+    <test started-at="2023-08-21T20:27:32 ICT" name="Run on CHROME" finished-at="2023-08-21T20:28:12 ICT" duration-ms="39852">
+      <class name="com.bankguru.customer.EditCustomer">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:52 ICT" name="beforeClass" finished-at="2023-08-21T20:27:56 ICT" duration-ms="4339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -646,416 +646,298 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:17,626] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+              <![CDATA[[2023-08-21 20:27:52,333] Step 01 - Open URL 'https://demo.guru99.com/v4/'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:21,585] Step 02 - Input to USERID value mngr522589
+              <![CDATA[[2023-08-21 20:27:55,074] Step 02 - Input to USERID value mngr522589
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:21,837] Step 03 - Input to Password value epEhEgY
+              <![CDATA[[2023-08-21 20:27:55,349] Step 03 - Input to Password value epEhEgY
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:22,037] Step 04 - Click to login button
+              <![CDATA[[2023-08-21 20:27:55,582] Step 04 - Click to login button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:23,028] Verify Login successfully
+              <![CDATA[[2023-08-21 20:27:56,564] Verify Login successfully
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="EC_01_CustomerID_Cannot_Empty()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:23 ICT" name="EC_01_CustomerID_Cannot_Empty" description="Customer ID Cannot be empty" finished-at="2023-08-21T17:03:24 ICT" duration-ms="1216" status="PASS">
+        <test-method signature="EC_01_CustomerID_Cannot_Empty()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:56 ICT" name="EC_01_CustomerID_Cannot_Empty" description="Customer ID Cannot be empty" finished-at="2023-08-21T20:27:57 ICT" duration-ms="1242" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:23,115] Step 01 - Open Edit Customer Page
+              <![CDATA[[2023-08-21 20:27:56,676] Step 01 - Open Edit Customer Page
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:23,951] Step 02 -Send key to Customer ID field value: ''
+              <![CDATA[[2023-08-21 20:27:57,610] Step 02 -Send key to Customer ID field value: ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,114] Step 03 -Press tab to navigate next field
+              <![CDATA[[2023-08-21 20:27:57,776] Step 03 -Press tab to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,164] Step 04 -Verify error message Customer ID field
+              <![CDATA[[2023-08-21 20:27:57,825] Step 04 -Verify error message Customer ID field
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_01_CustomerID_Cannot_Empty -->
-        <test-method signature="EC_02_Must_Be_Numeric()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:24 ICT" name="EC_02_Must_Be_Numeric" description="Customer ID must be numeric" finished-at="2023-08-21T17:03:24 ICT" duration-ms="228" status="PASS">
+        <test-method signature="EC_02_Must_Be_Numeric()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:57 ICT" name="EC_02_Must_Be_Numeric" description="Customer ID must be numeric" finished-at="2023-08-21T20:27:58 ICT" duration-ms="320" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,331] Step 01 - Send key to Customer ID field value: '123ASD'
+              <![CDATA[[2023-08-21 20:27:57,919] Step 01 - Send key to Customer ID field value: '123ASD'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,459] Step 02 - Verify Error Message Displayed
+              <![CDATA[[2023-08-21 20:27:58,161] Step 02 - Verify Error Message Displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_02_Must_Be_Numeric -->
-        <test-method signature="EC_03_Customer_ID_Have_Special_Character()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:24 ICT" name="EC_03_Customer_ID_Have_Special_Character" description="Customer ID is special character" finished-at="2023-08-21T17:03:24 ICT" duration-ms="243" status="PASS">
+        <test-method signature="EC_03_Customer_ID_Have_Special_Character()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:58 ICT" name="EC_03_Customer_ID_Have_Special_Character" description="Customer ID is special character" finished-at="2023-08-21T20:27:58 ICT" duration-ms="244" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,562] Step 01 - Send key to Customer ID field value: '123$$$$$'
+              <![CDATA[[2023-08-21 20:27:58,241] Step 01 - Send key to Customer ID field value: '123$$$$$'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,721] Step 02 - Verify Error Message Displayed
+              <![CDATA[[2023-08-21 20:27:58,399] Step 02 - Verify Error Message Displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_03_Customer_ID_Have_Special_Character -->
-        <test-method signature="EC_04_Customer_ID_Valid()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:24 ICT" name="EC_04_Customer_ID_Valid" description="Customer ID is special character" finished-at="2023-08-21T17:03:25 ICT" duration-ms="1090" status="PASS">
+        <test-method signature="EC_04_Customer_ID_Valid()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:58 ICT" name="EC_04_Customer_ID_Valid" description="Customer ID is special character" finished-at="2023-08-21T20:27:59 ICT" duration-ms="927" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,807] Step 01 - Send key to Customer ID field value: '96530'
+              <![CDATA[[2023-08-21 20:27:58,486] Step 01 - Send key to Customer ID field value: '4126'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:24,948] Step 02 - Click to submit button
+              <![CDATA[[2023-08-21 20:27:58,609] Step 02 - Click to submit button
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_04_Customer_ID_Valid -->
-        <test-method signature="EC_05_Address_Cannot_Be_Empty()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:25 ICT" name="EC_05_Address_Cannot_Be_Empty" finished-at="2023-08-21T17:03:26 ICT" duration-ms="491" status="PASS">
+        <test-method signature="EC_05_Address_Cannot_Be_Empty()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:59 ICT" name="EC_05_Address_Cannot_Be_Empty" finished-at="2023-08-21T20:27:59 ICT" duration-ms="482" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:25,898] Step 01 - Send key to Customer ID field value: '96530'
+              <![CDATA[[2023-08-21 20:27:59,415] Step 01 - Send key to Customer ID field value: '4126'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,236] Step 02 - Press Tab to navigate next field at Address Field
+              <![CDATA[[2023-08-21 20:27:59,642] Step 02 - Press Tab to navigate next field at Address Field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,294] Step 03 - Verify Error Message Address displayed
+              <![CDATA[[2023-08-21 20:27:59,816] Step 03 - Verify Error Message Address displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_05_Address_Cannot_Be_Empty -->
-        <test-method signature="EC_06_City_Cannot_Be_Empty()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:26 ICT" name="EC_06_City_Cannot_Be_Empty" finished-at="2023-08-21T17:03:26 ICT" duration-ms="261" status="PASS">
+        <test-method signature="EC_06_City_Cannot_Be_Empty()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:27:59 ICT" name="EC_06_City_Cannot_Be_Empty" finished-at="2023-08-21T20:28:00 ICT" duration-ms="334" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,392] Step 01 - Send key to City field value: 
+              <![CDATA[[2023-08-21 20:27:59,899] Step 01 - Send key to City field value: 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,531] Step 02 - Press Tab to navigate next field at City Field
+              <![CDATA[[2023-08-21 20:28:00,090] Step 02 - Press Tab to navigate next field at City Field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,575] Step 03 - Verify Error Message City displayed
+              <![CDATA[[2023-08-21 20:28:00,149] Step 03 - Verify Error Message City displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_06_City_Cannot_Be_Empty -->
-        <test-method signature="EC_07_City_Cannot_Be_Numeric()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:26 ICT" name="EC_07_City_Cannot_Be_Numeric" finished-at="2023-08-21T17:03:26 ICT" duration-ms="204" status="PASS">
+        <test-method signature="EC_07_City_Cannot_Be_Numeric()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:00 ICT" name="EC_07_City_Cannot_Be_Numeric" finished-at="2023-08-21T20:28:00 ICT" duration-ms="231" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,654] Step 01 - Send key to City field value: 1234
+              <![CDATA[[2023-08-21 20:28:00,235] Step 01 - Send key to City field value: 1234
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,780] Step 02 - Verify Error Message City displayed
+              <![CDATA[[2023-08-21 20:28:00,376] Step 02 - Verify Error Message City displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_07_City_Cannot_Be_Numeric -->
-        <test-method signature="EC_08_City_Cannot_Be_Special_Character()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:26 ICT" name="EC_08_City_Cannot_Be_Special_Character" finished-at="2023-08-21T17:03:27 ICT" duration-ms="232" status="PASS">
+        <test-method signature="EC_08_City_Cannot_Be_Special_Character()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:00 ICT" name="EC_08_City_Cannot_Be_Special_Character" finished-at="2023-08-21T20:28:00 ICT" duration-ms="219" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:26,860] Step 01 - Send key to City field value: !@#$$$@!
+              <![CDATA[[2023-08-21 20:28:00,468] Step 01 - Send key to City field value: !@#$$$@!
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,003] Step 02 - Verify Error Message City displayed
+              <![CDATA[[2023-08-21 20:28:00,610] Step 02 - Verify Error Message City displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_08_City_Cannot_Be_Special_Character -->
-        <test-method signature="EC_09_State_Cannot_Be_Empty()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:27 ICT" name="EC_09_State_Cannot_Be_Empty" finished-at="2023-08-21T17:03:27 ICT" duration-ms="273" status="PASS">
+        <test-method signature="EC_09_State_Cannot_Be_Empty()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:00 ICT" name="EC_09_State_Cannot_Be_Empty" finished-at="2023-08-21T20:28:00 ICT" duration-ms="279" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,096] Step 01 - Send key to State field value: 
+              <![CDATA[[2023-08-21 20:28:00,688] Step 01 - Send key to State field value: 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,238] Step 02 - Press Tab to navigate next field at State Field
+              <![CDATA[[2023-08-21 20:28:00,826] Step 02 - Press Tab to navigate next field at State Field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,289] Step 03 - Verify Error Message State displayed
+              <![CDATA[[2023-08-21 20:28:00,878] Step 03 - Verify Error Message State displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_09_State_Cannot_Be_Empty -->
-        <test-method signature="EC_10_State_Cannot_Be_Numeric()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:27 ICT" name="EC_10_State_Cannot_Be_Numeric" finished-at="2023-08-21T17:03:27 ICT" duration-ms="213" status="PASS">
+        <test-method signature="EC_10_State_Cannot_Be_Numeric()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:00 ICT" name="EC_10_State_Cannot_Be_Numeric" finished-at="2023-08-21T20:28:01 ICT" duration-ms="202" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,369] Step 01 - Send key to State field value: 1234
+              <![CDATA[[2023-08-21 20:28:00,968] Step 01 - Send key to State field value: 1234
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,495] Step 02 - Verify Error Message State displayed
+              <![CDATA[[2023-08-21 20:28:01,097] Step 02 - Verify Error Message State displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_10_State_Cannot_Be_Numeric -->
-        <test-method signature="EC_11_State_Cannot_Be_Special_Character()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:27 ICT" name="EC_11_State_Cannot_Be_Special_Character" finished-at="2023-08-21T17:03:27 ICT" duration-ms="228" status="PASS">
+        <test-method signature="EC_11_State_Cannot_Be_Special_Character()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:01 ICT" name="EC_11_State_Cannot_Be_Special_Character" finished-at="2023-08-21T20:28:01 ICT" duration-ms="253" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,585] Step 01 - Send key to State field value: !@#$$$@!
+              <![CDATA[[2023-08-21 20:28:01,172] Step 01 - Send key to State field value: !@#$$$@!
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,733] Step 02 - Verify Error Message State displayed
+              <![CDATA[[2023-08-21 20:28:01,303] Step 02 - Verify Error Message State displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_11_State_Cannot_Be_Special_Character -->
-        <test-method signature="EC_12_PIN_Cannot_Be_Empty()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:27 ICT" name="EC_12_PIN_Cannot_Be_Empty" finished-at="2023-08-21T17:03:28 ICT" duration-ms="248" status="PASS">
+        <test-method signature="EC_12_PIN_Cannot_Be_Empty()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:01 ICT" name="EC_12_PIN_Cannot_Be_Empty" finished-at="2023-08-21T20:28:01 ICT" duration-ms="329" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,814] Step 01 - Send key to PIN field value: 
+              <![CDATA[[2023-08-21 20:28:01,429] Step 01 - Send key to PIN field value: 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,950] Step 02 - Press Tab to navigate next field at State Field
+              <![CDATA[[2023-08-21 20:28:01,636] Step 02 - Press Tab to navigate next field at State Field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:27,997] Step 03 - Verify Error Message PIN displayed
+              <![CDATA[[2023-08-21 20:28:01,681] Step 03 - Verify Error Message PIN displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_12_PIN_Cannot_Be_Empty -->
-        <test-method signature="EC_13_PIN_Must_Be_Numeric()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:28 ICT" name="EC_13_PIN_Must_Be_Numeric" finished-at="2023-08-21T17:03:28 ICT" duration-ms="217" status="PASS">
+        <test-method signature="EC_13_PIN_Must_Be_Numeric()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:01 ICT" name="EC_13_PIN_Must_Be_Numeric" finished-at="2023-08-21T20:28:01 ICT" duration-ms="235" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,064] Step 01 - Send key to PIN field value: 1234AB
+              <![CDATA[[2023-08-21 20:28:01,759] Step 01 - Send key to PIN field value: 1234AB
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,196] Step 02 - Verify Error Message PIN displayed
+              <![CDATA[[2023-08-21 20:28:01,906] Step 02 - Verify Error Message PIN displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_13_PIN_Must_Be_Numeric -->
-        <test-method signature="EC_14_PIN_Cannot_Be_Special_Character()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:28 ICT" name="EC_14_PIN_Cannot_Be_Special_Character" finished-at="2023-08-21T17:03:28 ICT" duration-ms="216" status="PASS">
+        <test-method signature="EC_14_PIN_Cannot_Be_Special_Character()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:01 ICT" name="EC_14_PIN_Cannot_Be_Special_Character" finished-at="2023-08-21T20:28:02 ICT" duration-ms="231" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,283] Step 01 - Send key to PIN field value: !@#$$$@!
+              <![CDATA[[2023-08-21 20:28:01,996] Step 01 - Send key to PIN field value: !@#$$$@!
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,419] Step 02 - Verify Error Message PIN displayed
+              <![CDATA[[2023-08-21 20:28:02,147] Step 02 - Verify Error Message PIN displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_14_PIN_Cannot_Be_Special_Character -->
-        <test-method signature="EC_15_PIN_Must_Have_6_Digits()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:28 ICT" name="EC_15_PIN_Must_Have_6_Digits" finished-at="2023-08-21T17:03:28 ICT" duration-ms="201" status="PASS">
+        <test-method signature="EC_15_PIN_Must_Have_6_Digits()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:02 ICT" name="EC_15_PIN_Must_Have_6_Digits" finished-at="2023-08-21T20:28:02 ICT" duration-ms="232" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,501] Step 01 - Send key to PIN field value: 1234
+              <![CDATA[[2023-08-21 20:28:02,228] Step 01 - Send key to PIN field value: 1234
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,628] Step 02 - Verify Error Message PIN displayed
+              <![CDATA[[2023-08-21 20:28:02,357] Step 02 - Verify Error Message PIN displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_15_PIN_Must_Have_6_Digits -->
-        <test-method signature="EC_16_TelePhone_Cannot_Be_Special_Character()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:28 ICT" name="EC_16_TelePhone_Cannot_Be_Special_Character" finished-at="2023-08-21T17:03:28 ICT" duration-ms="216" status="PASS">
+        <test-method signature="EC_16_TelePhone_Cannot_Be_Special_Character()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:02 ICT" name="EC_16_TelePhone_Cannot_Be_Special_Character" finished-at="2023-08-21T20:28:02 ICT" duration-ms="231" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,703] Step 01 - Send key to TelePhone field value: !@#$$$@!
+              <![CDATA[[2023-08-21 20:28:02,463] Step 01 - Send key to TelePhone field value: !@#$$$@!
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,839] Step 02 - Verify Error Message TelePhone displayed
+              <![CDATA[[2023-08-21 20:28:02,617] Step 02 - Verify Error Message TelePhone displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_16_TelePhone_Cannot_Be_Special_Character -->
-        <test-method signature="EC_17_TelePhone_Cannot_Be_Empty()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:28 ICT" name="EC_17_TelePhone_Cannot_Be_Empty" finished-at="2023-08-21T17:03:29 ICT" duration-ms="203" status="PASS">
+        <test-method signature="EC_17_TelePhone_Cannot_Be_Empty()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:02 ICT" name="EC_17_TelePhone_Cannot_Be_Empty" finished-at="2023-08-21T20:28:02 ICT" duration-ms="212" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:28,922] Step 01 - Send key to TelePhone field value: ''
+              <![CDATA[[2023-08-21 20:28:02,696] Step 01 - Send key to TelePhone field value: ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,040] Step 02 - Verify Error Message TelePhone displayed
+              <![CDATA[[2023-08-21 20:28:02,833] Step 02 - Verify Error Message TelePhone displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_17_TelePhone_Cannot_Be_Empty -->
-        <test-method signature="EC_18_Email_Not_Be_Empty()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:29 ICT" name="EC_18_Email_Not_Be_Empty" finished-at="2023-08-21T17:03:29 ICT" duration-ms="247" status="PASS">
+        <test-method signature="EC_18_Email_Not_Be_Empty()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:02 ICT" name="EC_18_Email_Not_Be_Empty" finished-at="2023-08-21T20:28:03 ICT" duration-ms="247" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,126] Step 01 - Send key to Email field value: ''
+              <![CDATA[[2023-08-21 20:28:02,910] Step 01 - Send key to Email field value: ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,284] Step 02 - Verify Error Message PIN displayed
+              <![CDATA[[2023-08-21 20:28:03,075] Step 02 - Verify Error Message PIN displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_18_Email_Not_Be_Empty -->
-        <test-method signature="EC_19_Email_invalid_format()[pri:2, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:29 ICT" name="EC_19_Email_invalid_format" finished-at="2023-08-21T17:03:29 ICT" duration-ms="200" status="PASS">
+        <test-method signature="EC_19_Email_invalid_format()[pri:2, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:03 ICT" name="EC_19_Email_invalid_format" finished-at="2023-08-21T20:28:03 ICT" duration-ms="214" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,375] Step 01 - Send key to TelePhone field value: guru99@gmail
+              <![CDATA[[2023-08-21 20:28:03,159] Step 01 - Send key to TelePhone field value: guru99@gmail
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,495] Step 02 - Verify Error Message Email displayed
+              <![CDATA[[2023-08-21 20:28:03,275] Step 02 - Verify Error Message Email displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EC_19_Email_invalid_format -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.account.EditCustomer@6fd12c5]" started-at="2023-08-21T17:03:29 ICT" name="afterClass" finished-at="2023-08-21T17:03:29 ICT" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.customer.EditCustomer@e9dc4d0]" started-at="2023-08-21T20:28:03 ICT" name="afterClass" finished-at="2023-08-21T20:28:03 ICT" duration-ms="368" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,575] OS name = windows 10
+              <![CDATA[[2023-08-21 20:28:03,373] OS name = windows 10
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:29,575] Driver instance name = chromedriver: chrome on windows (33150a15108adef423964ed321b85227)
+              <![CDATA[[2023-08-21 20:28:03,373] Driver instance name = chromedriver: chrome on windows (747272527ee538d3561f3cc4fd22c81d)
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.bankguru.account.EditCustomer -->
-      <class name="com.bankguru.account.DeleteCustomer">
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:29 ICT" name="beforeClass" finished-at="2023-08-21T17:03:35 ICT" duration-ms="5305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.guru99.com/v4/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:29,942] Step 01 - Open URL 'https://demo.guru99.com/v4/'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:33,780] Step 02 - Input to USERID value mngr522589
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:34,028] Step 03 - Input to Password value epEhEgY
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:34,176] Step 04 - Click to login button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:35,161] Step 05 - Verify Login successfully
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="DC01_CustomerID_CannotBe_Empty()[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:35 ICT" name="DC01_CustomerID_CannotBe_Empty" finished-at="2023-08-21T17:03:36 ICT" duration-ms="1218" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:35,250] Open Delete customer page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,106] Step 01 - Enter to customer ID value: ''
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,276] Step 02 - Press tab to navigate next field
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,322] Step 03 - Verify error message displayed
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DC01_CustomerID_CannotBe_Empty -->
-        <test-method signature="DC02_CustomerID_Must_Be_Numeric()[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:36 ICT" name="DC02_CustomerID_Must_Be_Numeric" finished-at="2023-08-21T17:03:36 ICT" duration-ms="217" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,467] Step 01 - Enter to customer ID value: 'Acc12344'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,621] Step 02 - Verify error message displayed
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DC02_CustomerID_Must_Be_Numeric -->
-        <test-method signature="DC03_CustomerID_Have_Character_Special()[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:36 ICT" name="DC03_CustomerID_Have_Character_Special" finished-at="2023-08-21T17:03:36 ICT" duration-ms="229" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,687] Step 01 - Enter to customer ID value: '!@#$$$$'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,818] Step 02 - Verify error message displayed
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DC03_CustomerID_Have_Character_Special -->
-        <test-method signature="DC04_CustomerID_Have_Blank_Space()[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:36 ICT" name="DC04_CustomerID_Have_Blank_Space" finished-at="2023-08-21T17:03:37 ICT" duration-ms="197" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:36,917] Step 01 - Enter to customer ID value: '123 2323'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:37,042] Step 02 - Verify error message displayed
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DC04_CustomerID_Have_Blank_Space -->
-        <test-method signature="DC05_CustomerID_First_Character_Not_Have_Blank_Space()[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:37 ICT" name="DC05_CustomerID_First_Character_Not_Have_Blank_Space" finished-at="2023-08-21T17:03:37 ICT" duration-ms="198" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:37,116] Step 01 - Enter to customer ID value: ' '
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:37,233] Step 02 - Verify error message displayed
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- DC05_CustomerID_First_Character_Not_Have_Blank_Space -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.account.DeleteCustomer@1de0a46c]" started-at="2023-08-21T17:03:37 ICT" name="afterClass" finished-at="2023-08-21T17:03:37 ICT" duration-ms="331" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[2023-08-21 17:03:37,315] OS name = windows 10
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[2023-08-21 17:03:37,315] Driver instance name = chromedriver: chrome on windows (7f2ad17bf09d63214ca174c1b9e31747)
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.bankguru.account.DeleteCustomer -->
-      <class name="com.bankguru.account.NewCustomer">
-        <test-method is-config="true" signature="initAllureReport()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:02:58 ICT" name="initAllureReport" finished-at="2023-08-21T17:02:58 ICT" duration-ms="47" status="PASS">
+      </class> <!-- com.bankguru.customer.EditCustomer -->
+      <class name="com.bankguru.customer.NewCustomer">
+        <test-method is-config="true" signature="initAllureReport()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:32 ICT" name="initAllureReport" finished-at="2023-08-21T20:27:32 ICT" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initAllureReport -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:02:58 ICT" name="beforeClass" finished-at="2023-08-21T17:03:06 ICT" duration-ms="7951" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:32 ICT" name="beforeClass" finished-at="2023-08-21T20:27:40 ICT" duration-ms="7228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1070,472 +952,590 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:02:58,865] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+              <![CDATA[[2023-08-21 20:27:32,843] Step 01 - Open URL 'https://demo.guru99.com/v4/'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:05,269] Step 02 - Input to USERID value mngr522589
+              <![CDATA[[2023-08-21 20:27:38,294] Step 02 - Input to USERID value mngr522589
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:05,578] Step 03 - Input to Password value epEhEgY
+              <![CDATA[[2023-08-21 20:27:38,621] Step 03 - Input to Password value epEhEgY
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:05,740] Step 04 - Click to login button
+              <![CDATA[[2023-08-21 20:27:38,790] Step 04 - Click to login button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:06,724] Verify Login successfully
+              <![CDATA[[2023-08-21 20:27:39,927] Verify Login successfully
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="NC1_CustomerName_Is_Blank()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:06 ICT" name="NC1_CustomerName_Is_Blank" description="CustomerName_Is_Blank" finished-at="2023-08-21T17:03:08 ICT" duration-ms="1178" status="PASS">
+        <test-method signature="NC1_CustomerName_Is_Blank()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:40 ICT" name="NC1_CustomerName_Is_Blank" description="CustomerName_Is_Blank" finished-at="2023-08-21T20:27:42 ICT" duration-ms="2524" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:06,905] NC1 01: Open New Customer Page
+              <![CDATA[[2023-08-21 20:27:40,189] NC1 01: Open New Customer Page
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:07,608] NC1 02: Enter to Customer Name ''
+              <![CDATA[[2023-08-21 20:27:40,413] NC1 02: Enter to Customer Name ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:07,771] NC1 03: Press TAB to navigate next field
+              <![CDATA[[2023-08-21 20:27:42,494] NC1 03: Press TAB to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:07,847] NC1 04: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:42,550] NC1 04: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC1_CustomerName_Is_Blank -->
-        <test-method signature="NC2_CustomerName_Is_Number()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:08 ICT" name="NC2_CustomerName_Is_Number" description="CustomerName_Is_Number" finished-at="2023-08-21T17:03:08 ICT" duration-ms="239" status="PASS">
+        <test-method signature="NC2_CustomerName_Is_Number()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:42 ICT" name="NC2_CustomerName_Is_Number" description="CustomerName_Is_Number" finished-at="2023-08-21T20:27:42 ICT" duration-ms="228" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,107] NC2 01: Enter to Customer Name value 'Acc1234'
+              <![CDATA[[2023-08-21 20:27:42,746] NC2 01: Enter to Customer Name value 'Acc1234'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,256] NC2 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:42,893] NC2 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC2_CustomerName_Is_Number -->
-        <test-method signature="NC3_CustomerName_Is_Character()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:08 ICT" name="NC3_CustomerName_Is_Character" description="CustomerName_Is_Character" finished-at="2023-08-21T17:03:08 ICT" duration-ms="234" status="PASS">
+        <test-method signature="NC3_CustomerName_Is_Character()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:42 ICT" name="NC3_CustomerName_Is_Character" description="CustomerName_Is_Character" finished-at="2023-08-21T20:27:43 ICT" duration-ms="228" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,349] NC3 01: Enter to Customer Name value '123123@##!'
+              <![CDATA[[2023-08-21 20:27:42,977] NC3 01: Enter to Customer Name value '123123@##!'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,500] NC3 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:43,117] NC3 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC3_CustomerName_Is_Character -->
-        <test-method signature="NC4_CustomerName_Is_First_Blank_Space()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:08 ICT" name="NC4_CustomerName_Is_First_Blank_Space" description="CustomerName_Is_Character" finished-at="2023-08-21T17:03:08 ICT" duration-ms="245" status="PASS">
+        <test-method signature="NC4_CustomerName_Is_First_Blank_Space()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:43 ICT" name="NC4_CustomerName_Is_First_Blank_Space" description="CustomerName_Is_Character" finished-at="2023-08-21T20:27:43 ICT" duration-ms="249" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,584] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+              <![CDATA[[2023-08-21 20:27:43,207] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,750] N4 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:43,362] N4 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC4_CustomerName_Is_First_Blank_Space -->
-        <test-method signature="NC5_Address_Is_Blank_Space()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:08 ICT" name="NC5_Address_Is_Blank_Space" description="CustomerName_Is_Character" finished-at="2023-08-21T17:03:09 ICT" duration-ms="274" status="PASS">
+        <test-method signature="NC5_Address_Is_Blank_Space()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:43 ICT" name="NC5_Address_Is_Blank_Space" description="CustomerName_Is_Character" finished-at="2023-08-21T20:27:43 ICT" duration-ms="277" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,832] N5 01: Enter to Address value ''
+              <![CDATA[[2023-08-21 20:27:43,458] N5 01: Enter to Address value ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:08,981] N5 02: Press tab key to next field
+              <![CDATA[[2023-08-21 20:27:43,608] N5 02: Press tab key to next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,024] N5 03: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:43,655] N5 03: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC5_Address_Is_Blank_Space -->
-        <test-method signature="NC6_Address_Is_First_Blank_Space()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:09 ICT" name="NC6_Address_Is_First_Blank_Space" description="Address_Is_First_Blank_Space" finished-at="2023-08-21T17:03:09 ICT" duration-ms="230" status="PASS">
+        <test-method signature="NC6_Address_Is_First_Blank_Space()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:43 ICT" name="NC6_Address_Is_First_Blank_Space" description="Address_Is_First_Blank_Space" finished-at="2023-08-21T20:27:43 ICT" duration-ms="246" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,109] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+              <![CDATA[[2023-08-21 20:27:43,737] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,257] N6 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:43,895] N6 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC6_Address_Is_First_Blank_Space -->
-        <test-method signature="NC8_City_Is_First_Blank_Space()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:09 ICT" name="NC8_City_Is_First_Blank_Space" description="City_Is_First_Blank_Space" finished-at="2023-08-21T17:03:09 ICT" duration-ms="248" status="PASS">
+        <test-method signature="NC8_City_Is_First_Blank_Space()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:43 ICT" name="NC8_City_Is_First_Blank_Space" description="City_Is_First_Blank_Space" finished-at="2023-08-21T20:27:44 ICT" duration-ms="294" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,340] N8 01: Enter to City value ''
+              <![CDATA[[2023-08-21 20:27:43,986] N8 01: Enter to City value ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,461] N8 02: Press tab to navigate next field
+              <![CDATA[[2023-08-21 20:27:44,154] N8 02: Press tab to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,507] N8 03: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:44,204] N8 03: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC8_City_Is_First_Blank_Space -->
-        <test-method signature="NC9_City_Is_Numeric()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:09 ICT" name="NC9_City_Is_Numeric" description="City_Is_Numeric" finished-at="2023-08-21T17:03:09 ICT" duration-ms="217" status="PASS">
+        <test-method signature="NC9_City_Is_Numeric()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:44 ICT" name="NC9_City_Is_Numeric" description="City_Is_Numeric" finished-at="2023-08-21T20:27:44 ICT" duration-ms="245" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,590] N9 01: Enter to City value '213123123'
+              <![CDATA[[2023-08-21 20:27:44,286] N9 01: Enter to City value '213123123'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,723] N9 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:44,443] N9 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC9_City_Is_Numeric -->
-        <test-method signature="NC10_City_Is_Special_Character()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:09 ICT" name="NC10_City_Is_Special_Character" description="City_Is_Special_Character" finished-at="2023-08-21T17:03:10 ICT" duration-ms="232" status="PASS">
+        <test-method signature="NC10_City_Is_Special_Character()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:44 ICT" name="NC10_City_Is_Special_Character" description="City_Is_Special_Character" finished-at="2023-08-21T20:27:44 ICT" duration-ms="245" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,810] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+              <![CDATA[[2023-08-21 20:27:44,533] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:09,956] N10 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:44,689] N10 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC10_City_Is_Special_Character -->
-        <test-method signature="NC11_City_Is_First_Blank_Space()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:10 ICT" name="NC11_City_Is_First_Blank_Space" description="City_Is_First_Blank_Space" finished-at="2023-08-21T17:03:10 ICT" duration-ms="228" status="PASS">
+        <test-method signature="NC11_City_Is_First_Blank_Space()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:44 ICT" name="NC11_City_Is_First_Blank_Space" description="City_Is_First_Blank_Space" finished-at="2023-08-21T20:27:45 ICT" duration-ms="250" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,044] N11 01: Enter to City value ' dsdsdsdsdsd'
+              <![CDATA[[2023-08-21 20:27:44,781] N11 01: Enter to City value ' dsdsdsdsdsd'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,191] N11 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:44,936] N11 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC11_City_Is_First_Blank_Space -->
-        <test-method signature="NC12_State_Is_Empty()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:10 ICT" name="NC12_State_Is_Empty" description="State_Is_Empty" finished-at="2023-08-21T17:03:10 ICT" duration-ms="262" status="PASS">
+        <test-method signature="NC12_State_Is_Empty()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:45 ICT" name="NC12_State_Is_Empty" description="State_Is_Empty" finished-at="2023-08-21T20:27:45 ICT" duration-ms="275" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,274] N12 01: Enter to State value ''
+              <![CDATA[[2023-08-21 20:27:45,032] N12 01: Enter to State value ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,410] N12 02: Press tab to navigate next field
+              <![CDATA[[2023-08-21 20:27:45,179] N12 02: Press tab to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,457] N12 03: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:45,229] N12 03: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC12_State_Is_Empty -->
-        <test-method signature="NC13_State_Is_Numeric()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:10 ICT" name="NC13_State_Is_Numeric" description="State_Is_Numeric" finished-at="2023-08-21T17:03:10 ICT" duration-ms="282" status="PASS">
+        <test-method signature="NC13_State_Is_Numeric()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:45 ICT" name="NC13_State_Is_Numeric" description="State_Is_Numeric" finished-at="2023-08-21T20:27:45 ICT" duration-ms="216" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,538] N13 01: Enter to State value '123123123123'
+              <![CDATA[[2023-08-21 20:27:45,310] N13 01: Enter to State value '123123123123'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,730] N13 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:45,462] N13 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC13_State_Is_Numeric -->
-        <test-method signature="NC14_State_Is_Special()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:10 ICT" name="NC14_State_Is_Special" description="State_Is_Special" finished-at="2023-08-21T17:03:11 ICT" duration-ms="232" status="PASS">
+        <test-method signature="NC14_State_Is_Special()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:45 ICT" name="NC14_State_Is_Special" description="State_Is_Special" finished-at="2023-08-21T20:27:45 ICT" duration-ms="243" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,821] N14 01: Enter to State value '@&*!#^&*@!#^&'
+              <![CDATA[[2023-08-21 20:27:45,527] N14 01: Enter to State value '@&*!#^&*@!#^&'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:10,966] N14 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:45,682] N14 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC14_State_Is_Special -->
-        <test-method signature="NC15_City_Is_First_Blank_Space()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:11 ICT" name="NC15_City_Is_First_Blank_Space" description="State_Is_First_Blank_Space" finished-at="2023-08-21T17:03:11 ICT" duration-ms="217" status="PASS">
+        <test-method signature="NC15_City_Is_First_Blank_Space()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:45 ICT" name="NC15_City_Is_First_Blank_Space" description="State_Is_First_Blank_Space" finished-at="2023-08-21T20:27:45 ICT" duration-ms="217" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,055] N15 01: Enter to State value ' dsdsdsdsdsd'
+              <![CDATA[[2023-08-21 20:27:45,772] N15 01: Enter to State value ' dsdsdsdsdsd'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,187] N15 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:45,902] N15 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC15_City_Is_First_Blank_Space -->
-        <test-method signature="NC16_Pin_Is_Empty()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:11 ICT" name="NC16_Pin_Is_Empty" description="Pin_Is_Empty" finished-at="2023-08-21T17:03:11 ICT" duration-ms="274" status="PASS">
+        <test-method signature="NC16_Pin_Is_Empty()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:45 ICT" name="NC16_Pin_Is_Empty" description="Pin_Is_Empty" finished-at="2023-08-21T20:27:46 ICT" duration-ms="277" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,274] N16 01: Enter to PIN value ''
+              <![CDATA[[2023-08-21 20:27:45,991] N16 01: Enter to PIN value ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,422] N16 02: Press Tab to navigate next field
+              <![CDATA[[2023-08-21 20:27:46,141] N16 02: Press Tab to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,470] N16 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:46,190] N16 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC16_Pin_Is_Empty -->
-        <test-method signature="NC17_Pin_Is_Numeric()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:11 ICT" name="NC17_Pin_Is_Numeric" description="Pin_Is_Numeric" finished-at="2023-08-21T17:03:11 ICT" duration-ms="215" status="PASS">
+        <test-method signature="NC17_Pin_Is_Numeric()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:46 ICT" name="NC17_Pin_Is_Numeric" description="Pin_Is_Numeric" finished-at="2023-08-21T20:27:46 ICT" duration-ms="201" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,550] N17 01: Enter to PIN value '123PIN'
+              <![CDATA[[2023-08-21 20:27:46,270] N17 01: Enter to PIN value '123PIN'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,679] N17 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:46,398] N17 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC17_Pin_Is_Numeric -->
-        <test-method signature="NC18_PIN_Must_Have_6_Digits()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:11 ICT" name="NC18_PIN_Must_Have_6_Digits" description="PIN_Must_Have_6_Digits" finished-at="2023-08-21T17:03:11 ICT" duration-ms="226" status="PASS">
+        <test-method signature="NC18_PIN_Must_Have_6_Digits()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:46 ICT" name="NC18_PIN_Must_Have_6_Digits" description="PIN_Must_Have_6_Digits" finished-at="2023-08-21T20:27:46 ICT" duration-ms="248" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,771] N18 01: Enter to PIN value '12345'
+              <![CDATA[[2023-08-21 20:27:46,478] N18 01: Enter to PIN value '12345'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,908] N18 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:46,614] N18 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC18_PIN_Must_Have_6_Digits -->
-        <test-method signature="NC19_PIN_Cannot_Have_Special()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:11 ICT" name="NC19_PIN_Cannot_Have_Special" description="PIN_Cannot_Have_Special" finished-at="2023-08-21T17:03:12 ICT" duration-ms="213" status="PASS">
+        <test-method signature="NC19_PIN_Cannot_Have_Special()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:46 ICT" name="NC19_PIN_Cannot_Have_Special" description="PIN_Cannot_Have_Special" finished-at="2023-08-21T20:27:46 ICT" duration-ms="239" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:11,999] N19 01: Enter to PIN value '123$$$$'
+              <![CDATA[[2023-08-21 20:27:46,730] N19 01: Enter to PIN value '123$$$$'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,127] N19 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:46,879] N19 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC19_PIN_Cannot_Have_Special -->
-        <test-method signature="NC20_Pin_Have_First_Blank_Space()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:12 ICT" name="NC20_Pin_Have_First_Blank_Space" description="Pin_Have_First_Blank_Space" finished-at="2023-08-21T17:03:12 ICT" duration-ms="216" status="PASS">
+        <test-method signature="NC20_Pin_Have_First_Blank_Space()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:46 ICT" name="NC20_Pin_Have_First_Blank_Space" description="Pin_Have_First_Blank_Space" finished-at="2023-08-21T20:27:47 ICT" duration-ms="228" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,214] NC20 01: Enter to PIN value ' sadsadsad'
+              <![CDATA[[2023-08-21 20:27:46,970] NC20 01: Enter to PIN value ' sadsadsad'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,342] NC20 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:47,112] NC20 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC20_Pin_Have_First_Blank_Space -->
-        <test-method signature="NC21_Pin_Have_Blank_Space()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:12 ICT" name="NC21_Pin_Have_Blank_Space" description="Pin_Have_Blank_Space" finished-at="2023-08-21T17:03:12 ICT" duration-ms="183" status="PASS">
+        <test-method signature="NC21_Pin_Have_Blank_Space()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:47 ICT" name="NC21_Pin_Have_Blank_Space" description="Pin_Have_Blank_Space" finished-at="2023-08-21T20:27:47 ICT" duration-ms="203" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,432] NC21 01: Enter to PIN value '23 454'
+              <![CDATA[[2023-08-21 20:27:47,200] NC21 01: Enter to PIN value '23 454'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,555] NC21 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:47,327] NC21 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC21_Pin_Have_Blank_Space -->
-        <test-method signature="NC22_Telephone_Is_Empty()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:12 ICT" name="NC22_Telephone_Is_Empty" description="Telephone_is_empty" finished-at="2023-08-21T17:03:12 ICT" duration-ms="260" status="PASS">
+        <test-method signature="NC22_Telephone_Is_Empty()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:47 ICT" name="NC22_Telephone_Is_Empty" description="Telephone_is_empty" finished-at="2023-08-21T20:27:47 ICT" duration-ms="276" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,616] NC22 01: Enter to Telephone value ''
+              <![CDATA[[2023-08-21 20:27:47,405] NC22 01: Enter to Telephone value ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,751] NC22 02: Press Tab to navigate next field
+              <![CDATA[[2023-08-21 20:27:47,553] NC22 02: Press Tab to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,801] NC22 03: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:47,603] NC22 03: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC22_Telephone_Is_Empty -->
-        <test-method signature="NC23_Telephone_first_character_is_blank()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:12 ICT" name="NC23_Telephone_first_character_is_blank" description="Telephone_first_character_is_blank" finished-at="2023-08-21T17:03:13 ICT" duration-ms="229" status="PASS">
+        <test-method signature="NC23_Telephone_first_character_is_blank()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:47 ICT" name="NC23_Telephone_first_character_is_blank" description="Telephone_first_character_is_blank" finished-at="2023-08-21T20:27:47 ICT" duration-ms="202" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:12,879] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+              <![CDATA[[2023-08-21 20:27:47,683] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,022] NC23 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:47,821] NC23 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC23_Telephone_first_character_is_blank -->
-        <test-method signature="NC24_Telephone_is_include_blank_space()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:13 ICT" name="NC24_Telephone_is_include_blank_space" description="Telephone_is_include_blank_space" finished-at="2023-08-21T17:03:13 ICT" duration-ms="218" status="PASS">
+        <test-method signature="NC24_Telephone_is_include_blank_space()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:47 ICT" name="NC24_Telephone_is_include_blank_space" description="Telephone_is_include_blank_space" finished-at="2023-08-21T20:27:48 ICT" duration-ms="215" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,110] NC24 01: Enter to Telephone value '12312 34435'
+              <![CDATA[[2023-08-21 20:27:47,886] NC24 01: Enter to Telephone value '12312 34435'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,243] NC24 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:48,016] NC24 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC24_Telephone_is_include_blank_space -->
-        <test-method signature="NC25_Telephone_is_special_character()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:13 ICT" name="NC25_Telephone_is_special_character" description="Telephone_is_special_character" finished-at="2023-08-21T17:03:13 ICT" duration-ms="223" status="PASS">
+        <test-method signature="NC25_Telephone_is_special_character()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:48 ICT" name="NC25_Telephone_is_special_character" description="Telephone_is_special_character" finished-at="2023-08-21T20:27:48 ICT" duration-ms="215" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,336] NC25 01: Enter to Telephone value '13123@##'
+              <![CDATA[[2023-08-21 20:27:48,103] NC25 01: Enter to Telephone value '13123@##'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,472] NC25 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:48,230] NC25 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC25_Telephone_is_special_character -->
-        <test-method signature="NC26_Email_is_Empty()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:13 ICT" name="NC26_Email_is_Empty" description="Email_Is_Empty" finished-at="2023-08-21T17:03:13 ICT" duration-ms="263" status="PASS">
+        <test-method signature="NC26_Email_is_Empty()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:48 ICT" name="NC26_Email_is_Empty" description="Email_Is_Empty" finished-at="2023-08-21T20:27:48 ICT" duration-ms="259" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,562] NC26 01: Enter to Email value ''
+              <![CDATA[[2023-08-21 20:27:48,321] NC26 01: Enter to Email value ''
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,699] NC26 01: Press Tab to navigate next field
+              <![CDATA[[2023-08-21 20:27:48,469] NC26 01: Press Tab to navigate next field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,744] NC26 03: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:48,517] NC26 03: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC26_Email_is_Empty -->
-        <test-method signature="NC27_Email_Is_Incorrect_Format()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:13 ICT" name="NC27_Email_Is_Incorrect_Format" description="Email_Is_Incorrect_Format" finished-at="2023-08-21T17:03:14 ICT" duration-ms="216" status="PASS">
+        <test-method signature="NC27_Email_Is_Incorrect_Format()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:48 ICT" name="NC27_Email_Is_Incorrect_Format" description="Email_Is_Incorrect_Format" finished-at="2023-08-21T20:27:48 ICT" duration-ms="218" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,827] NC27 01: Enter to Email value '13123@##'
+              <![CDATA[[2023-08-21 20:27:48,580] NC27 01: Enter to Email value '13123@##'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:13,957] NC27 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:48,710] NC27 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC27_Email_Is_Incorrect_Format -->
-        <test-method signature="NC29_Email_Have_Space()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:14 ICT" name="NC29_Email_Have_Space" description="Email_Have_Space" finished-at="2023-08-21T17:03:14 ICT" duration-ms="218" status="PASS">
+        <test-method signature="NC29_Email_Have_Space()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:48 ICT" name="NC29_Email_Have_Space" description="Email_Have_Space" finished-at="2023-08-21T20:27:49 ICT" duration-ms="217" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,044] NC29 01: Enter to Email value ' asdasdasdasd'
+              <![CDATA[[2023-08-21 20:27:48,801] NC29 01: Enter to Email value ' asdasdasdasd'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,177] NC29 02: Verify error message is displayed
+              <![CDATA[[2023-08-21 20:27:48,933] NC29 02: Verify error message is displayed
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC29_Email_Have_Space -->
-        <test-method signature="NC30_Verify_All_Field_Required()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:14 ICT" name="NC30_Verify_All_Field_Required" description="Verify all field in New Customer" finished-at="2023-08-21T17:03:14 ICT" duration-ms="243" status="PASS">
+        <test-method signature="NC30_Verify_All_Field_Required()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:49 ICT" name="NC30_Verify_All_Field_Required" description="Verify all field in New Customer" finished-at="2023-08-21T20:27:49 ICT" duration-ms="268" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,264] NC30 01: Click to Reset Button to clear all field
+              <![CDATA[[2023-08-21 20:27:49,020] NC30 01: Click to Reset Button to clear all field
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,372] NC30 02: Click to Submit Button
+              <![CDATA[[2023-08-21 20:27:49,154] NC30 02: Click to Submit Button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,481] NC30 03: Verify all field is required
+              <![CDATA[[2023-08-21 20:27:49,262] NC30 03: Verify all field is required
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,487] NC30 04: Accept Alert
+              <![CDATA[[2023-08-21 20:27:49,269] NC30 04: Accept Alert
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC30_Verify_All_Field_Required -->
-        <test-method signature="NC_31_Add_New_Customer()[pri:2, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:14 ICT" name="NC_31_Add_New_Customer" description="Add New Customer" finished-at="2023-08-21T17:03:17 ICT" duration-ms="2731" status="PASS">
+        <test-method signature="NC_31_Add_New_Customer()[pri:2, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:49 ICT" name="NC_31_Add_New_Customer" description="Add New Customer" finished-at="2023-08-21T20:27:51 ICT" duration-ms="2649" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,509] NC31 01: Enter to Customer Name value is: 'Freeman Lakin'
+              <![CDATA[[2023-08-21 20:27:49,291] NC31 01: Enter to Customer Name value is: 'Emery Harvey'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,654] NC31 02: Select to Gender value is: 'Female'
+              <![CDATA[[2023-08-21 20:27:49,435] NC31 02: Select to Gender value is: 'Female'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,777] NC31 23: Enter to Date of birth value is: 08
+              <![CDATA[[2023-08-21 20:27:49,560] NC31 23: Enter to Date of birth value is: 08
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:14,978] NC31 04: Enter to Address value is: '86728 Marquardt Locks'
+              <![CDATA[[2023-08-21 20:27:49,743] NC31 04: Enter to Address value is: '82370 Malcolm Curve'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,124] NC31 05: Enter to City value is: 'East Marceloburgh'
+              <![CDATA[[2023-08-21 20:27:49,902] NC31 05: Enter to City value is: 'Byronmouth'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,263] NC31 06: Enter to State value is: 'New Mexico'
+              <![CDATA[[2023-08-21 20:27:50,032] NC31 06: Enter to State value is: 'Nevada'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,397] NC31 07: Enter to PIN value is: 123456
+              <![CDATA[[2023-08-21 20:27:50,173] NC31 07: Enter to PIN value is: 123456
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,533] NC31 08: Enter to Mobile Phone Number value is: '6553504101'
+              <![CDATA[[2023-08-21 20:27:50,310] NC31 08: Enter to Mobile Phone Number value is: '7048884595'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,673] NC31 09: Enter to Email value is: 'dudley.buckridge@hotmail.com'
+              <![CDATA[[2023-08-21 20:27:50,454] NC31 09: Enter to Email value is: 'bradford.beahan@hotmail.com'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,836] NC31 10: Enter to Email value is: 'ic4brx72ikxwmo'
+              <![CDATA[[2023-08-21 20:27:50,613] NC31 10: Enter to Email value is: '4e8lc9ja'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:15,987] NC31 11: Click to submit button
+              <![CDATA[[2023-08-21 20:27:50,762] NC31 11: Click to submit button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:17,135] NC31 12: Get Customer ID
+              <![CDATA[[2023-08-21 20:27:51,857] NC31 12: Get Customer ID
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:17,238] NC31 13: Customer ID value is: 96530
+              <![CDATA[[2023-08-21 20:27:51,937] NC31 13: Customer ID value is: 4126
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- NC_31_Add_New_Customer -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.account.NewCustomer@45bf6f39]" started-at="2023-08-21T17:03:17 ICT" name="afterClass" finished-at="2023-08-21T17:03:17 ICT" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.customer.NewCustomer@2caa5d7c]" started-at="2023-08-21T20:27:51 ICT" name="afterClass" finished-at="2023-08-21T20:27:52 ICT" duration-ms="392" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[2023-08-21 17:03:17,242] OS name = windows 10
+              <![CDATA[[2023-08-21 20:27:51,942] OS name = windows 10
 <br>]]>
             </line>
             <line>
-              <![CDATA[[2023-08-21 17:03:17,242] Driver instance name = chromedriver: chrome on windows (83dc46339fc486eee267804977276288)
+              <![CDATA[[2023-08-21 20:27:51,942] Driver instance name = chromedriver: chrome on windows (f25ac0672bc411e7b9f5077b4a4e73d4)
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.bankguru.account.NewCustomer -->
+      </class> <!-- com.bankguru.customer.NewCustomer -->
+      <class name="com.bankguru.customer.DeleteCustomer">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:03 ICT" name="beforeClass" finished-at="2023-08-21T20:28:08 ICT" duration-ms="4402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.guru99.com/v4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:03,742] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:06,621] Step 02 - Input to USERID value mngr522589
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:06,824] Step 03 - Input to Password value epEhEgY
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:07,051] Step 04 - Click to login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:08,066] Step 05 - Verify Login successfully
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="DC01_CustomerID_CannotBe_Empty()[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:08 ICT" name="DC01_CustomerID_CannotBe_Empty" finished-at="2023-08-21T20:28:11 ICT" duration-ms="3335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:08,149] Open Delete customer page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:08,339] Step 01 - Enter to customer ID value: ''
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,343] Step 02 - Press tab to navigate next field
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,393] Step 03 - Verify error message displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DC01_CustomerID_CannotBe_Empty -->
+        <test-method signature="DC02_CustomerID_Must_Be_Numeric()[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:11 ICT" name="DC02_CustomerID_Must_Be_Numeric" finished-at="2023-08-21T20:28:11 ICT" duration-ms="198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,483] Step 01 - Enter to customer ID value: 'Acc12344'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,613] Step 02 - Verify error message displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DC02_CustomerID_Must_Be_Numeric -->
+        <test-method signature="DC03_CustomerID_Have_Character_Special()[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:11 ICT" name="DC03_CustomerID_Have_Character_Special" finished-at="2023-08-21T20:28:11 ICT" duration-ms="216" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,682] Step 01 - Enter to customer ID value: '!@#$$$$'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,811] Step 02 - Verify error message displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DC03_CustomerID_Have_Character_Special -->
+        <test-method signature="DC04_CustomerID_Have_Blank_Space()[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:11 ICT" name="DC04_CustomerID_Have_Blank_Space" finished-at="2023-08-21T20:28:12 ICT" duration-ms="209" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:11,902] Step 01 - Enter to customer ID value: '123 2323'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:12,041] Step 02 - Verify error message displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DC04_CustomerID_Have_Blank_Space -->
+        <test-method signature="DC05_CustomerID_First_Character_Not_Have_Blank_Space()[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:12 ICT" name="DC05_CustomerID_First_Character_Not_Have_Blank_Space" finished-at="2023-08-21T20:28:12 ICT" duration-ms="183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:12,112] Step 01 - Enter to customer ID value: ' '
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:12,231] Step 02 - Verify error message displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DC05_CustomerID_First_Character_Not_Have_Blank_Space -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.customer.DeleteCustomer@670d4d38]" started-at="2023-08-21T20:28:12 ICT" name="afterClass" finished-at="2023-08-21T20:28:12 ICT" duration-ms="351" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-08-21 20:28:12,295] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-08-21 20:28:12,295] Driver instance name = chromedriver: chrome on windows (25e0fa9089b6b8470fe50d0360b54fad)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.customer.DeleteCustomer -->
     </test> <!-- Run on CHROME -->
   </suite> <!-- Run BankGuru 99 -->
 </testng-results>
