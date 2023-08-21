@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="29"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.652">
+  <properties />
+  
+  
+            <testcase name="NC25_Telephone_is_special_character" time="0.215" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC20_Pin_Have_First_Blank_Space" time="0.228" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC12_State_Is_Empty" time="0.275" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC6_Address_Is_First_Blank_Space" time="0.246" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC23_Telephone_first_character_is_blank" time="0.202" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC29_Email_Have_Space" time="0.217" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC2_CustomerName_Is_Number" time="0.228" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC8_City_Is_First_Blank_Space" time="0.294" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC1_CustomerName_Is_Blank" time="2.524" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC3_CustomerName_Is_Character" time="0.228" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC11_City_Is_First_Blank_Space" time="0.250" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC13_State_Is_Numeric" time="0.216" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC18_PIN_Must_Have_6_Digits" time="0.248" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC10_City_Is_Special_Character" time="0.245" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC14_State_Is_Special" time="0.243" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC15_City_Is_First_Blank_Space" time="0.217" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC16_Pin_Is_Empty" time="0.277" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC5_Address_Is_Blank_Space" time="0.277" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC21_Pin_Have_Blank_Space" time="0.203" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC26_Email_is_Empty" time="0.259" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC17_Pin_Is_Numeric" time="0.201" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC9_City_Is_Numeric" time="0.245" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC27_Email_Is_Incorrect_Format" time="0.218" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC19_PIN_Cannot_Have_Special" time="0.239" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC4_CustomerName_Is_First_Blank_Space" time="0.249" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC24_Telephone_is_include_blank_space" time="0.215" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC22_Telephone_Is_Empty" time="0.276" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC30_Verify_All_Field_Required" time="0.268" classname="com.bankguru.customer.NewCustomer" />
+                <testcase name="NC_31_Add_New_Customer" time="2.649" classname="com.bankguru.customer.NewCustomer" />
+      
+</testsuite>
