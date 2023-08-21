@@ -1,97 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on CHROME"
            tests="28"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="7.408">
+           time="18.150">
   <properties />
-            <testcase name="NC30_Email_is_Empty" time="0.168" classname="com.newaccount.NewAccount">
-                <failure type="org.openqa.selenium.UnhandledAlertException"
-                  message="unexpected alert open: {Alert text : please fill all fields}
-  (Session info: chrome=115.0.5790.171): please fill all fields
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-Q3VM3NF&apos;, ip: &apos;172.27.240.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ceb7cf1e012d4947c190e6fb0e0ba44a"
-              >
-<![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : please fill all fields}
-  (Session info: chrome=115.0.5790.171): please fill all fields
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-Q3VM3NF', ip: '172.27.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ceb7cf1e012d4947c190e6fb0e0ba44a
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-  org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
-  commons.BasePage.refreshBrowser(BasePage.java:57)
-  com.newaccount.NewAccount.NC30_Email_is_Empty(NewAccount.java:335)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:566)
-  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-  org.testng.TestRunner.privateRun(TestRunner.java:848)
-  org.testng.TestRunner.run(TestRunner.java:621)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="NC15_City_Is_First_Blank_Space" time="0.188" classname="com.newaccount.NewAccount" />
-                <testcase name="NC3_CustomerName_Is_Character" time="0.170" classname="com.newaccount.NewAccount" />
-                <testcase name="NC17_Pin_Is_Numeric" time="0.201" classname="com.newaccount.NewAccount" />
-                <testcase name="NC29_Email_Have_Space" time="0.213" classname="com.newaccount.NewAccount" />
-                <testcase name="NC9_City_Is_Numeric" time="0.173" classname="com.newaccount.NewAccount" />
-                <testcase name="NC23_Telephone_first_character_is_blank" time="0.196" classname="com.newaccount.NewAccount" />
-                <testcase name="NC4_CustomerName_Is_First_Blank_Space" time="0.168" classname="com.newaccount.NewAccount" />
-                <testcase name="NC5_Address_Is_Blank_Space" time="0.185" classname="com.newaccount.NewAccount" />
-                <testcase name="NC11_City_Is_First_Blank_Space" time="0.161" classname="com.newaccount.NewAccount" />
-                <testcase name="NC1_CustomerName_Is_Blank" time="2.455" classname="com.newaccount.NewAccount" />
-                <testcase name="NC25_Telephone_is_special_character" time="0.155" classname="com.newaccount.NewAccount" />
-                <testcase name="NC14_State_Is_Special" time="0.169" classname="com.newaccount.NewAccount" />
-                <testcase name="NC27_Email_Is_Incorrect_Format" time="0.154" classname="com.newaccount.NewAccount" />
-                <testcase name="NC6_Address_Is_First_Blank_Space" time="0.169" classname="com.newaccount.NewAccount" />
-                <testcase name="NC12_State_Is_Empty" time="0.197" classname="com.newaccount.NewAccount" />
-                <testcase name="NC22_Telephone_Is_Empty" time="0.239" classname="com.newaccount.NewAccount" />
-                <testcase name="NC19_PIN_Cannot_Have_Special" time="0.168" classname="com.newaccount.NewAccount" />
-                <testcase name="NC24_Telephone_is_include_blank_space" time="0.182" classname="com.newaccount.NewAccount" />
-                <testcase name="NC21_Pin_Have_Blank_Space" time="0.175" classname="com.newaccount.NewAccount" />
-                <testcase name="NC26_Email_is_Empty" time="0.234" classname="com.newaccount.NewAccount" />
-                <testcase name="NC18_PIN_Must_Have_6_Digits" time="0.178" classname="com.newaccount.NewAccount" />
-                <testcase name="NC2_CustomerName_Is_Number" time="0.177" classname="com.newaccount.NewAccount" />
+            <testcase name="NC15_City_Is_First_Blank_Space" time="0.189" classname="com.newaccount.NewAccount" />
+                <testcase name="NC30_Email_is_Empty" time="0.169" classname="com.newaccount.NewAccount" />
+                <testcase name="NC19_PIN_Cannot_Have_Special" time="0.183" classname="com.newaccount.NewAccount" />
+                <testcase name="NC8_City_Is_First_Blank_Space" time="0.201" classname="com.newaccount.NewAccount" />
+                <testcase name="NC4_CustomerName_Is_First_Blank_Space" time="0.186" classname="com.newaccount.NewAccount" />
+                <testcase name="NC21_Pin_Have_Blank_Space" time="0.185" classname="com.newaccount.NewAccount" />
+                <testcase name="NC17_Pin_Is_Numeric" time="0.151" classname="com.newaccount.NewAccount" />
+                <testcase name="NC11_City_Is_First_Blank_Space" time="0.185" classname="com.newaccount.NewAccount" />
+                <testcase name="NC6_Address_Is_First_Blank_Space" time="0.200" classname="com.newaccount.NewAccount" />
+                <testcase name="NC2_CustomerName_Is_Number" time="0.156" classname="com.newaccount.NewAccount" />
+                <testcase name="NC25_Telephone_is_special_character" time="0.182" classname="com.newaccount.NewAccount" />
+                <testcase name="NC27_Email_Is_Incorrect_Format" time="0.199" classname="com.newaccount.NewAccount" />
                 <testcase name="NC20_Pin_Have_First_Blank_Space" time="0.188" classname="com.newaccount.NewAccount" />
-                <testcase name="NC13_State_Is_Numeric" time="0.157" classname="com.newaccount.NewAccount" />
-                <testcase name="NC16_Pin_Is_Empty" time="0.205" classname="com.newaccount.NewAccount" />
-                <testcase name="NC8_City_Is_First_Blank_Space" time="0.190" classname="com.newaccount.NewAccount" />
-                <testcase name="NC10_City_Is_Special_Character" time="0.193" classname="com.newaccount.NewAccount" />
+                <testcase name="NC13_State_Is_Numeric" time="0.179" classname="com.newaccount.NewAccount" />
+                <testcase name="NC10_City_Is_Special_Character" time="0.171" classname="com.newaccount.NewAccount" />
+                <testcase name="NC16_Pin_Is_Empty" time="0.195" classname="com.newaccount.NewAccount" />
+                <testcase name="NC23_Telephone_first_character_is_blank" time="0.209" classname="com.newaccount.NewAccount" />
+                <testcase name="NC24_Telephone_is_include_blank_space" time="0.187" classname="com.newaccount.NewAccount" />
+                <testcase name="NC22_Telephone_Is_Empty" time="0.231" classname="com.newaccount.NewAccount" />
+                <testcase name="NC9_City_Is_Numeric" time="0.182" classname="com.newaccount.NewAccount" />
+                <testcase name="NC5_Address_Is_Blank_Space" time="0.201" classname="com.newaccount.NewAccount" />
+                <testcase name="NC18_PIN_Must_Have_6_Digits" time="0.165" classname="com.newaccount.NewAccount" />
+                <testcase name="NC12_State_Is_Empty" time="0.232" classname="com.newaccount.NewAccount" />
+                <testcase name="NC29_Email_Have_Space" time="0.172" classname="com.newaccount.NewAccount" />
+                <testcase name="NC1_CustomerName_Is_Blank" time="13.097" classname="com.newaccount.NewAccount" />
+                <testcase name="NC14_State_Is_Special" time="0.193" classname="com.newaccount.NewAccount" />
+                <testcase name="NC26_Email_is_Empty" time="0.205" classname="com.newaccount.NewAccount" />
+                <testcase name="NC3_CustomerName_Is_Character" time="0.157" classname="com.newaccount.NewAccount" />
       
 </testsuite>
