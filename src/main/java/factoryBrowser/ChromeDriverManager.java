@@ -24,10 +24,12 @@ public class ChromeDriverManager implements BrowserFactory{
 		System.setProperty("webdriver.chrome.silentOutput", "true");
 
 		// Add extensions
-		File file = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\extension_2_0_13_0.crx");
-		
+		File file = new File(GlobalConstances.getGlobalContances().getProjectPath() + "\\browserExtensions\\extension_2_0_13_0.crx");
+		File adBlock = new File(GlobalConstances.getGlobalContances().getProjectPath() + "\\browserExtensions\\extension_5_9_0_0.crx");
+		File uBlock = new File(GlobalConstances.getGlobalContances().getProjectPath() + "\\browserExtensions\\extension_1_51_0_0.crx");
 		options.addExtensions(file);
-
+		options.addExtensions(adBlock);
+		options.addExtensions(uBlock);
 		// Change language browser
 		options.addArguments("--lang=vi");
 
@@ -50,7 +52,7 @@ public class ChromeDriverManager implements BrowserFactory{
 		// Auto save/download
 		Map<String, Object> chromePrefs = new HashMap<String, Object>();
 		chromePrefs.put("profile.default_content_settings.popups", 0);
-		chromePrefs.put("download.default_directory", GlobalConstances.PROJECT_PATH + "\\downloadFiles");
+		chromePrefs.put("download.default_directory", GlobalConstances.getGlobalContances().getProjectPath() + "\\downloadFiles");
 		options.setExperimentalOption("prefs", chromePrefs);
 
 		// Open InCognito

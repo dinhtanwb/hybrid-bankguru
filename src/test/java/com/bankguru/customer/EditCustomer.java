@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -23,11 +24,11 @@ public class EditCustomer extends BaseTest{
 	String password = "epEhEgY";
 	String customerID;
 	
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browserName", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browser, String url) {
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName, @Optional("chrome") String browserName, @Optional("Windows") String osName, @Optional("10") String osVersion) {
 		log.info("Step 01 - Open URL 'https://demo.guru99.com/v4/'");
-		driver = openMultipleBrowser(browser, url);
+		driver = getBrowser(envName, serverName, browserName, osName, osVersion);
 		customerID = NewCustomer.customerID;
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 		
