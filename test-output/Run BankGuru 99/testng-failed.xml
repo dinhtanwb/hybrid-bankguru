@@ -10,14 +10,40 @@
   <test thread-count="5" name="Run on CHROME(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.newaccount.NewAccount">
+      <class name="com.bankguru.account.EditCustomer">
         <methods>
-          <include name="NC30_Email_is_Empty"/>
+          <include name="afterClass"/>
+          <include name="EC_19_Email_invalid_format"/>
+          <include name="EC_03_Customer_ID_Have_Special_Character"/>
+          <include name="EC_11_State_Cannot_Be_Special_Character"/>
+          <include name="EC_06_City_Cannot_Be_Empty"/>
+          <include name="EC_10_State_Cannot_Be_Numeric"/>
+          <include name="EC_14_PIN_Cannot_Be_Special_Character"/>
+          <include name="beforeClass"/>
+          <include name="EC_01_CustomerID_Cannot_Empty"/>
+          <include name="EC_08_City_Cannot_Be_Special_Character"/>
+          <include name="initAllureReport"/>
+          <include name="EC_15_PIN_Must_Have_6_Digits"/>
+          <include name="EC_16_TelePhone_Cannot_Be_Special_Character"/>
+          <include name="EC_09_State_Cannot_Be_Empty"/>
+          <include name="EC_04_Customer_ID_Valid"/>
+          <include name="EC_18_Email_Not_Be_Empty"/>
+          <include name="EC_05_Address_Cannot_Be_Empty"/>
+          <include name="EC_13_PIN_Must_Be_Numeric"/>
+          <include name="EC_02_Must_Be_Numeric"/>
+          <include name="EC_17_TelePhone_Cannot_Be_Empty"/>
+          <include name="EC_12_PIN_Cannot_Be_Empty"/>
+          <include name="EC_07_City_Cannot_Be_Numeric"/>
+        </methods>
+      </class> <!-- com.bankguru.account.EditCustomer -->
+      <class name="com.bankguru.account.NewCustomer">
+        <methods>
+          <include name="NC_31_Add_New_Customer"/>
+          <include name="afterClass"/>
           <include name="beforeClass"/>
           <include name="initAllureReport"/>
-          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.newaccount.NewAccount -->
+      </class> <!-- com.bankguru.account.NewCustomer -->
     </classes>
   </test> <!-- Run on CHROME(failed) -->
 </suite> <!-- Failed suite [Run BankGuru 99] -->

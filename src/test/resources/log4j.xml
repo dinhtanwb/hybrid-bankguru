@@ -35,7 +35,7 @@
 		</layout>
 	</appender>
 
-	<category name="com.newaccount">
+	<category name="com.bankguru.customer">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />

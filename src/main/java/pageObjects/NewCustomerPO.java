@@ -3,7 +3,11 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import pageUIs.NewCustomerUI;
+
+
 
 public class NewCustomerPO extends BasePage{
 private WebDriver driver;
@@ -133,7 +137,33 @@ private WebDriver driver;
 	}
 
 	public String getErrorMessageAllFieldRequired() {
-		waitAlertPresence(driver);
 		return getTextAlert(driver);
 	}
+
+	public void selectGenderRadio(String textGender) {
+		waitForClickable(driver, NewCustomerUI.GENDER_RADIO, textGender);
+		clickToElement(driver, NewCustomerUI.GENDER_RADIO, textGender);
+		
+	}
+
+	public void selectDateOfBirdByClickDay(String attribute, String text) {
+		waitForClickable(driver, NewCustomerUI.DATE_OF_BIRD_BUTTON);
+		removeAttributeInDOM(driver, NewCustomerUI.DATE_OF_BIRD_BUTTON, attribute);
+		sendKeyToElement(driver, NewCustomerUI.DATE_OF_BIRD_BUTTON, text);
+		
+	}
+
+	public void enterToPasswordCustomer(String passwordCustomer) {
+		waitForElementVisible(driver, NewCustomerUI.PASSWORD);
+		sendKeyToElement(driver, NewCustomerUI.PASSWORD, passwordCustomer);
+	}
+
+	public String getCustomerID() {
+		waitForElementVisible(driver, NewCustomerUI.VERIFY_CUSTOMER_ID);
+		return getElementText(driver, NewCustomerUI.VERIFY_CUSTOMER_ID);
+	}
+
+	
+
+	
 }

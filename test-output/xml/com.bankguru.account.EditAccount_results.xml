@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.808">
+  <properties />
+  
+  
+            <testcase name="EC_01_CustomerID_Cannot_Empty" time="3.808" classname="com.bankguru.account.EditAccount" />
+      
+</testsuite>

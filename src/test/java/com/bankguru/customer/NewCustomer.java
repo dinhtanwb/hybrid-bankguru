@@ -1,4 +1,4 @@
-package com.newaccount;
+package com.bankguru.customer;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -9,22 +9,44 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import pageObjects.HomePagePO;
 import pageObjects.LoginPagePO;
 import pageObjects.NewCustomerPO;
+import utilities.DataHelper;
 
-public class NewAccount extends BaseTest {
+public class NewCustomer extends BaseTest {
 	WebDriver driver;
+	DataHelper dataHelper;
 	LoginPagePO loginPage;
 	HomePagePO homePage;
 	NewCustomerPO newCustomerPage;
+	String customerName, gender, dateOfBirth, address, city, state, mobileNumber, email, passwordCustomer;
+	public static String customerID;
+	int PIN = fakeNumber();
 	String userID= "mngr522589";
 	String password = "epEhEgY";
+	
+	
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browser, String url) {
 		log.info("Step 01 - Open URL 'https://demo.guru99.com/v4/'");
 		driver = openMultipleBrowser(browser, url);
+		dataHelper = DataHelper.getData();
+		customerName = dataHelper.getCustomerName();
+		address = dataHelper.getAddress();
+		city = dataHelper.getCity();
+		state = dataHelper.getState();
+		mobileNumber = dataHelper.getPhoneNumber();
+		email = dataHelper.getEmail();
+		passwordCustomer = dataHelper.getPassword();
+		
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 		
 		log.info("Step 02 - Input to USERID value " + userID);
@@ -40,7 +62,7 @@ public class NewAccount extends BaseTest {
 		Assert.assertTrue(homePage.isLoginSuccessDisplayed());
 		
 	}
-
+	
 	@Test(description = "CustomerName_Is_Blank")
 	public void NC1_CustomerName_Is_Blank() {
 		log.info("NC1 01: Open New Customer Page");
@@ -321,7 +343,7 @@ public class NewAccount extends BaseTest {
 	
 	}
 	@Test(description = "Verify all field in New Customer", priority = 2)
-	public void NC30_Email_is_Empty() {
+	public void NC30_Verify_All_Field_Required() {
 		log.info("NC30 01: Click to Reset Button to clear all field");
 		newCustomerPage.clickToResetButton();
 		
@@ -332,7 +354,55 @@ public class NewAccount extends BaseTest {
 		Assert.assertEquals(newCustomerPage.getErrorMessageAllFieldRequired(), "please fill all fields");
 		
 		
+		log.info("NC30 04: Accept Alert");
+		newCustomerPage.acceptAlert(driver);
+		
+		
 	}
+	
+	@Test(description = "Add New Customer", priority = 2)
+	public void NC_31_Add_New_Customer() {
+		log.info("NC31 01: Enter to Customer Name value is: '" + customerName + "'");
+		newCustomerPage.enterToCustomerName(customerName);
+		
+		log.info("NC31 02: Select to Gender value is: 'Female'");
+		newCustomerPage.selectGenderRadio("f");
+		
+		log.info("NC31 23: Enter to Date of birth value is: 08");
+		newCustomerPage.selectDateOfBirdByClickDay("type", "2023-08-21");
+		
+		log.info("NC31 04: Enter to Address value is: '" + address+ "'");
+		newCustomerPage.enterToAddress(address);
+		
+		log.info("NC31 05: Enter to City value is: '" + city + "'");
+		newCustomerPage.enterToCity(city);
+		
+		log.info("NC31 06: Enter to State value is: '" + state + "'");
+		newCustomerPage.enterToState(state);
+		
+		log.info("NC31 07: Enter to PIN value is: 123456");
+		newCustomerPage.enterToPIN("123456");
+		
+		log.info("NC31 08: Enter to Mobile Phone Number value is: '" + mobileNumber + "'");
+		newCustomerPage.enterToTelephone(mobileNumber);
+		
+		log.info("NC31 09: Enter to Email value is: '" + email + "'");
+		newCustomerPage.enterToEmail(email);
+		
+		log.info("NC31 10: Enter to Email value is: '" + passwordCustomer + "'");
+		newCustomerPage.enterToPasswordCustomer(passwordCustomer);
+		
+		log.info("NC31 11: Click to submit button");
+		newCustomerPage.clickToSubmitButton();
+		
+		log.info("NC31 12: Get Customer ID");
+		customerID = newCustomerPage.getCustomerID();
+		
+		log.info("NC31 13: Customer ID value is: " + customerID);
+	}
+	
+	
+	
 	
 	@AfterClass
 	public void afterClass() {

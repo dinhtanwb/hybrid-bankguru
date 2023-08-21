@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="19"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.427">
+  <properties />
+  
+  
+            <testcase name="EC_01_CustomerID_Cannot_Empty" time="1.216" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_11_State_Cannot_Be_Special_Character" time="0.228" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_10_State_Cannot_Be_Numeric" time="0.213" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_07_City_Cannot_Be_Numeric" time="0.204" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_17_TelePhone_Cannot_Be_Empty" time="0.203" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_09_State_Cannot_Be_Empty" time="0.273" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_03_Customer_ID_Have_Special_Character" time="0.243" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_13_PIN_Must_Be_Numeric" time="0.217" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_15_PIN_Must_Have_6_Digits" time="0.201" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_06_City_Cannot_Be_Empty" time="0.261" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_02_Must_Be_Numeric" time="0.228" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_05_Address_Cannot_Be_Empty" time="0.491" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_14_PIN_Cannot_Be_Special_Character" time="0.216" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_19_Email_invalid_format" time="0.200" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_16_TelePhone_Cannot_Be_Special_Character" time="0.216" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_18_Email_Not_Be_Empty" time="0.247" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_12_PIN_Cannot_Be_Empty" time="0.248" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_08_City_Cannot_Be_Special_Character" time="0.232" classname="com.bankguru.account.EditCustomer" />
+                <testcase name="EC_04_Customer_ID_Valid" time="1.090" classname="com.bankguru.account.EditCustomer" />
+      
+</testsuite>

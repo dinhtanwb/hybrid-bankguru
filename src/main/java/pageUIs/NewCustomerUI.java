@@ -17,4 +17,9 @@ public class NewCustomerUI {
 	public static final String ERROR_MESSAGE_EMAIL = "xpath=//tbody//input/following-sibling::label[@id='message9' and text()='%s']";
 	public static final String RESET_BUTTON = "xpath=//input[@type='reset']";
 	public static final String SUBMIT_BUTTON = "xpath=//input[@type='submit']";
+	public static final String GENDER_RADIO = "xpath=//input[@type='radio' and @value='%s']";
+	public static final String DATE_OF_BIRD_BUTTON = "xpath=//input[@id='dob']";
+	public static final String PASSWORD = "xpath=//tbody//input[@type = 'password']";
+	public static final String VERIFY_CUSTOMER_ID = "xpath=//table[@id='customer']//tr/td[text()='Customer ID']/following-sibling::td";
+	
 }

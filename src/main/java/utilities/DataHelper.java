@@ -12,29 +12,24 @@ public class DataHelper {
 		return new DataHelper();
 	}
 	
-	public String getFirstName() {
-		return faker.address().firstName();
-	}
 	
-	public String getLastName() {
-		return faker.address().lastName();
-	}
-	
-	public String getCompanyName() {
-		return faker.company().name();
-	}
-	public String getFullName() {
+	public String getCustomerName() {
 		return faker.name().fullName();
 	}
 	
 	public String getAddress() {
 		return faker.address().streetAddress();
 	}
+	
+	public String getState() {
+		return faker.address().state();
+	}
+	public String getPhoneNumber() {
+		return faker.phoneNumber().subscriberNumber(10);
+	}
+	
 	public String getEmail() {
 		return faker.internet().emailAddress();
-	}
-	public String getPhone() {
-		return faker.phoneNumber().phoneNumber();
 	}
 	public String getCity() {
 		return faker.address().city();

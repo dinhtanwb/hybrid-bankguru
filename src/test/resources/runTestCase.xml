@@ -4,11 +4,12 @@
 
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
-		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
-<!--		<listener class-name="reportConfig.AllureTestListener" />-->
-<!--		<listener class-name="reportConfig.ExtentTestListener" />-->
-		
+				<listener class-name="org.uncommons.reportng.HTMLReporter" />
+				<listener class-name="org.uncommons.reportng.JUnitXMLReporter"
+		/>-->
+		<!--		<listener class-name="reportConfig.AllureTestListener" />-->
+		<!--		<listener class-name="reportConfig.ExtentTestListener" />-->
+
 	</listeners>
 
 	<parameter name="url" value="https://demo.guru99.com/v4/" />
@@ -17,8 +18,9 @@
 	<test name="Run on CHROME">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class
-				name="com.newaccount.NewAccount" />
+			<class name="com.bankguru.account.NewCustomer" />
+			<class name="com.bankguru.account.EditCustomer" />
+			<class name="com.bankguru.account.DeleteCustomer" />
 		</classes>
 	</test>
 

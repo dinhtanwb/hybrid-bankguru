@@ -1,0 +1,2447 @@
+[2023-08-21 09:13:17,872] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 09:13:25,881] Step 02 - Input to USERID value mngr522589
+[2023-08-21 09:13:26,130] Step 03 - Input to Password value epEhEgY
+[2023-08-21 09:13:26,351] Step 04 - Click to login button
+[2023-08-21 09:13:57,658] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 09:14:02,808] Step 02 - Input to USERID value mngr522589
+[2023-08-21 09:14:03,034] Step 03 - Input to Password value epEhEgY
+[2023-08-21 09:14:03,258] Step 04 - Click to login button
+[2023-08-21 09:14:04,256] Verify Login successfully
+[2023-08-21 09:14:04,553] NC1 01: Open New Customer Page
+[2023-08-21 09:14:04,873] NC1 02: Enter to Customer Name ''
+[2023-08-21 09:14:07,523] NC1 03: Press TAB to navigate next field
+[2023-08-21 09:14:07,572] NC1 04: Verify error message is displayed
+[2023-08-21 09:14:07,755] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 09:14:07,902] NC2 02: Verify error message is displayed
+[2023-08-21 09:14:07,989] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 09:14:08,135] NC3 02: Verify error message is displayed
+[2023-08-21 09:14:08,221] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 09:14:08,485] N4 02: Verify error message is displayed
+[2023-08-21 09:14:08,576] N5 01: Enter to Address value ''
+[2023-08-21 09:14:08,711] N5 02: Press tab key to next field
+[2023-08-21 09:14:08,771] N5 03: Verify error message is displayed
+[2023-08-21 09:14:08,875] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 09:14:09,026] N6 02: Verify error message is displayed
+[2023-08-21 09:14:09,106] N8 01: Enter to City value ''
+[2023-08-21 09:14:09,241] N8 02: Press tab to navigate next field
+[2023-08-21 09:14:09,291] N8 03: Verify error message is displayed
+[2023-08-21 09:14:09,371] N9 01: Enter to City value '213123123'
+[2023-08-21 09:14:09,505] N9 02: Verify error message is displayed
+[2023-08-21 09:14:09,602] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 09:14:09,769] N10 02: Verify error message is displayed
+[2023-08-21 09:14:09,852] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 09:14:09,988] N11 02: Verify error message is displayed
+[2023-08-21 09:14:10,081] N12 01: Enter to State value ''
+[2023-08-21 09:14:10,234] N12 02: Press tab to navigate next field
+[2023-08-21 09:14:10,284] N12 03: Verify error message is displayed
+[2023-08-21 09:14:10,377] N13 01: Enter to State value '123123123123'
+[2023-08-21 09:14:10,569] N13 02: Verify error message is displayed
+[2023-08-21 09:14:10,657] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 09:14:10,800] N14 02: Verify error message is displayed
+[2023-08-21 09:14:10,890] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 09:14:11,023] N15 02: Verify error message is displayed
+[2023-08-21 09:14:11,111] N16 01: Enter to PIN value ''
+[2023-08-21 09:14:11,246] N16 02: Press Tab to navigate next field
+[2023-08-21 09:14:11,292] N16 02: Verify error message is displayed
+[2023-08-21 09:14:11,372] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 09:14:11,503] N17 02: Verify error message is displayed
+[2023-08-21 09:14:11,592] N18 01: Enter to PIN value '12345'
+[2023-08-21 09:14:11,727] N18 02: Verify error message is displayed
+[2023-08-21 09:14:11,817] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 09:14:11,946] N19 02: Verify error message is displayed
+[2023-08-21 09:14:12,034] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 09:14:12,176] NC20 02: Verify error message is displayed
+[2023-08-21 09:14:12,309] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 09:14:12,465] NC21 02: Verify error message is displayed
+[2023-08-21 09:14:12,532] NC22 01: Enter to Telephone value ''
+[2023-08-21 09:14:12,667] NC22 02: Press Tab to navigate next field
+[2023-08-21 09:14:12,714] NC22 03: Verify error message is displayed
+[2023-08-21 09:14:12,797] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 09:14:12,936] NC23 02: Verify error message is displayed
+[2023-08-21 09:14:12,999] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 09:14:13,158] NC24 02: Verify error message is displayed
+[2023-08-21 09:14:13,247] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 09:14:13,376] NC25 02: Verify error message is displayed
+[2023-08-21 09:14:13,464] NC26 01: Enter to Email value ''
+[2023-08-21 09:14:13,602] NC26 01: Press Tab to navigate next field
+[2023-08-21 09:14:13,647] NC26 03: Verify error message is displayed
+[2023-08-21 09:14:13,738] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 09:14:13,886] NC27 02: Verify error message is displayed
+[2023-08-21 09:14:14,019] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 09:14:14,240] NC29 02: Verify error message is displayed
+[2023-08-21 09:14:14,321] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 09:14:14,443] NC30 02: Click to Submit Button
+[2023-08-21 09:14:14,551] NC30 03: Verify all field is required
+[2023-08-21 09:14:14,562] OS name = windows 10
+[2023-08-21 09:14:14,562] Driver instance name = chromedriver: chrome on windows (2591235cce5cc710ff2b35a19bc9349c)
+[2023-08-21 09:14:14,583] unexpected alert open: {Alert text : please fill all fields}
+  (Session info: chrome=116.0.5845.97): please fill all fields
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VN-TANTRANDINH2', ip: '192.168.180.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\TAN~1.TRA\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2591235cce5cc710ff2b35a19bc9349c
+[2023-08-21 09:15:06,450] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 09:15:11,990] Step 02 - Input to USERID value mngr522589
+[2023-08-21 09:15:12,231] Step 03 - Input to Password value epEhEgY
+[2023-08-21 09:15:12,413] Step 04 - Click to login button
+[2023-08-21 09:15:13,377] Verify Login successfully
+[2023-08-21 09:15:13,588] NC1 01: Open New Customer Page
+[2023-08-21 09:15:14,312] NC1 02: Enter to Customer Name ''
+[2023-08-21 09:15:14,484] NC1 03: Press TAB to navigate next field
+[2023-08-21 09:15:14,636] NC1 04: Verify error message is displayed
+[2023-08-21 09:15:14,845] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 09:15:14,989] NC2 02: Verify error message is displayed
+[2023-08-21 09:15:15,088] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 09:15:15,227] NC3 02: Verify error message is displayed
+[2023-08-21 09:15:15,317] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 09:15:15,451] N4 02: Verify error message is displayed
+[2023-08-21 09:15:15,532] N5 01: Enter to Address value ''
+[2023-08-21 09:15:15,668] N5 02: Press tab key to next field
+[2023-08-21 09:15:15,714] N5 03: Verify error message is displayed
+[2023-08-21 09:15:15,795] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 09:15:15,945] N6 02: Verify error message is displayed
+[2023-08-21 09:15:16,027] N8 01: Enter to City value ''
+[2023-08-21 09:15:16,162] N8 02: Press tab to navigate next field
+[2023-08-21 09:15:16,209] N8 03: Verify error message is displayed
+[2023-08-21 09:15:16,290] N9 01: Enter to City value '213123123'
+[2023-08-21 09:15:16,508] N9 02: Verify error message is displayed
+[2023-08-21 09:15:16,607] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 09:15:16,775] N10 02: Verify error message is displayed
+[2023-08-21 09:15:16,863] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 09:15:16,995] N11 02: Verify error message is displayed
+[2023-08-21 09:15:17,096] N12 01: Enter to State value ''
+[2023-08-21 09:15:17,328] N12 02: Press tab to navigate next field
+[2023-08-21 09:15:17,375] N12 03: Verify error message is displayed
+[2023-08-21 09:15:17,455] N13 01: Enter to State value '123123123123'
+[2023-08-21 09:15:17,602] N13 02: Verify error message is displayed
+[2023-08-21 09:15:17,686] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 09:15:17,841] N14 02: Verify error message is displayed
+[2023-08-21 09:15:17,943] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 09:15:18,075] N15 02: Verify error message is displayed
+[2023-08-21 09:15:18,163] N16 01: Enter to PIN value ''
+[2023-08-21 09:15:18,314] N16 02: Press Tab to navigate next field
+[2023-08-21 09:15:18,361] N16 02: Verify error message is displayed
+[2023-08-21 09:15:18,442] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 09:15:18,573] N17 02: Verify error message is displayed
+[2023-08-21 09:15:18,666] N18 01: Enter to PIN value '12345'
+[2023-08-21 09:15:18,879] N18 02: Verify error message is displayed
+[2023-08-21 09:15:18,984] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 09:15:19,143] N19 02: Verify error message is displayed
+[2023-08-21 09:15:19,233] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 09:15:19,374] NC20 02: Verify error message is displayed
+[2023-08-21 09:15:19,461] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 09:15:19,587] NC21 02: Verify error message is displayed
+[2023-08-21 09:15:19,693] NC22 01: Enter to Telephone value ''
+[2023-08-21 09:15:19,876] NC22 02: Press Tab to navigate next field
+[2023-08-21 09:15:19,928] NC22 03: Verify error message is displayed
+[2023-08-21 09:15:20,005] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 09:15:20,155] NC23 02: Verify error message is displayed
+[2023-08-21 09:15:20,235] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 09:15:20,370] NC24 02: Verify error message is displayed
+[2023-08-21 09:15:20,438] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 09:15:20,563] NC25 02: Verify error message is displayed
+[2023-08-21 09:15:20,640] NC26 01: Enter to Email value ''
+[2023-08-21 09:15:20,791] NC26 01: Press Tab to navigate next field
+[2023-08-21 09:15:20,837] NC26 03: Verify error message is displayed
+[2023-08-21 09:15:20,918] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 09:15:21,045] NC27 02: Verify error message is displayed
+[2023-08-21 09:15:21,141] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 09:15:21,285] NC29 02: Verify error message is displayed
+[2023-08-21 09:15:21,365] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 09:15:21,557] NC30 02: Click to Submit Button
+[2023-08-21 09:15:21,678] NC30 03: Verify all field is required
+[2023-08-21 09:15:21,689] OS name = windows 10
+[2023-08-21 09:15:21,689] Driver instance name = chromedriver: chrome on windows (0035633fa3ef9993f1ef4deae9b57bf6)
+[2023-08-21 09:15:21,704] unexpected alert open: {Alert text : please fill all fields}
+  (Session info: chrome=116.0.5845.97): please fill all fields
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VN-TANTRANDINH2', ip: '192.168.180.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\TAN~1.TRA\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0035633fa3ef9993f1ef4deae9b57bf6
+[2023-08-21 09:15:55,237] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 09:16:00,667] Step 02 - Input to USERID value mngr522589
+[2023-08-21 09:16:00,909] Step 03 - Input to Password value epEhEgY
+[2023-08-21 09:16:01,092] Step 04 - Click to login button
+[2023-08-21 09:16:02,087] Verify Login successfully
+[2023-08-21 09:16:02,329] NC1 01: Open New Customer Page
+[2023-08-21 09:16:02,962] NC1 02: Enter to Customer Name ''
+[2023-08-21 09:16:03,135] NC1 03: Press TAB to navigate next field
+[2023-08-21 09:16:03,208] NC1 04: Verify error message is displayed
+[2023-08-21 09:16:03,482] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 09:16:03,669] NC2 02: Verify error message is displayed
+[2023-08-21 09:16:03,749] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 09:16:03,910] NC3 02: Verify error message is displayed
+[2023-08-21 09:16:03,997] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 09:16:04,160] N4 02: Verify error message is displayed
+[2023-08-21 09:16:04,242] N5 01: Enter to Address value ''
+[2023-08-21 09:16:04,379] N5 02: Press tab key to next field
+[2023-08-21 09:16:04,428] N5 03: Verify error message is displayed
+[2023-08-21 09:16:04,506] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 09:16:04,658] N6 02: Verify error message is displayed
+[2023-08-21 09:16:04,737] N8 01: Enter to City value ''
+[2023-08-21 09:16:04,871] N8 02: Press tab to navigate next field
+[2023-08-21 09:16:04,919] N8 03: Verify error message is displayed
+[2023-08-21 09:16:05,000] N9 01: Enter to City value '213123123'
+[2023-08-21 09:16:05,135] N9 02: Verify error message is displayed
+[2023-08-21 09:16:05,218] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 09:16:05,412] N10 02: Verify error message is displayed
+[2023-08-21 09:16:05,494] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 09:16:05,629] N11 02: Verify error message is displayed
+[2023-08-21 09:16:05,715] N12 01: Enter to State value ''
+[2023-08-21 09:16:05,836] N12 02: Press tab to navigate next field
+[2023-08-21 09:16:05,884] N12 03: Verify error message is displayed
+[2023-08-21 09:16:05,965] N13 01: Enter to State value '123123123123'
+[2023-08-21 09:16:06,099] N13 02: Verify error message is displayed
+[2023-08-21 09:16:06,180] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 09:16:06,325] N14 02: Verify error message is displayed
+[2023-08-21 09:16:06,415] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 09:16:06,549] N15 02: Verify error message is displayed
+[2023-08-21 09:16:06,634] N16 01: Enter to PIN value ''
+[2023-08-21 09:16:06,819] N16 02: Press Tab to navigate next field
+[2023-08-21 09:16:06,868] N16 02: Verify error message is displayed
+[2023-08-21 09:16:06,949] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 09:16:07,094] N17 02: Verify error message is displayed
+[2023-08-21 09:16:07,185] N18 01: Enter to PIN value '12345'
+[2023-08-21 09:16:07,321] N18 02: Verify error message is displayed
+[2023-08-21 09:16:07,410] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 09:16:07,628] N19 02: Verify error message is displayed
+[2023-08-21 09:16:07,739] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 09:16:07,881] NC20 02: Verify error message is displayed
+[2023-08-21 09:16:07,966] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 09:16:08,092] NC21 02: Verify error message is displayed
+[2023-08-21 09:16:08,153] NC22 01: Enter to Telephone value ''
+[2023-08-21 09:16:08,291] NC22 02: Press Tab to navigate next field
+[2023-08-21 09:16:08,337] NC22 03: Verify error message is displayed
+[2023-08-21 09:16:08,416] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 09:16:08,558] NC23 02: Verify error message is displayed
+[2023-08-21 09:16:08,649] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 09:16:08,842] NC24 02: Verify error message is displayed
+[2023-08-21 09:16:08,909] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 09:16:09,035] NC25 02: Verify error message is displayed
+[2023-08-21 09:16:09,155] NC26 01: Enter to Email value ''
+[2023-08-21 09:16:09,293] NC26 01: Press Tab to navigate next field
+[2023-08-21 09:16:09,343] NC26 03: Verify error message is displayed
+[2023-08-21 09:16:09,423] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 09:16:09,556] NC27 02: Verify error message is displayed
+[2023-08-21 09:16:09,640] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 09:16:09,774] NC29 02: Verify error message is displayed
+[2023-08-21 09:16:09,899] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 09:16:10,102] NC30 02: Click to Submit Button
+[2023-08-21 09:16:10,210] NC30 03: Verify all field is required
+[2023-08-21 09:16:10,221] OS name = windows 10
+[2023-08-21 09:16:10,221] Driver instance name = chromedriver: chrome on windows (b978a13569fbfe4e48bbd01bd1f5ba7e)
+[2023-08-21 09:16:10,238] unexpected alert open: {Alert text : please fill all fields}
+  (Session info: chrome=116.0.5845.97): please fill all fields
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VN-TANTRANDINH2', ip: '192.168.180.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\TAN~1.TRA\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b978a13569fbfe4e48bbd01bd1f5ba7e
+[2023-08-21 09:56:16,901] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 09:56:22,746] Step 02 - Input to USERID value mngr522589
+[2023-08-21 09:56:22,985] Step 03 - Input to Password value epEhEgY
+[2023-08-21 09:56:23,181] Step 04 - Click to login button
+[2023-08-21 09:56:24,273] Verify Login successfully
+[2023-08-21 09:56:24,531] Open Edit Customer Page
+[2023-08-21 09:56:24,737] Send key to Customer ID field value: ''
+[2023-08-21 09:56:28,120] Press tab to navigate next field
+[2023-08-21 09:56:28,167] Verify error message Customer ID field
+[2023-08-21 09:56:28,363] OS name = windows 10
+[2023-08-21 09:56:28,363] Driver instance name = chromedriver: chrome on windows (8d2cb570f45e684b6bbcc8a66d4e0539)
+[2023-08-21 11:26:46,534] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 11:26:53,321] Step 02 - Input to USERID value mngr522589
+[2023-08-21 11:26:53,564] Step 03 - Input to Password value epEhEgY
+[2023-08-21 11:26:53,733] Step 04 - Click to login button
+[2023-08-21 11:26:54,746] Verify Login successfully
+[2023-08-21 11:26:54,992] NC1 01: Open New Customer Page
+[2023-08-21 11:26:55,192] NC1 02: Enter to Customer Name ''
+[2023-08-21 11:27:08,329] NC1 03: Press TAB to navigate next field
+[2023-08-21 11:27:08,413] NC1 04: Verify error message is displayed
+[2023-08-21 11:27:08,645] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 11:27:08,894] NC2 02: Verify error message is displayed
+[2023-08-21 11:27:09,014] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 11:27:09,253] NC3 02: Verify error message is displayed
+[2023-08-21 11:27:09,373] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:27:09,625] N4 02: Verify error message is displayed
+[2023-08-21 11:27:09,744] N5 01: Enter to Address value ''
+[2023-08-21 11:27:09,954] N5 02: Press tab key to next field
+[2023-08-21 11:27:10,034] N5 03: Verify error message is displayed
+[2023-08-21 11:27:10,163] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:27:10,380] N6 02: Verify error message is displayed
+[2023-08-21 11:27:10,497] N8 01: Enter to City value ''
+[2023-08-21 11:27:10,716] N8 02: Press tab to navigate next field
+[2023-08-21 11:27:10,802] N8 03: Verify error message is displayed
+[2023-08-21 11:27:10,930] N9 01: Enter to City value '213123123'
+[2023-08-21 11:27:11,161] N9 02: Verify error message is displayed
+[2023-08-21 11:27:11,283] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 11:27:11,548] N10 02: Verify error message is displayed
+[2023-08-21 11:27:11,672] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 11:27:11,913] N11 02: Verify error message is displayed
+[2023-08-21 11:27:12,035] N12 01: Enter to State value ''
+[2023-08-21 11:27:12,239] N12 02: Press tab to navigate next field
+[2023-08-21 11:27:12,302] N12 03: Verify error message is displayed
+[2023-08-21 11:27:12,433] N13 01: Enter to State value '123123123123'
+[2023-08-21 11:27:12,656] N13 02: Verify error message is displayed
+[2023-08-21 11:27:12,790] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 11:27:13,058] N14 02: Verify error message is displayed
+[2023-08-21 11:27:13,182] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 11:27:13,403] N15 02: Verify error message is displayed
+[2023-08-21 11:27:13,526] N16 01: Enter to PIN value ''
+[2023-08-21 11:27:13,744] N16 02: Press Tab to navigate next field
+[2023-08-21 11:27:13,813] N16 02: Verify error message is displayed
+[2023-08-21 11:27:13,929] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 11:27:14,158] N17 02: Verify error message is displayed
+[2023-08-21 11:27:14,287] N18 01: Enter to PIN value '12345'
+[2023-08-21 11:27:14,529] N18 02: Verify error message is displayed
+[2023-08-21 11:27:14,653] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 11:27:14,881] N19 02: Verify error message is displayed
+[2023-08-21 11:27:15,008] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 11:27:15,220] NC20 02: Verify error message is displayed
+[2023-08-21 11:27:15,346] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 11:27:15,593] NC21 02: Verify error message is displayed
+[2023-08-21 11:27:15,717] NC22 01: Enter to Telephone value ''
+[2023-08-21 11:27:15,918] NC22 02: Press Tab to navigate next field
+[2023-08-21 11:27:15,991] NC22 03: Verify error message is displayed
+[2023-08-21 11:27:16,107] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 11:27:16,347] NC23 02: Verify error message is displayed
+[2023-08-21 11:27:16,465] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 11:27:16,691] NC24 02: Verify error message is displayed
+[2023-08-21 11:27:16,809] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 11:27:17,024] NC25 02: Verify error message is displayed
+[2023-08-21 11:27:17,152] NC26 01: Enter to Email value ''
+[2023-08-21 11:27:17,367] NC26 01: Press Tab to navigate next field
+[2023-08-21 11:27:17,436] NC26 03: Verify error message is displayed
+[2023-08-21 11:27:17,572] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 11:27:17,848] NC27 02: Verify error message is displayed
+[2023-08-21 11:27:17,976] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 11:27:18,210] NC29 02: Verify error message is displayed
+[2023-08-21 11:27:18,335] NC31 01: Enter to Customer Name value is: 'Monroe Hayes Jr.'
+[2023-08-21 11:27:18,569] NC31 01: Select to Gender value is: 'Female'
+[2023-08-21 11:27:18,717] NC31 01: Enter to Date of birth value is: 08
+[2023-08-21 11:27:48,914] OS name = windows 10
+[2023-08-21 11:27:48,915] Driver instance name = chromedriver: chrome on windows (0485e9a9c3006d80481a28bfc34f2d74)
+[2023-08-21 11:30:57,551] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 11:31:03,444] Step 02 - Input to USERID value mngr522589
+[2023-08-21 11:31:03,682] Step 03 - Input to Password value epEhEgY
+[2023-08-21 11:31:03,848] Step 04 - Click to login button
+[2023-08-21 11:31:04,871] Verify Login successfully
+[2023-08-21 11:31:05,094] NC1 01: Open New Customer Page
+[2023-08-21 11:31:05,712] NC1 02: Enter to Customer Name ''
+[2023-08-21 11:31:05,869] NC1 03: Press TAB to navigate next field
+[2023-08-21 11:31:05,933] NC1 04: Verify error message is displayed
+[2023-08-21 11:31:06,243] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 11:31:06,431] NC2 02: Verify error message is displayed
+[2023-08-21 11:31:06,524] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 11:31:06,684] NC3 02: Verify error message is displayed
+[2023-08-21 11:31:06,770] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:31:06,938] N4 02: Verify error message is displayed
+[2023-08-21 11:31:07,017] N5 01: Enter to Address value ''
+[2023-08-21 11:31:07,154] N5 02: Press tab key to next field
+[2023-08-21 11:31:07,202] N5 03: Verify error message is displayed
+[2023-08-21 11:31:07,294] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:31:07,446] N6 02: Verify error message is displayed
+[2023-08-21 11:31:07,526] N8 01: Enter to City value ''
+[2023-08-21 11:31:07,679] N8 02: Press tab to navigate next field
+[2023-08-21 11:31:07,725] N8 03: Verify error message is displayed
+[2023-08-21 11:31:07,803] N9 01: Enter to City value '213123123'
+[2023-08-21 11:31:07,952] N9 02: Verify error message is displayed
+[2023-08-21 11:31:08,039] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 11:31:08,215] N10 02: Verify error message is displayed
+[2023-08-21 11:31:08,301] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 11:31:08,469] N11 02: Verify error message is displayed
+[2023-08-21 11:31:08,566] N12 01: Enter to State value ''
+[2023-08-21 11:31:08,711] N12 02: Press tab to navigate next field
+[2023-08-21 11:31:08,765] N12 03: Verify error message is displayed
+[2023-08-21 11:31:08,859] N13 01: Enter to State value '123123123123'
+[2023-08-21 11:31:09,001] N13 02: Verify error message is displayed
+[2023-08-21 11:31:09,092] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 11:31:09,244] N14 02: Verify error message is displayed
+[2023-08-21 11:31:09,313] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 11:31:09,468] N15 02: Verify error message is displayed
+[2023-08-21 11:31:09,549] N16 01: Enter to PIN value ''
+[2023-08-21 11:31:09,703] N16 02: Press Tab to navigate next field
+[2023-08-21 11:31:09,751] N16 02: Verify error message is displayed
+[2023-08-21 11:31:09,830] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 11:31:09,960] N17 02: Verify error message is displayed
+[2023-08-21 11:31:10,054] N18 01: Enter to PIN value '12345'
+[2023-08-21 11:31:10,194] N18 02: Verify error message is displayed
+[2023-08-21 11:31:10,283] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 11:31:10,415] N19 02: Verify error message is displayed
+[2023-08-21 11:31:10,501] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 11:31:10,634] NC20 02: Verify error message is displayed
+[2023-08-21 11:31:10,719] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 11:31:10,865] NC21 02: Verify error message is displayed
+[2023-08-21 11:31:10,937] NC22 01: Enter to Telephone value ''
+[2023-08-21 11:31:11,058] NC22 02: Press Tab to navigate next field
+[2023-08-21 11:31:11,108] NC22 03: Verify error message is displayed
+[2023-08-21 11:31:11,199] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 11:31:11,348] NC23 02: Verify error message is displayed
+[2023-08-21 11:31:11,432] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 11:31:11,568] NC24 02: Verify error message is displayed
+[2023-08-21 11:31:11,650] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 11:31:11,786] NC25 02: Verify error message is displayed
+[2023-08-21 11:31:11,864] NC26 01: Enter to Email value ''
+[2023-08-21 11:31:12,002] NC26 01: Press Tab to navigate next field
+[2023-08-21 11:31:12,048] NC26 03: Verify error message is displayed
+[2023-08-21 11:31:12,126] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 11:31:12,261] NC27 02: Verify error message is displayed
+[2023-08-21 11:31:12,344] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 11:31:12,486] NC29 02: Verify error message is displayed
+[2023-08-21 11:31:12,548] NC31 01: Enter to Customer Name value is: 'Stevie Rath'
+[2023-08-21 11:31:12,681] NC31 01: Select to Gender value is: 'Female'
+[2023-08-21 11:31:12,813] NC31 01: Enter to Date of birth value is: 08
+[2023-08-21 11:31:13,025] NC31 01: Enter to Address value is: '83850 Dietrich Square'
+[2023-08-21 11:31:13,186] NC31 01: Enter to City value is: 'Jaskolskichester'
+[2023-08-21 11:31:13,324] NC31 01: Enter to State value is: 'Oregon'
+[2023-08-21 11:31:13,477] NC31 01: Enter to PIN value is: 123456
+[2023-08-21 11:31:13,615] NC31 01: Enter to Mobile Phone Number value is: '192-586-4850 x57070'
+[2023-08-21 11:31:13,775] NC31 01: Enter to Email value is: 'libbie.towne@gmail.com'
+[2023-08-21 11:31:13,944] NC31 01: Enter to Email value is: 'oay25j2neru24cs'
+[2023-08-21 11:31:14,102] OS name = windows 10
+[2023-08-21 11:31:14,102] Driver instance name = chromedriver: chrome on windows (a6dd9dc22311b7d7ed3b61edf892bf82)
+[2023-08-21 11:36:29,476] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 11:36:35,614] Step 02 - Input to USERID value mngr522589
+[2023-08-21 11:36:35,835] Step 03 - Input to Password value epEhEgY
+[2023-08-21 11:36:35,997] Step 04 - Click to login button
+[2023-08-21 11:36:37,039] Verify Login successfully
+[2023-08-21 11:36:37,232] NC1 01: Open New Customer Page
+[2023-08-21 11:36:37,450] NC1 02: Enter to Customer Name ''
+[2023-08-21 11:36:41,802] NC1 03: Press TAB to navigate next field
+[2023-08-21 11:36:41,850] NC1 04: Verify error message is displayed
+[2023-08-21 11:36:42,048] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 11:36:42,187] NC2 02: Verify error message is displayed
+[2023-08-21 11:36:42,277] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 11:36:42,438] NC3 02: Verify error message is displayed
+[2023-08-21 11:36:42,524] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:36:42,680] N4 02: Verify error message is displayed
+[2023-08-21 11:36:42,773] N5 01: Enter to Address value ''
+[2023-08-21 11:36:42,927] N5 02: Press tab key to next field
+[2023-08-21 11:36:42,974] N5 03: Verify error message is displayed
+[2023-08-21 11:36:43,052] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:36:43,196] N6 02: Verify error message is displayed
+[2023-08-21 11:36:43,301] N8 01: Enter to City value ''
+[2023-08-21 11:36:43,435] N8 02: Press tab to navigate next field
+[2023-08-21 11:36:43,485] N8 03: Verify error message is displayed
+[2023-08-21 11:36:43,577] N9 01: Enter to City value '213123123'
+[2023-08-21 11:36:43,725] N9 02: Verify error message is displayed
+[2023-08-21 11:36:43,795] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 11:36:43,942] N10 02: Verify error message is displayed
+[2023-08-21 11:36:44,024] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 11:36:44,175] N11 02: Verify error message is displayed
+[2023-08-21 11:36:44,255] N12 01: Enter to State value ''
+[2023-08-21 11:36:44,388] N12 02: Press tab to navigate next field
+[2023-08-21 11:36:44,439] N12 03: Verify error message is displayed
+[2023-08-21 11:36:44,518] N13 01: Enter to State value '123123123123'
+[2023-08-21 11:36:44,666] N13 02: Verify error message is displayed
+[2023-08-21 11:36:44,752] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 11:36:44,912] N14 02: Verify error message is displayed
+[2023-08-21 11:36:45,001] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 11:36:45,145] N15 02: Verify error message is displayed
+[2023-08-21 11:36:45,231] N16 01: Enter to PIN value ''
+[2023-08-21 11:36:45,368] N16 02: Press Tab to navigate next field
+[2023-08-21 11:36:45,415] N16 02: Verify error message is displayed
+[2023-08-21 11:36:45,496] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 11:36:45,629] N17 02: Verify error message is displayed
+[2023-08-21 11:36:45,719] N18 01: Enter to PIN value '12345'
+[2023-08-21 11:36:45,856] N18 02: Verify error message is displayed
+[2023-08-21 11:36:45,947] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 11:36:46,079] N19 02: Verify error message is displayed
+[2023-08-21 11:36:46,164] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 11:36:46,308] NC20 02: Verify error message is displayed
+[2023-08-21 11:36:46,395] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 11:36:46,524] NC21 02: Verify error message is displayed
+[2023-08-21 11:36:46,597] NC22 01: Enter to Telephone value ''
+[2023-08-21 11:36:46,720] NC22 02: Press Tab to navigate next field
+[2023-08-21 11:36:46,765] NC22 03: Verify error message is displayed
+[2023-08-21 11:36:46,846] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 11:36:46,991] NC23 02: Verify error message is displayed
+[2023-08-21 11:36:47,076] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 11:36:47,222] NC24 02: Verify error message is displayed
+[2023-08-21 11:36:47,308] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 11:36:47,435] NC25 02: Verify error message is displayed
+[2023-08-21 11:36:47,527] NC26 01: Enter to Email value ''
+[2023-08-21 11:36:47,664] NC26 01: Press Tab to navigate next field
+[2023-08-21 11:36:47,707] NC26 03: Verify error message is displayed
+[2023-08-21 11:36:47,787] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 11:36:47,922] NC27 02: Verify error message is displayed
+[2023-08-21 11:36:48,005] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 11:36:48,138] NC29 02: Verify error message is displayed
+[2023-08-21 11:36:48,223] NC31 01: Enter to Customer Name value is: 'Mrs. Alysa Schoen'
+[2023-08-21 11:36:48,376] NC31 01: Select to Gender value is: 'Female'
+[2023-08-21 11:36:48,496] NC31 01: Enter to Date of birth value is: 08
+[2023-08-21 11:36:48,712] NC31 01: Enter to Address value is: '648 Becker Flat'
+[2023-08-21 11:36:48,842] NC31 01: Enter to City value is: 'Grantshire'
+[2023-08-21 11:36:48,995] NC31 01: Enter to State value is: 'Texas'
+[2023-08-21 11:36:49,133] NC31 01: Enter to PIN value is: 123456
+[2023-08-21 11:36:49,291] NC31 01: Enter to Mobile Phone Number value is: '(296) 005-7719 x532'
+[2023-08-21 11:36:49,441] NC31 01: Enter to Email value is: 'reinaldo.shields@hotmail.com'
+[2023-08-21 11:36:49,616] NC31 01: Enter to Email value is: 'od974wzl32chk'
+[2023-08-21 11:36:59,778] OS name = windows 10
+[2023-08-21 11:36:59,778] Driver instance name = chromedriver: chrome on windows (e56fa01955011f0ed5555c291d9788f3)
+[2023-08-21 11:38:17,332] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 11:38:23,382] Step 02 - Input to USERID value mngr522589
+[2023-08-21 11:38:23,630] Step 03 - Input to Password value epEhEgY
+[2023-08-21 11:38:23,799] Step 04 - Click to login button
+[2023-08-21 11:38:24,821] Verify Login successfully
+[2023-08-21 11:38:25,068] NC1 01: Open New Customer Page
+[2023-08-21 11:38:25,284] NC1 02: Enter to Customer Name ''
+[2023-08-21 11:38:27,834] NC1 03: Press TAB to navigate next field
+[2023-08-21 11:38:27,895] NC1 04: Verify error message is displayed
+[2023-08-21 11:38:28,082] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 11:38:28,235] NC2 02: Verify error message is displayed
+[2023-08-21 11:38:28,323] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 11:38:28,467] NC3 02: Verify error message is displayed
+[2023-08-21 11:38:28,554] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:38:28,704] N4 02: Verify error message is displayed
+[2023-08-21 11:38:28,789] N5 01: Enter to Address value ''
+[2023-08-21 11:38:28,934] N5 02: Press tab key to next field
+[2023-08-21 11:38:28,984] N5 03: Verify error message is displayed
+[2023-08-21 11:38:29,078] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:38:29,228] N6 02: Verify error message is displayed
+[2023-08-21 11:38:29,309] N8 01: Enter to City value ''
+[2023-08-21 11:38:29,531] N8 02: Press tab to navigate next field
+[2023-08-21 11:38:29,584] N8 03: Verify error message is displayed
+[2023-08-21 11:38:29,664] N9 01: Enter to City value '213123123'
+[2023-08-21 11:38:29,870] N9 02: Verify error message is displayed
+[2023-08-21 11:38:29,959] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 11:38:30,117] N10 02: Verify error message is displayed
+[2023-08-21 11:38:30,203] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 11:38:30,339] N11 02: Verify error message is displayed
+[2023-08-21 11:38:30,419] N12 01: Enter to State value ''
+[2023-08-21 11:38:30,604] N12 02: Press tab to navigate next field
+[2023-08-21 11:38:30,666] N12 03: Verify error message is displayed
+[2023-08-21 11:38:30,745] N13 01: Enter to State value '123123123123'
+[2023-08-21 11:38:30,893] N13 02: Verify error message is displayed
+[2023-08-21 11:38:30,961] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 11:38:31,167] N14 02: Verify error message is displayed
+[2023-08-21 11:38:31,255] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 11:38:31,401] N15 02: Verify error message is displayed
+[2023-08-21 11:38:31,495] N16 01: Enter to PIN value ''
+[2023-08-21 11:38:31,637] N16 02: Press Tab to navigate next field
+[2023-08-21 11:38:31,683] N16 02: Verify error message is displayed
+[2023-08-21 11:38:31,764] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 11:38:31,911] N17 02: Verify error message is displayed
+[2023-08-21 11:38:31,986] N18 01: Enter to PIN value '12345'
+[2023-08-21 11:38:32,128] N18 02: Verify error message is displayed
+[2023-08-21 11:38:32,216] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 11:38:32,349] N19 02: Verify error message is displayed
+[2023-08-21 11:38:32,435] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 11:38:32,561] NC20 02: Verify error message is displayed
+[2023-08-21 11:38:32,650] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 11:38:32,777] NC21 02: Verify error message is displayed
+[2023-08-21 11:38:32,850] NC22 01: Enter to Telephone value ''
+[2023-08-21 11:38:32,987] NC22 02: Press Tab to navigate next field
+[2023-08-21 11:38:33,037] NC22 03: Verify error message is displayed
+[2023-08-21 11:38:33,117] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 11:38:33,262] NC23 02: Verify error message is displayed
+[2023-08-21 11:38:33,352] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 11:38:33,489] NC24 02: Verify error message is displayed
+[2023-08-21 11:38:33,571] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 11:38:33,701] NC25 02: Verify error message is displayed
+[2023-08-21 11:38:33,789] NC26 01: Enter to Email value ''
+[2023-08-21 11:38:33,923] NC26 01: Press Tab to navigate next field
+[2023-08-21 11:38:33,974] NC26 03: Verify error message is displayed
+[2023-08-21 11:38:34,053] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 11:38:34,185] NC27 02: Verify error message is displayed
+[2023-08-21 11:38:34,269] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 11:38:34,403] NC29 02: Verify error message is displayed
+[2023-08-21 11:38:34,531] NC31 01: Enter to Customer Name value is: 'Marlene Huels'
+[2023-08-21 11:38:34,684] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 11:38:34,810] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 11:38:35,072] NC31 04: Enter to Address value is: '3832 Reinger Gardens'
+[2023-08-21 11:38:35,226] NC31 05: Enter to City value is: 'East Zackaryside'
+[2023-08-21 11:38:35,390] NC31 06: Enter to State value is: 'Louisiana'
+[2023-08-21 11:38:35,536] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 11:38:35,676] NC31 08: Enter to Mobile Phone Number value is: '(309) 002-9518 x578'
+[2023-08-21 11:38:35,828] NC31 09: Enter to Email value is: 'rona.hickle@yahoo.com'
+[2023-08-21 11:38:36,000] NC31 10: Enter to Email value is: 'f3ozzcsu1or'
+[2023-08-21 11:38:36,156] NC31 11: Click to submit button
+[2023-08-21 11:38:36,291] OS name = windows 10
+[2023-08-21 11:38:36,291] Driver instance name = chromedriver: chrome on windows (c273cf4e0e643fc98a096294cef30abd)
+[2023-08-21 11:38:36,305] unexpected alert open: {Alert text : please fill all fields}
+  (Session info: chrome=116.0.5845.97): please fill all fields
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VN-TANTRANDINH2', ip: '192.168.180.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\TAN~1.TRA\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c273cf4e0e643fc98a096294cef30abd
+[2023-08-21 11:48:49,978] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 11:48:56,362] Step 02 - Input to USERID value mngr522589
+[2023-08-21 11:48:56,615] Step 03 - Input to Password value epEhEgY
+[2023-08-21 11:48:56,760] Step 04 - Click to login button
+[2023-08-21 11:48:57,740] Verify Login successfully
+[2023-08-21 11:48:57,968] NC1 01: Open New Customer Page
+[2023-08-21 11:48:58,237] NC1 02: Enter to Customer Name ''
+[2023-08-21 11:48:59,857] NC1 03: Press TAB to navigate next field
+[2023-08-21 11:48:59,922] NC1 04: Verify error message is displayed
+[2023-08-21 11:49:00,147] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 11:49:00,327] NC2 02: Verify error message is displayed
+[2023-08-21 11:49:00,405] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 11:49:00,563] NC3 02: Verify error message is displayed
+[2023-08-21 11:49:00,645] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:49:00,800] N4 02: Verify error message is displayed
+[2023-08-21 11:49:00,891] N5 01: Enter to Address value ''
+[2023-08-21 11:49:01,025] N5 02: Press tab key to next field
+[2023-08-21 11:49:01,078] N5 03: Verify error message is displayed
+[2023-08-21 11:49:01,156] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:49:01,334] N6 02: Verify error message is displayed
+[2023-08-21 11:49:01,433] N8 01: Enter to City value ''
+[2023-08-21 11:49:01,567] N8 02: Press tab to navigate next field
+[2023-08-21 11:49:01,618] N8 03: Verify error message is displayed
+[2023-08-21 11:49:01,697] N9 01: Enter to City value '213123123'
+[2023-08-21 11:49:01,829] N9 02: Verify error message is displayed
+[2023-08-21 11:49:01,913] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 11:49:02,073] N10 02: Verify error message is displayed
+[2023-08-21 11:49:02,160] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 11:49:02,295] N11 02: Verify error message is displayed
+[2023-08-21 11:49:02,376] N12 01: Enter to State value ''
+[2023-08-21 11:49:02,509] N12 02: Press tab to navigate next field
+[2023-08-21 11:49:02,560] N12 03: Verify error message is displayed
+[2023-08-21 11:49:02,643] N13 01: Enter to State value '123123123123'
+[2023-08-21 11:49:02,777] N13 02: Verify error message is displayed
+[2023-08-21 11:49:02,845] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 11:49:02,983] N14 02: Verify error message is displayed
+[2023-08-21 11:49:03,077] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 11:49:03,238] N15 02: Verify error message is displayed
+[2023-08-21 11:49:03,308] N16 01: Enter to PIN value ''
+[2023-08-21 11:49:03,462] N16 02: Press Tab to navigate next field
+[2023-08-21 11:49:03,509] N16 02: Verify error message is displayed
+[2023-08-21 11:49:03,589] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 11:49:03,733] N17 02: Verify error message is displayed
+[2023-08-21 11:49:03,827] N18 01: Enter to PIN value '12345'
+[2023-08-21 11:49:03,961] N18 02: Verify error message is displayed
+[2023-08-21 11:49:04,052] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 11:49:04,181] N19 02: Verify error message is displayed
+[2023-08-21 11:49:04,269] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 11:49:04,397] NC20 02: Verify error message is displayed
+[2023-08-21 11:49:04,486] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 11:49:04,612] NC21 02: Verify error message is displayed
+[2023-08-21 11:49:04,689] NC22 01: Enter to Telephone value ''
+[2023-08-21 11:49:04,840] NC22 02: Press Tab to navigate next field
+[2023-08-21 11:49:04,887] NC22 03: Verify error message is displayed
+[2023-08-21 11:49:05,000] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 11:49:05,152] NC23 02: Verify error message is displayed
+[2023-08-21 11:49:05,213] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 11:49:05,344] NC24 02: Verify error message is displayed
+[2023-08-21 11:49:05,428] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 11:49:05,557] NC25 02: Verify error message is displayed
+[2023-08-21 11:49:05,647] NC26 01: Enter to Email value ''
+[2023-08-21 11:49:05,799] NC26 01: Press Tab to navigate next field
+[2023-08-21 11:49:05,845] NC26 03: Verify error message is displayed
+[2023-08-21 11:49:05,925] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 11:49:06,057] NC27 02: Verify error message is displayed
+[2023-08-21 11:49:06,142] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 11:49:06,285] NC29 02: Verify error message is displayed
+[2023-08-21 11:49:06,360] NC31 01: Enter to Customer Name value is: 'Dr. Noble Kilback'
+[2023-08-21 11:49:06,505] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 11:49:06,638] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 11:49:06,845] NC31 04: Enter to Address value is: '172 Dicki Forest'
+[2023-08-21 11:49:06,977] NC31 05: Enter to City value is: 'East Aleishamouth'
+[2023-08-21 11:49:07,127] NC31 06: Enter to State value is: 'Georgia'
+[2023-08-21 11:49:07,263] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 11:49:07,404] NC31 08: Enter to Mobile Phone Number value is: '8397224239'
+[2023-08-21 11:49:07,543] NC31 09: Enter to Email value is: 'jovan.hickle@gmail.com'
+[2023-08-21 11:49:07,696] NC31 10: Enter to Email value is: 'u0jrqu87o6f5'
+[2023-08-21 11:49:07,857] NC31 11: Click to submit button
+[2023-08-21 11:49:08,004] OS name = windows 10
+[2023-08-21 11:49:08,004] Driver instance name = chromedriver: chrome on windows (41092019c19483f770bd76c886398d41)
+[2023-08-21 11:49:08,018] unexpected alert open: {Alert text : please fill all fields}
+  (Session info: chrome=116.0.5845.97): please fill all fields
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VN-TANTRANDINH2', ip: '192.168.180.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\TAN~1.TRA\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41092019c19483f770bd76c886398d41
+[2023-08-21 11:55:37,969] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 11:55:43,936] Step 02 - Input to USERID value mngr522589
+[2023-08-21 11:55:44,184] Step 03 - Input to Password value epEhEgY
+[2023-08-21 11:55:44,358] Step 04 - Click to login button
+[2023-08-21 11:55:45,374] Verify Login successfully
+[2023-08-21 11:55:45,577] NC1 01: Open New Customer Page
+[2023-08-21 11:55:45,782] NC1 02: Enter to Customer Name ''
+[2023-08-21 11:56:02,002] NC1 03: Press TAB to navigate next field
+[2023-08-21 11:56:02,099] NC1 04: Verify error message is displayed
+[2023-08-21 11:56:02,330] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 11:56:02,581] NC2 02: Verify error message is displayed
+[2023-08-21 11:56:02,700] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 11:56:02,953] NC3 02: Verify error message is displayed
+[2023-08-21 11:56:03,078] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:56:03,326] N4 02: Verify error message is displayed
+[2023-08-21 11:56:03,466] N5 01: Enter to Address value ''
+[2023-08-21 11:56:03,700] N5 02: Press tab key to next field
+[2023-08-21 11:56:03,768] N5 03: Verify error message is displayed
+[2023-08-21 11:56:03,885] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 11:56:04,112] N6 02: Verify error message is displayed
+[2023-08-21 11:56:04,229] N8 01: Enter to City value ''
+[2023-08-21 11:56:04,446] N8 02: Press tab to navigate next field
+[2023-08-21 11:56:04,534] N8 03: Verify error message is displayed
+[2023-08-21 11:56:04,648] N9 01: Enter to City value '213123123'
+[2023-08-21 11:56:04,866] N9 02: Verify error message is displayed
+[2023-08-21 11:56:04,992] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 11:56:05,250] N10 02: Verify error message is displayed
+[2023-08-21 11:56:05,382] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 11:56:05,617] N11 02: Verify error message is displayed
+[2023-08-21 11:56:05,736] N12 01: Enter to State value ''
+[2023-08-21 11:56:05,983] N12 02: Press tab to navigate next field
+[2023-08-21 11:56:06,055] N12 03: Verify error message is displayed
+[2023-08-21 11:56:06,181] N13 01: Enter to State value '123123123123'
+[2023-08-21 11:56:06,400] N13 02: Verify error message is displayed
+[2023-08-21 11:56:06,522] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 11:56:06,768] N14 02: Verify error message is displayed
+[2023-08-21 11:56:06,896] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 11:56:07,145] N15 02: Verify error message is displayed
+[2023-08-21 11:56:07,269] N16 01: Enter to PIN value ''
+[2023-08-21 11:56:07,501] N16 02: Press Tab to navigate next field
+[2023-08-21 11:56:07,585] N16 02: Verify error message is displayed
+[2023-08-21 11:56:07,699] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 11:56:07,911] N17 02: Verify error message is displayed
+[2023-08-21 11:56:08,043] N18 01: Enter to PIN value '12345'
+[2023-08-21 11:56:08,246] N18 02: Verify error message is displayed
+[2023-08-21 11:56:08,360] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 11:56:08,589] N19 02: Verify error message is displayed
+[2023-08-21 11:56:08,733] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 11:56:08,979] NC20 02: Verify error message is displayed
+[2023-08-21 11:56:09,105] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 11:56:09,331] NC21 02: Verify error message is displayed
+[2023-08-21 11:56:09,461] NC22 01: Enter to Telephone value ''
+[2023-08-21 11:56:09,694] NC22 02: Press Tab to navigate next field
+[2023-08-21 11:56:09,763] NC22 03: Verify error message is displayed
+[2023-08-21 11:56:09,894] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 11:56:10,149] NC23 02: Verify error message is displayed
+[2023-08-21 11:56:10,268] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 11:56:10,527] NC24 02: Verify error message is displayed
+[2023-08-21 11:56:10,642] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 11:56:10,856] NC25 02: Verify error message is displayed
+[2023-08-21 11:56:10,984] NC26 01: Enter to Email value ''
+[2023-08-21 11:56:11,186] NC26 01: Press Tab to navigate next field
+[2023-08-21 11:56:11,271] NC26 03: Verify error message is displayed
+[2023-08-21 11:56:11,400] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 11:56:11,619] NC27 02: Verify error message is displayed
+[2023-08-21 11:56:11,740] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 11:56:11,979] NC29 02: Verify error message is displayed
+[2023-08-21 11:56:12,115] NC31 01: Enter to Customer Name value is: 'Bradly Simonis'
+[2023-08-21 11:56:12,378] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 11:56:12,522] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 11:56:12,812] NC31 04: Enter to Address value is: '440 Leif Freeway'
+[2023-08-21 11:56:13,029] NC31 05: Enter to City value is: 'Braunfort'
+[2023-08-21 11:56:13,256] NC31 06: Enter to State value is: 'Pennsylvania'
+[2023-08-21 11:56:13,495] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 11:56:13,722] NC31 08: Enter to Mobile Phone Number value is: '2555310107'
+[2023-08-21 11:56:13,981] NC31 09: Enter to Email value is: 'nicky.kuvalis@hotmail.com'
+[2023-08-21 11:56:14,226] NC31 10: Enter to Email value is: '4t9pyhajzl25q'
+[2023-08-21 11:56:14,476] NC31 11: Click to submit button
+[2023-08-21 11:56:16,414] NC31 12: Get Customer ID
+[2023-08-21 11:56:16,551] NC31 13: Customer ID value is: 49049
+[2023-08-21 11:56:16,555] OS name = windows 10
+[2023-08-21 11:56:16,555] Driver instance name = chromedriver: chrome on windows (74e3a2adf16841b72a06a1fa1541658b)
+[2023-08-21 13:10:55,813] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:11:02,472] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:11:02,772] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:11:02,922] Step 04 - Click to login button
+[2023-08-21 13:11:03,943] Verify Login successfully
+[2023-08-21 13:11:04,143] NC1 01: Open New Customer Page
+[2023-08-21 13:11:04,419] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:11:06,590] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:11:06,656] NC1 04: Verify error message is displayed
+[2023-08-21 13:11:06,844] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:11:06,993] NC2 02: Verify error message is displayed
+[2023-08-21 13:11:07,080] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:11:07,240] NC3 02: Verify error message is displayed
+[2023-08-21 13:11:07,327] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:11:07,477] N4 02: Verify error message is displayed
+[2023-08-21 13:11:07,558] N5 01: Enter to Address value ''
+[2023-08-21 13:11:07,693] N5 02: Press tab key to next field
+[2023-08-21 13:11:07,742] N5 03: Verify error message is displayed
+[2023-08-21 13:11:07,821] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:11:07,976] N6 02: Verify error message is displayed
+[2023-08-21 13:11:08,057] N8 01: Enter to City value ''
+[2023-08-21 13:11:08,185] N8 02: Press tab to navigate next field
+[2023-08-21 13:11:08,234] N8 03: Verify error message is displayed
+[2023-08-21 13:11:08,315] N9 01: Enter to City value '213123123'
+[2023-08-21 13:11:08,445] N9 02: Verify error message is displayed
+[2023-08-21 13:11:08,533] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:11:08,679] N10 02: Verify error message is displayed
+[2023-08-21 13:11:08,766] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:11:08,917] N11 02: Verify error message is displayed
+[2023-08-21 13:11:08,999] N12 01: Enter to State value ''
+[2023-08-21 13:11:09,134] N12 02: Press tab to navigate next field
+[2023-08-21 13:11:09,180] N12 03: Verify error message is displayed
+[2023-08-21 13:11:09,264] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:11:09,399] N13 02: Verify error message is displayed
+[2023-08-21 13:11:09,465] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:11:09,609] N14 02: Verify error message is displayed
+[2023-08-21 13:11:09,713] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:11:09,858] N15 02: Verify error message is displayed
+[2023-08-21 13:11:09,946] N16 01: Enter to PIN value ''
+[2023-08-21 13:11:10,098] N16 02: Press Tab to navigate next field
+[2023-08-21 13:11:10,143] N16 02: Verify error message is displayed
+[2023-08-21 13:11:10,225] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:11:10,357] N17 02: Verify error message is displayed
+[2023-08-21 13:11:10,448] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:11:10,585] N18 02: Verify error message is displayed
+[2023-08-21 13:11:10,674] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:11:10,804] N19 02: Verify error message is displayed
+[2023-08-21 13:11:10,889] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:11:11,018] NC20 02: Verify error message is displayed
+[2023-08-21 13:11:11,089] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:11:11,215] NC21 02: Verify error message is displayed
+[2023-08-21 13:11:11,291] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:11:11,409] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:11:11,458] NC22 03: Verify error message is displayed
+[2023-08-21 13:11:11,540] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:11:11,677] NC23 02: Verify error message is displayed
+[2023-08-21 13:11:11,739] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:11:11,870] NC24 02: Verify error message is displayed
+[2023-08-21 13:11:11,952] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:11:12,082] NC25 02: Verify error message is displayed
+[2023-08-21 13:11:12,170] NC26 01: Enter to Email value ''
+[2023-08-21 13:11:12,307] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:11:12,352] NC26 03: Verify error message is displayed
+[2023-08-21 13:11:12,433] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:11:12,564] NC27 02: Verify error message is displayed
+[2023-08-21 13:11:12,650] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:11:12,782] NC29 02: Verify error message is displayed
+[2023-08-21 13:11:12,865] NC31 01: Enter to Customer Name value is: 'Benito Ruecker'
+[2023-08-21 13:11:13,000] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:11:13,150] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:11:13,366] NC31 04: Enter to Address value is: '2395 Jacobs Lock'
+[2023-08-21 13:11:13,512] NC31 05: Enter to City value is: 'Veroniqueville'
+[2023-08-21 13:11:13,650] NC31 06: Enter to State value is: 'Mississippi'
+[2023-08-21 13:11:13,792] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:11:13,941] NC31 08: Enter to Mobile Phone Number value is: '3331436124'
+[2023-08-21 13:11:14,100] NC31 09: Enter to Email value is: 'milagro.pouros@yahoo.com'
+[2023-08-21 13:11:14,255] NC31 10: Enter to Email value is: 'kw85f5hgzp'
+[2023-08-21 13:11:14,425] NC31 11: Click to submit button
+[2023-08-21 13:11:15,617] NC31 12: Get Customer ID
+[2023-08-21 13:11:15,765] NC31 13: Customer ID value is: 53138
+[2023-08-21 13:11:15,768] OS name = windows 10
+[2023-08-21 13:11:15,768] Driver instance name = chromedriver: chrome on windows (49d3e9ae85a840ad27bfd1b02055c2d0)
+[2023-08-21 13:12:48,432] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:12:54,514] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:12:54,756] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:12:54,923] Step 04 - Click to login button
+[2023-08-21 13:12:57,052] Verify Login successfully
+[2023-08-21 13:12:57,235] NC1 01: Open New Customer Page
+[2023-08-21 13:12:57,381] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:12:59,478] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:12:59,538] NC1 04: Verify error message is displayed
+[2023-08-21 13:12:59,720] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:12:59,884] NC2 02: Verify error message is displayed
+[2023-08-21 13:12:59,974] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:13:00,121] NC3 02: Verify error message is displayed
+[2023-08-21 13:13:00,205] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:13:00,355] N4 02: Verify error message is displayed
+[2023-08-21 13:13:00,483] N5 01: Enter to Address value ''
+[2023-08-21 13:13:00,712] N5 02: Press tab key to next field
+[2023-08-21 13:13:00,766] N5 03: Verify error message is displayed
+[2023-08-21 13:13:00,857] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:13:00,991] N6 02: Verify error message is displayed
+[2023-08-21 13:13:01,088] N8 01: Enter to City value ''
+[2023-08-21 13:13:01,222] N8 02: Press tab to navigate next field
+[2023-08-21 13:13:01,269] N8 03: Verify error message is displayed
+[2023-08-21 13:13:01,352] N9 01: Enter to City value '213123123'
+[2023-08-21 13:13:01,553] N9 02: Verify error message is displayed
+[2023-08-21 13:13:01,635] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:13:01,794] N10 02: Verify error message is displayed
+[2023-08-21 13:13:01,882] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:13:02,014] N11 02: Verify error message is displayed
+[2023-08-21 13:13:02,096] N12 01: Enter to State value ''
+[2023-08-21 13:13:02,230] N12 02: Press tab to navigate next field
+[2023-08-21 13:13:02,275] N12 03: Verify error message is displayed
+[2023-08-21 13:13:02,356] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:13:02,585] N13 02: Verify error message is displayed
+[2023-08-21 13:13:02,668] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:13:02,809] N14 02: Verify error message is displayed
+[2023-08-21 13:13:02,886] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:13:03,015] N15 02: Verify error message is displayed
+[2023-08-21 13:13:03,130] N16 01: Enter to PIN value ''
+[2023-08-21 13:13:03,267] N16 02: Press Tab to navigate next field
+[2023-08-21 13:13:03,314] N16 02: Verify error message is displayed
+[2023-08-21 13:13:03,394] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:13:03,541] N17 02: Verify error message is displayed
+[2023-08-21 13:13:03,616] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:13:03,751] N18 02: Verify error message is displayed
+[2023-08-21 13:13:03,858] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:13:03,986] N19 02: Verify error message is displayed
+[2023-08-21 13:13:04,073] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:13:04,204] NC20 02: Verify error message is displayed
+[2023-08-21 13:13:04,293] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:13:04,431] NC21 02: Verify error message is displayed
+[2023-08-21 13:13:04,498] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:13:04,633] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:13:04,686] NC22 03: Verify error message is displayed
+[2023-08-21 13:13:04,766] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:13:04,902] NC23 02: Verify error message is displayed
+[2023-08-21 13:13:04,982] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:13:05,117] NC24 02: Verify error message is displayed
+[2023-08-21 13:13:05,201] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:13:05,340] NC25 02: Verify error message is displayed
+[2023-08-21 13:13:05,425] NC26 01: Enter to Email value ''
+[2023-08-21 13:13:05,579] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:13:05,644] NC26 03: Verify error message is displayed
+[2023-08-21 13:13:05,733] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:13:05,879] NC27 02: Verify error message is displayed
+[2023-08-21 13:13:05,965] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:13:06,108] NC29 02: Verify error message is displayed
+[2023-08-21 13:13:06,185] NC31 01: Enter to Customer Name value is: 'Mrs. Leonel Roob'
+[2023-08-21 13:13:06,346] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:13:06,477] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:13:06,682] NC31 04: Enter to Address value is: '721 Graham Falls'
+[2023-08-21 13:13:06,825] NC31 05: Enter to City value is: 'New Ardith'
+[2023-08-21 13:13:06,967] NC31 06: Enter to State value is: 'Illinois'
+[2023-08-21 13:13:07,174] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:13:07,308] NC31 08: Enter to Mobile Phone Number value is: '2692477227'
+[2023-08-21 13:13:07,448] NC31 09: Enter to Email value is: 'my.olson@gmail.com'
+[2023-08-21 13:13:07,601] NC31 10: Enter to Email value is: 'clbfqnh1xrnfr'
+[2023-08-21 13:13:07,749] NC31 11: Click to submit button
+[2023-08-21 13:13:07,891] NC31 12: Get Customer ID
+[2023-08-21 13:13:07,917] OS name = windows 10
+[2023-08-21 13:13:07,917] Driver instance name = chromedriver: chrome on windows (ab912190e15c2b3adfb6b1f270cd20f8)
+[2023-08-21 13:13:08,270] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:13:11,971] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:13:12,190] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:13:12,333] Step 04 - Click to login button
+[2023-08-21 13:13:13,321] Verify Login successfully
+[2023-08-21 13:13:13,403] Step 01 - Open Edit Customer Page
+[2023-08-21 13:13:14,305] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:13:14,466] Step 03 -Press tab to navigate next field
+[2023-08-21 13:13:14,521] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:13:14,680] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:13:15,409] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:13:15,719] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:13:15,798] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:13:16,497] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:13:16,701] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:13:16,862] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:13:17,586] Step 02 - Send key to Customer ID field value: 'null'
+[2023-08-21 13:13:17,729] OS name = windows 10
+[2023-08-21 13:13:17,729] Driver instance name = chromedriver: chrome on windows (3a24e9f7bc318dca69504c9feec6161f)
+[2023-08-21 13:17:29,001] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:17:35,569] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:17:35,798] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:17:35,964] Step 04 - Click to login button
+[2023-08-21 13:17:37,007] Verify Login successfully
+[2023-08-21 13:17:37,232] NC1 01: Open New Customer Page
+[2023-08-21 13:17:37,458] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:17:41,449] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:17:41,499] NC1 04: Verify error message is displayed
+[2023-08-21 13:17:41,692] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:17:41,844] NC2 02: Verify error message is displayed
+[2023-08-21 13:17:41,929] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:17:42,063] NC3 02: Verify error message is displayed
+[2023-08-21 13:17:42,147] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:17:42,281] N4 02: Verify error message is displayed
+[2023-08-21 13:17:42,397] N5 01: Enter to Address value ''
+[2023-08-21 13:17:42,545] N5 02: Press tab key to next field
+[2023-08-21 13:17:42,592] N5 03: Verify error message is displayed
+[2023-08-21 13:17:42,674] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:17:42,815] N6 02: Verify error message is displayed
+[2023-08-21 13:17:42,906] N8 01: Enter to City value ''
+[2023-08-21 13:17:43,053] N8 02: Press tab to navigate next field
+[2023-08-21 13:17:43,102] N8 03: Verify error message is displayed
+[2023-08-21 13:17:43,180] N9 01: Enter to City value '213123123'
+[2023-08-21 13:17:43,313] N9 02: Verify error message is displayed
+[2023-08-21 13:17:43,397] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:17:43,539] N10 02: Verify error message is displayed
+[2023-08-21 13:17:43,628] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:17:43,764] N11 02: Verify error message is displayed
+[2023-08-21 13:17:43,843] N12 01: Enter to State value ''
+[2023-08-21 13:17:43,984] N12 02: Press tab to navigate next field
+[2023-08-21 13:17:44,029] N12 03: Verify error message is displayed
+[2023-08-21 13:17:44,108] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:17:44,243] N13 02: Verify error message is displayed
+[2023-08-21 13:17:44,327] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:17:44,466] N14 02: Verify error message is displayed
+[2023-08-21 13:17:44,562] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:17:44,708] N15 02: Verify error message is displayed
+[2023-08-21 13:17:44,793] N16 01: Enter to PIN value ''
+[2023-08-21 13:17:44,942] N16 02: Press Tab to navigate next field
+[2023-08-21 13:17:44,986] N16 02: Verify error message is displayed
+[2023-08-21 13:17:45,068] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:17:45,196] N17 02: Verify error message is displayed
+[2023-08-21 13:17:45,291] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:17:45,428] N18 02: Verify error message is displayed
+[2023-08-21 13:17:45,518] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:17:45,647] N19 02: Verify error message is displayed
+[2023-08-21 13:17:45,751] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:17:45,880] NC20 02: Verify error message is displayed
+[2023-08-21 13:17:45,966] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:17:46,106] NC21 02: Verify error message is displayed
+[2023-08-21 13:17:46,181] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:17:46,317] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:17:46,366] NC22 03: Verify error message is displayed
+[2023-08-21 13:17:46,445] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:17:46,584] NC23 02: Verify error message is displayed
+[2023-08-21 13:17:46,660] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:17:46,792] NC24 02: Verify error message is displayed
+[2023-08-21 13:17:46,877] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:17:47,007] NC25 02: Verify error message is displayed
+[2023-08-21 13:17:47,095] NC26 01: Enter to Email value ''
+[2023-08-21 13:17:47,243] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:17:47,291] NC26 03: Verify error message is displayed
+[2023-08-21 13:17:47,369] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:17:47,500] NC27 02: Verify error message is displayed
+[2023-08-21 13:17:47,587] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:17:47,720] NC29 02: Verify error message is displayed
+[2023-08-21 13:17:47,806] NC31 01: Enter to Customer Name value is: 'Dylan Lynch'
+[2023-08-21 13:17:47,940] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:17:48,049] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:17:48,252] NC31 04: Enter to Address value is: '978 Harvey Place'
+[2023-08-21 13:17:48,389] NC31 05: Enter to City value is: 'East Casey'
+[2023-08-21 13:17:48,534] NC31 06: Enter to State value is: 'Florida'
+[2023-08-21 13:17:48,661] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:17:48,800] NC31 08: Enter to Mobile Phone Number value is: '5935477274'
+[2023-08-21 13:17:48,944] NC31 09: Enter to Email value is: 'alysha.schulist@hotmail.com'
+[2023-08-21 13:17:49,116] NC31 10: Enter to Email value is: 'q9tnyj3h3zhwu'
+[2023-08-21 13:17:49,268] NC31 11: Click to submit button
+[2023-08-21 13:17:50,962] NC31 12: Get Customer ID
+[2023-08-21 13:17:51,064] NC31 13: Customer ID value is: 32887
+[2023-08-21 13:17:51,067] OS name = windows 10
+[2023-08-21 13:17:51,067] Driver instance name = chromedriver: chrome on windows (a46665aa8f02d80247a869ca41c1513e)
+[2023-08-21 13:17:51,438] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:17:55,853] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:17:56,080] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:17:56,252] Step 04 - Click to login button
+[2023-08-21 13:17:58,151] Verify Login successfully
+[2023-08-21 13:17:58,295] Step 01 - Open Edit Customer Page
+[2023-08-21 13:17:58,461] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:18:01,398] Step 03 -Press tab to navigate next field
+[2023-08-21 13:18:01,443] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:18:01,521] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:18:03,259] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:18:03,485] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:18:03,562] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:18:04,318] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:18:04,516] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:18:04,599] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:18:05,598] Step 02 - Send key to Customer ID field value: 'null'
+[2023-08-21 13:18:05,737] OS name = windows 10
+[2023-08-21 13:18:05,737] Driver instance name = chromedriver: chrome on windows (4ac92f6a957da835cd71937c7510816e)
+[2023-08-21 13:30:09,363] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:30:15,443] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:30:15,713] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:30:15,861] Step 04 - Click to login button
+[2023-08-21 13:30:16,849] Verify Login successfully
+[2023-08-21 13:30:17,092] NC1 01: Open New Customer Page
+[2023-08-21 13:30:17,408] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:30:19,338] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:30:19,411] NC1 04: Verify error message is displayed
+[2023-08-21 13:30:19,592] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:30:19,739] NC2 02: Verify error message is displayed
+[2023-08-21 13:30:19,825] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:30:19,968] NC3 02: Verify error message is displayed
+[2023-08-21 13:30:20,042] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:30:20,194] N4 02: Verify error message is displayed
+[2023-08-21 13:30:20,273] N5 01: Enter to Address value ''
+[2023-08-21 13:30:20,408] N5 02: Press tab key to next field
+[2023-08-21 13:30:20,456] N5 03: Verify error message is displayed
+[2023-08-21 13:30:20,539] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:30:20,677] N6 02: Verify error message is displayed
+[2023-08-21 13:30:20,759] N8 01: Enter to City value ''
+[2023-08-21 13:30:20,908] N8 02: Press tab to navigate next field
+[2023-08-21 13:30:20,959] N8 03: Verify error message is displayed
+[2023-08-21 13:30:21,044] N9 01: Enter to City value '213123123'
+[2023-08-21 13:30:21,190] N9 02: Verify error message is displayed
+[2023-08-21 13:30:21,260] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:30:21,403] N10 02: Verify error message is displayed
+[2023-08-21 13:30:21,494] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:30:21,628] N11 02: Verify error message is displayed
+[2023-08-21 13:30:21,710] N12 01: Enter to State value ''
+[2023-08-21 13:30:21,865] N12 02: Press tab to navigate next field
+[2023-08-21 13:30:21,919] N12 03: Verify error message is displayed
+[2023-08-21 13:30:22,000] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:30:22,133] N13 02: Verify error message is displayed
+[2023-08-21 13:30:22,203] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:30:22,360] N14 02: Verify error message is displayed
+[2023-08-21 13:30:22,449] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:30:22,581] N15 02: Verify error message is displayed
+[2023-08-21 13:30:22,668] N16 01: Enter to PIN value ''
+[2023-08-21 13:30:22,806] N16 02: Press Tab to navigate next field
+[2023-08-21 13:30:22,851] N16 02: Verify error message is displayed
+[2023-08-21 13:30:22,930] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:30:23,060] N17 02: Verify error message is displayed
+[2023-08-21 13:30:23,138] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:30:23,275] N18 02: Verify error message is displayed
+[2023-08-21 13:30:23,338] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:30:23,464] N19 02: Verify error message is displayed
+[2023-08-21 13:30:23,552] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:30:23,679] NC20 02: Verify error message is displayed
+[2023-08-21 13:30:23,770] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:30:23,910] NC21 02: Verify error message is displayed
+[2023-08-21 13:30:24,043] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:30:24,186] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:30:24,231] NC22 03: Verify error message is displayed
+[2023-08-21 13:30:24,298] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:30:24,452] NC23 02: Verify error message is displayed
+[2023-08-21 13:30:24,538] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:30:24,666] NC24 02: Verify error message is displayed
+[2023-08-21 13:30:24,754] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:30:24,891] NC25 02: Verify error message is displayed
+[2023-08-21 13:30:24,987] NC26 01: Enter to Email value ''
+[2023-08-21 13:30:25,141] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:30:25,198] NC26 03: Verify error message is displayed
+[2023-08-21 13:30:25,277] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:30:25,404] NC27 02: Verify error message is displayed
+[2023-08-21 13:30:25,491] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:30:25,620] NC29 02: Verify error message is displayed
+[2023-08-21 13:30:25,706] NC31 01: Enter to Customer Name value is: 'Garth Kerluke'
+[2023-08-21 13:30:25,857] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:30:25,986] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:30:26,171] NC31 04: Enter to Address value is: '1835 Danae Way'
+[2023-08-21 13:30:26,312] NC31 05: Enter to City value is: 'West Ola'
+[2023-08-21 13:30:26,447] NC31 06: Enter to State value is: 'Missouri'
+[2023-08-21 13:30:26,601] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:30:26,738] NC31 08: Enter to Mobile Phone Number value is: '2971029945'
+[2023-08-21 13:30:26,866] NC31 09: Enter to Email value is: 'courtney.runte@gmail.com'
+[2023-08-21 13:30:27,034] NC31 10: Enter to Email value is: '7lbirk6qzdzm'
+[2023-08-21 13:30:27,191] NC31 11: Click to submit button
+[2023-08-21 13:30:28,398] NC31 12: Get Customer ID
+[2023-08-21 13:30:28,530] NC31 13: Customer ID value is: 2553
+[2023-08-21 13:30:28,534] OS name = windows 10
+[2023-08-21 13:30:28,534] Driver instance name = chromedriver: chrome on windows (33940d156e0af92b82650e396c484013)
+[2023-08-21 13:30:28,896] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:30:33,281] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:30:33,493] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:30:33,671] Step 04 - Click to login button
+[2023-08-21 13:30:34,663] Verify Login successfully
+[2023-08-21 13:30:34,767] Step 01 - Open Edit Customer Page
+[2023-08-21 13:30:35,669] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:30:35,879] Step 03 -Press tab to navigate next field
+[2023-08-21 13:30:35,925] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:30:36,054] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:30:36,845] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:30:37,024] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:30:37,104] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:30:37,925] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:30:38,235] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:30:38,328] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:30:39,081] Step 02 - Send key to Customer ID field value: '2553'
+[2023-08-21 13:30:39,352] Step 03 - Click to submit button
+[2023-08-21 13:30:40,250] OS name = windows 10
+[2023-08-21 13:30:40,250] Driver instance name = chromedriver: chrome on windows (d58d82f363410b45d30220ded426ee8b)
+[2023-08-21 13:34:07,216] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:34:13,247] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:34:13,527] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:34:13,687] Step 04 - Click to login button
+[2023-08-21 13:34:14,811] Verify Login successfully
+[2023-08-21 13:34:15,009] NC1 01: Open New Customer Page
+[2023-08-21 13:34:15,226] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:34:18,195] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:34:18,259] NC1 04: Verify error message is displayed
+[2023-08-21 13:34:18,456] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:34:18,625] NC2 02: Verify error message is displayed
+[2023-08-21 13:34:18,712] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:34:18,864] NC3 02: Verify error message is displayed
+[2023-08-21 13:34:18,944] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:34:19,096] N4 02: Verify error message is displayed
+[2023-08-21 13:34:19,192] N5 01: Enter to Address value ''
+[2023-08-21 13:34:19,344] N5 02: Press tab key to next field
+[2023-08-21 13:34:19,391] N5 03: Verify error message is displayed
+[2023-08-21 13:34:19,472] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:34:19,625] N6 02: Verify error message is displayed
+[2023-08-21 13:34:19,704] N8 01: Enter to City value ''
+[2023-08-21 13:34:19,840] N8 02: Press tab to navigate next field
+[2023-08-21 13:34:19,887] N8 03: Verify error message is displayed
+[2023-08-21 13:34:19,967] N9 01: Enter to City value '213123123'
+[2023-08-21 13:34:20,113] N9 02: Verify error message is displayed
+[2023-08-21 13:34:20,197] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:34:20,358] N10 02: Verify error message is displayed
+[2023-08-21 13:34:20,446] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:34:20,582] N11 02: Verify error message is displayed
+[2023-08-21 13:34:20,664] N12 01: Enter to State value ''
+[2023-08-21 13:34:20,789] N12 02: Press tab to navigate next field
+[2023-08-21 13:34:20,856] N12 03: Verify error message is displayed
+[2023-08-21 13:34:20,943] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:34:21,079] N13 02: Verify error message is displayed
+[2023-08-21 13:34:21,146] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:34:21,300] N14 02: Verify error message is displayed
+[2023-08-21 13:34:21,380] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:34:21,514] N15 02: Verify error message is displayed
+[2023-08-21 13:34:21,596] N16 01: Enter to PIN value ''
+[2023-08-21 13:34:21,731] N16 02: Press Tab to navigate next field
+[2023-08-21 13:34:21,779] N16 02: Verify error message is displayed
+[2023-08-21 13:34:21,858] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:34:21,991] N17 02: Verify error message is displayed
+[2023-08-21 13:34:22,080] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:34:22,217] N18 02: Verify error message is displayed
+[2023-08-21 13:34:22,292] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:34:22,424] N19 02: Verify error message is displayed
+[2023-08-21 13:34:22,509] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:34:22,638] NC20 02: Verify error message is displayed
+[2023-08-21 13:34:22,727] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:34:22,854] NC21 02: Verify error message is displayed
+[2023-08-21 13:34:22,930] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:34:23,052] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:34:23,101] NC22 03: Verify error message is displayed
+[2023-08-21 13:34:23,181] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:34:23,318] NC23 02: Verify error message is displayed
+[2023-08-21 13:34:23,381] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:34:23,515] NC24 02: Verify error message is displayed
+[2023-08-21 13:34:23,598] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:34:23,727] NC25 02: Verify error message is displayed
+[2023-08-21 13:34:23,817] NC26 01: Enter to Email value ''
+[2023-08-21 13:34:23,953] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:34:23,999] NC26 03: Verify error message is displayed
+[2023-08-21 13:34:24,065] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:34:24,195] NC27 02: Verify error message is displayed
+[2023-08-21 13:34:24,280] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:34:24,415] NC29 02: Verify error message is displayed
+[2023-08-21 13:34:24,497] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:34:24,604] NC30 02: Click to Submit Button
+[2023-08-21 13:34:24,713] NC30 03: Verify all field is required
+[2023-08-21 13:34:24,720] NC30 04: Accept Alert
+[2023-08-21 13:34:24,740] NC31 01: Enter to Customer Name value is: 'Mackenzie Runte'
+[2023-08-21 13:34:24,895] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:34:25,029] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:34:25,225] NC31 04: Enter to Address value is: '094 Erdman Drive'
+[2023-08-21 13:34:25,380] NC31 05: Enter to City value is: 'Boylemouth'
+[2023-08-21 13:34:25,515] NC31 06: Enter to State value is: 'Hawaii'
+[2023-08-21 13:34:25,652] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:34:25,793] NC31 08: Enter to Mobile Phone Number value is: '6230033158'
+[2023-08-21 13:34:25,934] NC31 09: Enter to Email value is: 'cameron.funk@yahoo.com'
+[2023-08-21 13:34:26,089] NC31 10: Enter to Email value is: 'd1w4e3r7mao'
+[2023-08-21 13:34:26,246] NC31 11: Click to submit button
+[2023-08-21 13:34:27,432] NC31 12: Get Customer ID
+[2023-08-21 13:34:27,529] NC31 13: Customer ID value is: 41702
+[2023-08-21 13:34:27,533] OS name = windows 10
+[2023-08-21 13:34:27,533] Driver instance name = chromedriver: chrome on windows (acc021a312c981dbccc83f47cb432bb6)
+[2023-08-21 13:35:18,932] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:35:24,914] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:35:25,157] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:35:25,314] Step 04 - Click to login button
+[2023-08-21 13:35:26,302] Verify Login successfully
+[2023-08-21 13:35:26,543] NC1 01: Open New Customer Page
+[2023-08-21 13:35:26,785] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:35:28,427] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:35:28,492] NC1 04: Verify error message is displayed
+[2023-08-21 13:35:28,706] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:35:28,859] NC2 02: Verify error message is displayed
+[2023-08-21 13:35:28,926] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:35:29,088] NC3 02: Verify error message is displayed
+[2023-08-21 13:35:29,173] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:35:29,324] N4 02: Verify error message is displayed
+[2023-08-21 13:35:29,406] N5 01: Enter to Address value ''
+[2023-08-21 13:35:29,541] N5 02: Press tab key to next field
+[2023-08-21 13:35:29,590] N5 03: Verify error message is displayed
+[2023-08-21 13:35:29,669] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:35:29,823] N6 02: Verify error message is displayed
+[2023-08-21 13:35:29,927] N8 01: Enter to City value ''
+[2023-08-21 13:35:30,067] N8 02: Press tab to navigate next field
+[2023-08-21 13:35:30,116] N8 03: Verify error message is displayed
+[2023-08-21 13:35:30,195] N9 01: Enter to City value '213123123'
+[2023-08-21 13:35:30,326] N9 02: Verify error message is displayed
+[2023-08-21 13:35:30,414] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:35:30,574] N10 02: Verify error message is displayed
+[2023-08-21 13:35:30,660] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:35:30,799] N11 02: Verify error message is displayed
+[2023-08-21 13:35:30,878] N12 01: Enter to State value ''
+[2023-08-21 13:35:31,116] N12 02: Press tab to navigate next field
+[2023-08-21 13:35:31,170] N12 03: Verify error message is displayed
+[2023-08-21 13:35:31,249] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:35:31,397] N13 02: Verify error message is displayed
+[2023-08-21 13:35:31,479] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:35:31,656] N14 02: Verify error message is displayed
+[2023-08-21 13:35:31,742] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:35:31,873] N15 02: Verify error message is displayed
+[2023-08-21 13:35:31,959] N16 01: Enter to PIN value ''
+[2023-08-21 13:35:32,095] N16 02: Press Tab to navigate next field
+[2023-08-21 13:35:32,142] N16 02: Verify error message is displayed
+[2023-08-21 13:35:32,222] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:35:32,368] N17 02: Verify error message is displayed
+[2023-08-21 13:35:32,458] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:35:32,594] N18 02: Verify error message is displayed
+[2023-08-21 13:35:32,683] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:35:32,813] N19 02: Verify error message is displayed
+[2023-08-21 13:35:32,900] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:35:33,029] NC20 02: Verify error message is displayed
+[2023-08-21 13:35:33,118] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:35:33,245] NC21 02: Verify error message is displayed
+[2023-08-21 13:35:33,321] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:35:33,443] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:35:33,492] NC22 03: Verify error message is displayed
+[2023-08-21 13:35:33,572] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:35:33,713] NC23 02: Verify error message is displayed
+[2023-08-21 13:35:33,778] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:35:33,909] NC24 02: Verify error message is displayed
+[2023-08-21 13:35:33,993] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:35:34,122] NC25 02: Verify error message is displayed
+[2023-08-21 13:35:34,211] NC26 01: Enter to Email value ''
+[2023-08-21 13:35:34,333] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:35:34,380] NC26 03: Verify error message is displayed
+[2023-08-21 13:35:34,459] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:35:34,591] NC27 02: Verify error message is displayed
+[2023-08-21 13:35:34,675] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:35:34,808] NC29 02: Verify error message is displayed
+[2023-08-21 13:35:34,891] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:35:35,018] NC30 02: Click to Submit Button
+[2023-08-21 13:35:35,123] NC30 03: Verify all field is required
+[2023-08-21 13:35:45,135] NC30 04: Accept Alert
+[2023-08-21 13:35:45,162] NC31 01: Enter to Customer Name value is: 'Catharine Cummings'
+[2023-08-21 13:35:45,329] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:35:45,456] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:35:45,660] NC31 04: Enter to Address value is: '0536 Anabel Forge'
+[2023-08-21 13:35:45,798] NC31 05: Enter to City value is: 'Michaburgh'
+[2023-08-21 13:35:45,946] NC31 06: Enter to State value is: 'Rhode Island'
+[2023-08-21 13:35:46,087] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:35:46,224] NC31 08: Enter to Mobile Phone Number value is: '8730169894'
+[2023-08-21 13:35:46,364] NC31 09: Enter to Email value is: 'fred.crist@gmail.com'
+[2023-08-21 13:35:46,515] NC31 10: Enter to Email value is: '4vfqgcxx3uiba'
+[2023-08-21 13:35:46,676] NC31 11: Click to submit button
+[2023-08-21 13:35:47,804] NC31 12: Get Customer ID
+[2023-08-21 13:35:47,958] NC31 13: Customer ID value is: 79437
+[2023-08-21 13:35:47,962] OS name = windows 10
+[2023-08-21 13:35:47,962] Driver instance name = chromedriver: chrome on windows (a9336ad2b0d1f664a3a969e916dc4346)
+[2023-08-21 13:45:31,327] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:45:37,309] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:45:37,562] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:45:37,708] Step 04 - Click to login button
+[2023-08-21 13:45:38,668] Verify Login successfully
+[2023-08-21 13:45:38,897] NC1 01: Open New Customer Page
+[2023-08-21 13:45:39,193] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:46:09,344] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:46:39,407] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:47:09,456] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:47:39,540] N5 01: Enter to Address value ''
+[2023-08-21 13:48:09,619] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:48:39,639] N8 01: Enter to City value ''
+[2023-08-21 13:48:55,675] N8 02: Press tab to navigate next field
+[2023-08-21 13:48:55,739] N8 03: Verify error message is displayed
+[2023-08-21 13:48:55,837] N9 01: Enter to City value '213123123'
+[2023-08-21 13:48:55,981] N9 02: Verify error message is displayed
+[2023-08-21 13:48:56,065] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:48:56,278] N10 02: Verify error message is displayed
+[2023-08-21 13:48:56,360] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:48:56,512] N11 02: Verify error message is displayed
+[2023-08-21 13:48:56,594] N12 01: Enter to State value ''
+[2023-08-21 13:48:56,745] N12 02: Press tab to navigate next field
+[2023-08-21 13:48:56,799] N12 03: Verify error message is displayed
+[2023-08-21 13:48:56,906] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:48:57,072] N13 02: Verify error message is displayed
+[2023-08-21 13:48:57,151] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:48:57,292] N14 02: Verify error message is displayed
+[2023-08-21 13:48:57,383] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:48:57,520] N15 02: Verify error message is displayed
+[2023-08-21 13:48:57,601] N16 01: Enter to PIN value ''
+[2023-08-21 13:48:57,723] N16 02: Press Tab to navigate next field
+[2023-08-21 13:48:57,769] N16 02: Verify error message is displayed
+[2023-08-21 13:48:57,849] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:48:57,985] N17 02: Verify error message is displayed
+[2023-08-21 13:48:58,072] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:48:58,208] N18 02: Verify error message is displayed
+[2023-08-21 13:48:58,300] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:48:58,428] N19 02: Verify error message is displayed
+[2023-08-21 13:48:58,518] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:48:58,670] NC20 02: Verify error message is displayed
+[2023-08-21 13:48:58,755] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:48:58,882] NC21 02: Verify error message is displayed
+[2023-08-21 13:48:58,943] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:48:59,078] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:48:59,127] NC22 03: Verify error message is displayed
+[2023-08-21 13:48:59,204] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:48:59,345] NC23 02: Verify error message is displayed
+[2023-08-21 13:48:59,424] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:48:59,554] NC24 02: Verify error message is displayed
+[2023-08-21 13:48:59,641] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:48:59,769] NC25 02: Verify error message is displayed
+[2023-08-21 13:48:59,898] NC26 01: Enter to Email value ''
+[2023-08-21 13:49:00,102] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:49:00,150] NC26 03: Verify error message is displayed
+[2023-08-21 13:49:00,229] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:49:00,360] NC27 02: Verify error message is displayed
+[2023-08-21 13:49:00,464] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:49:00,595] NC29 02: Verify error message is displayed
+[2023-08-21 13:49:00,680] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:49:00,805] NC30 02: Click to Submit Button
+[2023-08-21 13:49:00,942] NC30 03: Verify all field is required
+[2023-08-21 13:49:00,950] NC30 04: Accept Alert
+[2023-08-21 13:49:00,967] NC31 01: Enter to Customer Name value is: 'Dr. Hong Crooks'
+[2023-08-21 13:49:01,142] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:49:01,269] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:49:01,471] NC31 04: Enter to Address value is: '8882 Hoeger Knolls'
+[2023-08-21 13:49:01,628] NC31 05: Enter to City value is: 'Donnellyberg'
+[2023-08-21 13:49:01,767] NC31 06: Enter to State value is: 'Ohio'
+[2023-08-21 13:49:01,900] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:49:02,040] NC31 08: Enter to Mobile Phone Number value is: '6635340472'
+[2023-08-21 13:49:02,178] NC31 09: Enter to Email value is: 'phoebe.rowe@hotmail.com'
+[2023-08-21 13:49:02,334] NC31 10: Enter to Email value is: 'zsbpr2h5'
+[2023-08-21 13:49:02,486] NC31 11: Click to submit button
+[2023-08-21 13:49:02,607] NC31 12: Get Customer ID
+[2023-08-21 13:49:02,619] OS name = windows 10
+[2023-08-21 13:49:02,619] Driver instance name = chromedriver: chrome on windows (2f778ee10bc560b770c15e7c50aa3289)
+[2023-08-21 13:49:03,009] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:49:07,388] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:49:07,645] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:49:07,836] Step 04 - Click to login button
+[2023-08-21 13:49:08,830] Verify Login successfully
+[2023-08-21 13:49:08,914] Step 01 - Open Edit Customer Page
+[2023-08-21 13:49:09,802] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:49:09,958] Step 03 -Press tab to navigate next field
+[2023-08-21 13:49:10,003] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:49:10,082] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:49:10,824] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:49:10,999] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:49:11,079] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:49:11,816] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:49:12,140] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:49:12,223] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:49:12,980] Step 02 - Send key to Customer ID field value: 'null'
+[2023-08-21 13:49:13,094] OS name = windows 10
+[2023-08-21 13:49:13,094] Driver instance name = chromedriver: chrome on windows (743e9055309bef429af11500495dc787)
+[2023-08-21 13:50:39,728] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:50:45,761] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:50:46,005] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:50:46,175] Step 04 - Click to login button
+[2023-08-21 13:50:47,186] Verify Login successfully
+[2023-08-21 13:50:47,390] NC1 01: Open New Customer Page
+[2023-08-21 13:50:47,626] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:50:50,272] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:50:50,347] NC1 04: Verify error message is displayed
+[2023-08-21 13:50:50,557] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:50:50,714] NC2 02: Verify error message is displayed
+[2023-08-21 13:50:50,802] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:50:50,965] NC3 02: Verify error message is displayed
+[2023-08-21 13:50:51,051] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:50:51,203] N4 02: Verify error message is displayed
+[2023-08-21 13:50:51,299] N5 01: Enter to Address value ''
+[2023-08-21 13:50:51,453] N5 02: Press tab key to next field
+[2023-08-21 13:50:51,498] N5 03: Verify error message is displayed
+[2023-08-21 13:50:51,578] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:50:51,727] N6 02: Verify error message is displayed
+[2023-08-21 13:50:51,809] N8 01: Enter to City value ''
+[2023-08-21 13:50:51,946] N8 02: Press tab to navigate next field
+[2023-08-21 13:50:51,994] N8 03: Verify error message is displayed
+[2023-08-21 13:50:52,089] N9 01: Enter to City value '213123123'
+[2023-08-21 13:50:52,243] N9 02: Verify error message is displayed
+[2023-08-21 13:50:52,322] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:50:52,493] N10 02: Verify error message is displayed
+[2023-08-21 13:50:52,583] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:50:52,720] N11 02: Verify error message is displayed
+[2023-08-21 13:50:52,801] N12 01: Enter to State value ''
+[2023-08-21 13:50:52,939] N12 02: Press tab to navigate next field
+[2023-08-21 13:50:52,985] N12 03: Verify error message is displayed
+[2023-08-21 13:50:53,065] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:50:53,200] N13 02: Verify error message is displayed
+[2023-08-21 13:50:53,288] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:50:53,439] N14 02: Verify error message is displayed
+[2023-08-21 13:50:53,503] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:50:53,687] N15 02: Verify error message is displayed
+[2023-08-21 13:50:53,771] N16 01: Enter to PIN value ''
+[2023-08-21 13:50:53,921] N16 02: Press Tab to navigate next field
+[2023-08-21 13:50:53,969] N16 02: Verify error message is displayed
+[2023-08-21 13:50:54,050] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:50:54,206] N17 02: Verify error message is displayed
+[2023-08-21 13:50:54,298] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:50:54,433] N18 02: Verify error message is displayed
+[2023-08-21 13:50:54,508] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:50:54,660] N19 02: Verify error message is displayed
+[2023-08-21 13:50:54,742] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:50:54,870] NC20 02: Verify error message is displayed
+[2023-08-21 13:50:54,958] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:50:55,088] NC21 02: Verify error message is displayed
+[2023-08-21 13:50:55,161] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:50:55,301] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:50:55,359] NC22 03: Verify error message is displayed
+[2023-08-21 13:50:55,437] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:50:55,571] NC23 02: Verify error message is displayed
+[2023-08-21 13:50:55,652] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:50:55,784] NC24 02: Verify error message is displayed
+[2023-08-21 13:50:55,917] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:50:56,091] NC25 02: Verify error message is displayed
+[2023-08-21 13:50:56,170] NC26 01: Enter to Email value ''
+[2023-08-21 13:50:56,317] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:50:56,365] NC26 03: Verify error message is displayed
+[2023-08-21 13:50:56,448] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:50:56,599] NC27 02: Verify error message is displayed
+[2023-08-21 13:50:56,697] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:50:56,846] NC29 02: Verify error message is displayed
+[2023-08-21 13:50:56,931] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:50:57,070] NC30 02: Click to Submit Button
+[2023-08-21 13:50:57,194] NC30 03: Verify all field is required
+[2023-08-21 13:50:57,203] NC30 04: Accept Alert
+[2023-08-21 13:50:57,218] NC31 01: Enter to Customer Name value is: 'Mrs. Leatha Konopelski'
+[2023-08-21 13:50:57,388] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:50:57,519] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:50:57,714] NC31 04: Enter to Address value is: '00973 Winford Via'
+[2023-08-21 13:50:57,859] NC31 05: Enter to City value is: 'Charlaburgh'
+[2023-08-21 13:50:58,002] NC31 06: Enter to State value is: 'Utah'
+[2023-08-21 13:50:58,131] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:50:58,294] NC31 08: Enter to Mobile Phone Number value is: '9186280916'
+[2023-08-21 13:50:58,443] NC31 09: Enter to Email value is: 'wilford.stroman@yahoo.com'
+[2023-08-21 13:50:58,599] NC31 10: Enter to Email value is: '2q1dtrglfcx'
+[2023-08-21 13:50:58,752] NC31 11: Click to submit button
+[2023-08-21 13:50:58,869] NC31 12: Get Customer ID
+[2023-08-21 13:50:58,889] OS name = windows 10
+[2023-08-21 13:50:58,890] Driver instance name = chromedriver: chrome on windows (0ea4618a58246f88f14ac1ac82a4574c)
+[2023-08-21 13:50:59,240] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:51:02,932] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:51:03,235] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:51:03,448] Step 04 - Click to login button
+[2023-08-21 13:51:04,416] Verify Login successfully
+[2023-08-21 13:51:04,495] Step 01 - Open Edit Customer Page
+[2023-08-21 13:51:05,448] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:51:05,607] Step 03 -Press tab to navigate next field
+[2023-08-21 13:51:05,657] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:51:05,797] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:51:06,509] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:51:06,681] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:51:06,839] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:51:07,568] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:51:07,895] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:51:07,985] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:51:08,715] Step 02 - Send key to Customer ID field value: 'null'
+[2023-08-21 13:51:08,876] OS name = windows 10
+[2023-08-21 13:51:08,876] Driver instance name = chromedriver: chrome on windows (394e7fca1f9463eaf82c3c2ecb22ef9b)
+[2023-08-21 13:51:17,764] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:51:23,589] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:51:23,878] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:51:24,033] Step 04 - Click to login button
+[2023-08-21 13:51:25,024] Verify Login successfully
+[2023-08-21 13:51:25,237] NC1 01: Open New Customer Page
+[2023-08-21 13:51:25,509] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:51:27,460] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:51:27,522] NC1 04: Verify error message is displayed
+[2023-08-21 13:51:27,727] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:51:27,879] NC2 02: Verify error message is displayed
+[2023-08-21 13:51:27,969] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:51:28,110] NC3 02: Verify error message is displayed
+[2023-08-21 13:51:28,201] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:51:28,349] N4 02: Verify error message is displayed
+[2023-08-21 13:51:28,432] N5 01: Enter to Address value ''
+[2023-08-21 13:51:28,579] N5 02: Press tab key to next field
+[2023-08-21 13:51:28,628] N5 03: Verify error message is displayed
+[2023-08-21 13:51:28,709] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:51:28,857] N6 02: Verify error message is displayed
+[2023-08-21 13:51:28,954] N8 01: Enter to City value ''
+[2023-08-21 13:51:29,102] N8 02: Press tab to navigate next field
+[2023-08-21 13:51:29,149] N8 03: Verify error message is displayed
+[2023-08-21 13:51:29,230] N9 01: Enter to City value '213123123'
+[2023-08-21 13:51:29,358] N9 02: Verify error message is displayed
+[2023-08-21 13:51:29,446] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:51:29,590] N10 02: Verify error message is displayed
+[2023-08-21 13:51:29,680] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:51:29,826] N11 02: Verify error message is displayed
+[2023-08-21 13:51:29,912] N12 01: Enter to State value ''
+[2023-08-21 13:51:30,033] N12 02: Press tab to navigate next field
+[2023-08-21 13:51:30,083] N12 03: Verify error message is displayed
+[2023-08-21 13:51:30,160] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:51:30,292] N13 02: Verify error message is displayed
+[2023-08-21 13:51:30,376] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:51:30,511] N14 02: Verify error message is displayed
+[2023-08-21 13:51:30,590] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:51:30,722] N15 02: Verify error message is displayed
+[2023-08-21 13:51:30,809] N16 01: Enter to PIN value ''
+[2023-08-21 13:51:30,957] N16 02: Press Tab to navigate next field
+[2023-08-21 13:51:31,006] N16 02: Verify error message is displayed
+[2023-08-21 13:51:31,087] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:51:31,231] N17 02: Verify error message is displayed
+[2023-08-21 13:51:31,325] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:51:31,456] N18 02: Verify error message is displayed
+[2023-08-21 13:51:31,537] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:51:31,679] N19 02: Verify error message is displayed
+[2023-08-21 13:51:31,769] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:51:31,896] NC20 02: Verify error message is displayed
+[2023-08-21 13:51:31,986] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:51:32,111] NC21 02: Verify error message is displayed
+[2023-08-21 13:51:32,187] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:51:32,328] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:51:32,385] NC22 03: Verify error message is displayed
+[2023-08-21 13:51:32,463] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:51:32,599] NC23 02: Verify error message is displayed
+[2023-08-21 13:51:32,681] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:51:32,823] NC24 02: Verify error message is displayed
+[2023-08-21 13:51:32,927] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:51:33,059] NC25 02: Verify error message is displayed
+[2023-08-21 13:51:33,148] NC26 01: Enter to Email value ''
+[2023-08-21 13:51:33,283] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:51:33,331] NC26 03: Verify error message is displayed
+[2023-08-21 13:51:33,413] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:51:33,561] NC27 02: Verify error message is displayed
+[2023-08-21 13:51:33,642] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:51:33,774] NC29 02: Verify error message is displayed
+[2023-08-21 13:51:33,859] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:51:33,969] NC30 02: Click to Submit Button
+[2023-08-21 13:51:34,111] NC30 03: Verify all field is required
+[2023-08-21 13:51:34,118] NC30 04: Accept Alert
+[2023-08-21 13:51:34,131] NC31 01: Enter to Customer Name value is: 'Florentino Kuhn'
+[2023-08-21 13:51:34,277] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:51:34,404] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:51:34,609] NC31 04: Enter to Address value is: '191 Morar Manors'
+[2023-08-21 13:51:34,753] NC31 05: Enter to City value is: 'Cummingsfort'
+[2023-08-21 13:51:34,890] NC31 06: Enter to State value is: 'Idaho'
+[2023-08-21 13:51:35,021] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:51:35,149] NC31 08: Enter to Mobile Phone Number value is: '1137146725'
+[2023-08-21 13:51:35,286] NC31 09: Enter to Email value is: 'felicitas.effertz@yahoo.com'
+[2023-08-21 13:51:35,460] NC31 10: Enter to Email value is: 'g611rzpiwmg'
+[2023-08-21 13:51:35,610] NC31 11: Click to submit button
+[2023-08-21 13:51:36,033] NC31 12: Get Customer ID
+[2023-08-21 13:51:36,069] OS name = windows 10
+[2023-08-21 13:51:36,069] Driver instance name = chromedriver: chrome on windows (1b5427b237f757f98614ae3b18c4b8eb)
+[2023-08-21 13:51:36,628] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:51:40,317] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:51:40,596] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:51:40,774] Step 04 - Click to login button
+[2023-08-21 13:51:41,779] Verify Login successfully
+[2023-08-21 13:51:41,918] Step 01 - Open Edit Customer Page
+[2023-08-21 13:51:42,146] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:51:44,392] Step 03 -Press tab to navigate next field
+[2023-08-21 13:51:44,449] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:51:44,534] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:51:45,366] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:51:45,561] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:51:45,641] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:51:46,389] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:51:46,592] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:51:46,690] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:51:47,425] Step 02 - Send key to Customer ID field value: 'null'
+[2023-08-21 13:51:47,581] OS name = windows 10
+[2023-08-21 13:51:47,581] Driver instance name = chromedriver: chrome on windows (c7fda679e0ee4f9934699d411cf64a11)
+[2023-08-21 13:52:19,580] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:52:25,999] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:52:26,242] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:52:26,396] Step 04 - Click to login button
+[2023-08-21 13:52:27,381] Verify Login successfully
+[2023-08-21 13:52:27,631] NC1 01: Open New Customer Page
+[2023-08-21 13:52:27,843] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:52:30,579] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:52:30,652] NC1 04: Verify error message is displayed
+[2023-08-21 13:52:30,823] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:52:30,976] NC2 02: Verify error message is displayed
+[2023-08-21 13:52:31,079] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:52:31,247] NC3 02: Verify error message is displayed
+[2023-08-21 13:52:31,329] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:52:31,482] N4 02: Verify error message is displayed
+[2023-08-21 13:52:31,568] N5 01: Enter to Address value ''
+[2023-08-21 13:52:31,759] N5 02: Press tab key to next field
+[2023-08-21 13:52:31,810] N5 03: Verify error message is displayed
+[2023-08-21 13:52:31,891] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:52:32,027] N6 02: Verify error message is displayed
+[2023-08-21 13:52:32,108] N8 01: Enter to City value ''
+[2023-08-21 13:52:32,255] N8 02: Press tab to navigate next field
+[2023-08-21 13:52:32,305] N8 03: Verify error message is displayed
+[2023-08-21 13:52:32,386] N9 01: Enter to City value '213123123'
+[2023-08-21 13:52:32,519] N9 02: Verify error message is displayed
+[2023-08-21 13:52:32,605] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:52:32,760] N10 02: Verify error message is displayed
+[2023-08-21 13:52:32,849] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:52:32,982] N11 02: Verify error message is displayed
+[2023-08-21 13:52:33,063] N12 01: Enter to State value ''
+[2023-08-21 13:52:33,199] N12 02: Press tab to navigate next field
+[2023-08-21 13:52:33,244] N12 03: Verify error message is displayed
+[2023-08-21 13:52:33,326] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:52:33,460] N13 02: Verify error message is displayed
+[2023-08-21 13:52:33,550] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:52:33,698] N14 02: Verify error message is displayed
+[2023-08-21 13:52:33,843] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:52:34,052] N15 02: Verify error message is displayed
+[2023-08-21 13:52:34,119] N16 01: Enter to PIN value ''
+[2023-08-21 13:52:34,254] N16 02: Press Tab to navigate next field
+[2023-08-21 13:52:34,302] N16 02: Verify error message is displayed
+[2023-08-21 13:52:34,384] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:52:34,514] N17 02: Verify error message is displayed
+[2023-08-21 13:52:34,604] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:52:34,743] N18 02: Verify error message is displayed
+[2023-08-21 13:52:34,867] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:52:35,011] N19 02: Verify error message is displayed
+[2023-08-21 13:52:35,098] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:52:35,224] NC20 02: Verify error message is displayed
+[2023-08-21 13:52:35,316] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:52:35,451] NC21 02: Verify error message is displayed
+[2023-08-21 13:52:35,519] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:52:35,669] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:52:35,717] NC22 03: Verify error message is displayed
+[2023-08-21 13:52:35,797] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:52:35,932] NC23 02: Verify error message is displayed
+[2023-08-21 13:52:36,011] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:52:36,142] NC24 02: Verify error message is displayed
+[2023-08-21 13:52:36,229] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:52:36,357] NC25 02: Verify error message is displayed
+[2023-08-21 13:52:36,446] NC26 01: Enter to Email value ''
+[2023-08-21 13:52:36,582] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:52:36,630] NC26 03: Verify error message is displayed
+[2023-08-21 13:52:36,709] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:52:36,839] NC27 02: Verify error message is displayed
+[2023-08-21 13:52:36,923] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:52:37,055] NC29 02: Verify error message is displayed
+[2023-08-21 13:52:37,138] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:52:37,274] NC30 02: Click to Submit Button
+[2023-08-21 13:52:37,381] NC30 03: Verify all field is required
+[2023-08-21 13:52:37,388] NC30 04: Accept Alert
+[2023-08-21 13:52:37,408] NC31 01: Enter to Customer Name value is: 'Gil Wisozk'
+[2023-08-21 13:52:37,558] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:52:37,696] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:52:37,897] NC31 04: Enter to Address value is: '66869 Cummerata Street'
+[2023-08-21 13:52:38,038] NC31 05: Enter to City value is: 'New Yoshiko'
+[2023-08-21 13:52:38,171] NC31 06: Enter to State value is: 'West Virginia'
+[2023-08-21 13:52:38,314] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:52:38,453] NC31 08: Enter to Mobile Phone Number value is: '0844391381'
+[2023-08-21 13:52:38,592] NC31 09: Enter to Email value is: 'scottie.kuphal@yahoo.com'
+[2023-08-21 13:52:38,747] NC31 10: Enter to Email value is: 'k44ooqs2uao3d'
+[2023-08-21 13:52:38,905] NC31 11: Click to submit button
+[2023-08-21 13:52:40,050] NC31 12: Get Customer ID
+[2023-08-21 13:52:40,213] NC31 13: Customer ID value is: 94269
+[2023-08-21 13:52:40,217] OS name = windows 10
+[2023-08-21 13:52:40,217] Driver instance name = chromedriver: chrome on windows (427402690cdb535430a777b0e5833d44)
+[2023-08-21 13:52:40,568] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:52:44,350] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:52:44,575] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:52:44,737] Step 04 - Click to login button
+[2023-08-21 13:52:45,724] Verify Login successfully
+[2023-08-21 13:52:45,848] Step 01 - Open Edit Customer Page
+[2023-08-21 13:52:46,689] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:52:46,842] Step 03 -Press tab to navigate next field
+[2023-08-21 13:52:46,908] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:52:47,056] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:52:47,806] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:52:47,963] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:52:48,046] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:52:48,829] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:52:48,984] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:52:49,129] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:52:49,871] Step 02 - Send key to Customer ID field value: '94269'
+[2023-08-21 13:52:50,142] Step 03 - Click to submit button
+[2023-08-21 13:52:50,998] OS name = windows 10
+[2023-08-21 13:52:50,999] Driver instance name = chromedriver: chrome on windows (c399fe47df5d3b475aac5c7e86477a91)
+[2023-08-21 13:55:30,698] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:55:36,969] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:55:37,218] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:55:37,391] Step 04 - Click to login button
+[2023-08-21 13:55:38,411] Verify Login successfully
+[2023-08-21 13:55:38,638] NC1 01: Open New Customer Page
+[2023-08-21 13:55:38,858] NC1 02: Enter to Customer Name ''
+[2023-08-21 13:55:41,475] NC1 03: Press TAB to navigate next field
+[2023-08-21 13:55:41,536] NC1 04: Verify error message is displayed
+[2023-08-21 13:55:41,749] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 13:55:41,887] NC2 02: Verify error message is displayed
+[2023-08-21 13:55:41,972] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 13:55:42,128] NC3 02: Verify error message is displayed
+[2023-08-21 13:55:42,216] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:55:42,365] N4 02: Verify error message is displayed
+[2023-08-21 13:55:42,447] N5 01: Enter to Address value ''
+[2023-08-21 13:55:42,595] N5 02: Press tab key to next field
+[2023-08-21 13:55:42,669] N5 03: Verify error message is displayed
+[2023-08-21 13:55:42,753] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 13:55:42,920] N6 02: Verify error message is displayed
+[2023-08-21 13:55:43,004] N8 01: Enter to City value ''
+[2023-08-21 13:55:43,123] N8 02: Press tab to navigate next field
+[2023-08-21 13:55:43,170] N8 03: Verify error message is displayed
+[2023-08-21 13:55:43,254] N9 01: Enter to City value '213123123'
+[2023-08-21 13:55:43,383] N9 02: Verify error message is displayed
+[2023-08-21 13:55:43,471] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 13:55:43,634] N10 02: Verify error message is displayed
+[2023-08-21 13:55:43,719] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 13:55:43,869] N11 02: Verify error message is displayed
+[2023-08-21 13:55:43,951] N12 01: Enter to State value ''
+[2023-08-21 13:55:44,166] N12 02: Press tab to navigate next field
+[2023-08-21 13:55:44,213] N12 03: Verify error message is displayed
+[2023-08-21 13:55:44,294] N13 01: Enter to State value '123123123123'
+[2023-08-21 13:55:44,433] N13 02: Verify error message is displayed
+[2023-08-21 13:55:44,513] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 13:55:44,667] N14 02: Verify error message is displayed
+[2023-08-21 13:55:44,744] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 13:55:44,877] N15 02: Verify error message is displayed
+[2023-08-21 13:55:44,961] N16 01: Enter to PIN value ''
+[2023-08-21 13:55:45,112] N16 02: Press Tab to navigate next field
+[2023-08-21 13:55:45,160] N16 02: Verify error message is displayed
+[2023-08-21 13:55:45,241] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 13:55:45,383] N17 02: Verify error message is displayed
+[2023-08-21 13:55:45,472] N18 01: Enter to PIN value '12345'
+[2023-08-21 13:55:45,610] N18 02: Verify error message is displayed
+[2023-08-21 13:55:45,687] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 13:55:45,831] N19 02: Verify error message is displayed
+[2023-08-21 13:55:45,920] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 13:55:46,050] NC20 02: Verify error message is displayed
+[2023-08-21 13:55:46,122] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 13:55:46,248] NC21 02: Verify error message is displayed
+[2023-08-21 13:55:46,312] NC22 01: Enter to Telephone value ''
+[2023-08-21 13:55:46,449] NC22 02: Press Tab to navigate next field
+[2023-08-21 13:55:46,495] NC22 03: Verify error message is displayed
+[2023-08-21 13:55:46,572] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 13:55:46,727] NC23 02: Verify error message is displayed
+[2023-08-21 13:55:46,809] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 13:55:46,951] NC24 02: Verify error message is displayed
+[2023-08-21 13:55:47,037] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 13:55:47,220] NC25 02: Verify error message is displayed
+[2023-08-21 13:55:47,303] NC26 01: Enter to Email value ''
+[2023-08-21 13:55:47,453] NC26 01: Press Tab to navigate next field
+[2023-08-21 13:55:47,499] NC26 03: Verify error message is displayed
+[2023-08-21 13:55:47,581] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 13:55:47,713] NC27 02: Verify error message is displayed
+[2023-08-21 13:55:47,799] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 13:55:47,932] NC29 02: Verify error message is displayed
+[2023-08-21 13:55:48,016] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 13:55:48,139] NC30 02: Click to Submit Button
+[2023-08-21 13:55:48,268] NC30 03: Verify all field is required
+[2023-08-21 13:55:48,276] NC30 04: Accept Alert
+[2023-08-21 13:55:48,292] NC31 01: Enter to Customer Name value is: 'Adriene Watsica I'
+[2023-08-21 13:55:48,438] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 13:55:48,548] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 13:55:48,769] NC31 04: Enter to Address value is: '24337 Stanton Falls'
+[2023-08-21 13:55:48,924] NC31 05: Enter to City value is: 'New Malcom'
+[2023-08-21 13:55:49,076] NC31 06: Enter to State value is: 'Maryland'
+[2023-08-21 13:55:49,206] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 13:55:49,345] NC31 08: Enter to Mobile Phone Number value is: '6653604873'
+[2023-08-21 13:55:49,488] NC31 09: Enter to Email value is: 'modesto.towne@yahoo.com'
+[2023-08-21 13:55:49,640] NC31 10: Enter to Email value is: 'lbp8dpomqd8d'
+[2023-08-21 13:55:49,810] NC31 11: Click to submit button
+[2023-08-21 13:55:51,807] NC31 12: Get Customer ID
+[2023-08-21 13:55:51,942] NC31 13: Customer ID value is: 69748
+[2023-08-21 13:55:51,946] OS name = windows 10
+[2023-08-21 13:55:51,946] Driver instance name = chromedriver: chrome on windows (2c570f985349625eae737b9c9db2adb7)
+[2023-08-21 13:55:52,272] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 13:55:58,133] Step 02 - Input to USERID value mngr522589
+[2023-08-21 13:55:58,355] Step 03 - Input to Password value epEhEgY
+[2023-08-21 13:55:58,520] Step 04 - Click to login button
+[2023-08-21 13:55:59,633] Verify Login successfully
+[2023-08-21 13:55:59,736] Step 01 - Open Edit Customer Page
+[2023-08-21 13:55:59,995] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 13:56:02,090] Step 03 -Press tab to navigate next field
+[2023-08-21 13:56:02,139] Step 04 -Verify error message Customer ID field
+[2023-08-21 13:56:02,215] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:56:03,009] Step 02 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 13:56:03,198] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:56:03,273] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:56:04,060] Step 02 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 13:56:04,274] Step 03 - Verify Error Message Displayed
+[2023-08-21 13:56:04,375] Step 01 - Reload Edit Customer ID Page
+[2023-08-21 13:56:05,152] Step 02 - Send key to Customer ID field value: '69748'
+[2023-08-21 13:56:05,344] Step 03 - Click to submit button
+[2023-08-21 13:56:06,265] OS name = windows 10
+[2023-08-21 13:56:06,265] Driver instance name = chromedriver: chrome on windows (a91388189a9aa3d82decac416efb533d)
+[2023-08-21 15:14:27,108] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:14:34,195] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:14:34,505] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:14:34,647] Step 04 - Click to login button
+[2023-08-21 15:14:35,650] Verify Login successfully
+[2023-08-21 15:14:35,862] NC1 01: Open New Customer Page
+[2023-08-21 15:14:36,119] NC1 02: Enter to Customer Name ''
+[2023-08-21 15:14:37,935] NC1 03: Press TAB to navigate next field
+[2023-08-21 15:14:38,012] NC1 04: Verify error message is displayed
+[2023-08-21 15:14:38,203] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 15:14:38,362] NC2 02: Verify error message is displayed
+[2023-08-21 15:14:38,457] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 15:14:38,629] NC3 02: Verify error message is displayed
+[2023-08-21 15:14:38,715] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:14:38,867] N4 02: Verify error message is displayed
+[2023-08-21 15:14:38,947] N5 01: Enter to Address value ''
+[2023-08-21 15:14:39,098] N5 02: Press tab key to next field
+[2023-08-21 15:14:39,146] N5 03: Verify error message is displayed
+[2023-08-21 15:14:39,227] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:14:39,377] N6 02: Verify error message is displayed
+[2023-08-21 15:14:39,459] N8 01: Enter to City value ''
+[2023-08-21 15:14:39,578] N8 02: Press tab to navigate next field
+[2023-08-21 15:14:39,626] N8 03: Verify error message is displayed
+[2023-08-21 15:14:39,707] N9 01: Enter to City value '213123123'
+[2023-08-21 15:14:39,855] N9 02: Verify error message is displayed
+[2023-08-21 15:14:39,939] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 15:14:40,097] N10 02: Verify error message is displayed
+[2023-08-21 15:14:40,185] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 15:14:40,356] N11 02: Verify error message is displayed
+[2023-08-21 15:14:40,435] N12 01: Enter to State value ''
+[2023-08-21 15:14:40,569] N12 02: Press tab to navigate next field
+[2023-08-21 15:14:40,618] N12 03: Verify error message is displayed
+[2023-08-21 15:14:40,698] N13 01: Enter to State value '123123123123'
+[2023-08-21 15:14:40,832] N13 02: Verify error message is displayed
+[2023-08-21 15:14:40,900] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 15:14:41,081] N14 02: Verify error message is displayed
+[2023-08-21 15:14:41,164] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 15:14:41,312] N15 02: Verify error message is displayed
+[2023-08-21 15:14:41,400] N16 01: Enter to PIN value ''
+[2023-08-21 15:14:41,566] N16 02: Press Tab to navigate next field
+[2023-08-21 15:14:41,611] N16 02: Verify error message is displayed
+[2023-08-21 15:14:41,689] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 15:14:41,818] N17 02: Verify error message is displayed
+[2023-08-21 15:14:41,897] N18 01: Enter to PIN value '12345'
+[2023-08-21 15:14:42,076] N18 02: Verify error message is displayed
+[2023-08-21 15:14:42,154] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 15:14:42,281] N19 02: Verify error message is displayed
+[2023-08-21 15:14:42,373] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 15:14:42,500] NC20 02: Verify error message is displayed
+[2023-08-21 15:14:42,607] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 15:14:42,783] NC21 02: Verify error message is displayed
+[2023-08-21 15:14:42,854] NC22 01: Enter to Telephone value ''
+[2023-08-21 15:14:42,972] NC22 02: Press Tab to navigate next field
+[2023-08-21 15:14:43,022] NC22 03: Verify error message is displayed
+[2023-08-21 15:14:43,099] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 15:14:43,235] NC23 02: Verify error message is displayed
+[2023-08-21 15:14:43,300] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 15:14:43,480] NC24 02: Verify error message is displayed
+[2023-08-21 15:14:43,562] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 15:14:43,713] NC25 02: Verify error message is displayed
+[2023-08-21 15:14:43,795] NC26 01: Enter to Email value ''
+[2023-08-21 15:14:43,997] NC26 01: Press Tab to navigate next field
+[2023-08-21 15:14:44,054] NC26 03: Verify error message is displayed
+[2023-08-21 15:14:44,150] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 15:14:44,279] NC27 02: Verify error message is displayed
+[2023-08-21 15:14:44,365] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 15:14:44,499] NC29 02: Verify error message is displayed
+[2023-08-21 15:14:44,598] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 15:14:44,717] NC30 02: Click to Submit Button
+[2023-08-21 15:14:44,826] NC30 03: Verify all field is required
+[2023-08-21 15:14:44,831] NC30 04: Accept Alert
+[2023-08-21 15:14:44,850] NC31 01: Enter to Customer Name value is: 'Elton Okuneva DVM'
+[2023-08-21 15:14:45,003] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 15:14:45,136] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 15:14:45,335] NC31 04: Enter to Address value is: '6860 Beer Points'
+[2023-08-21 15:14:45,476] NC31 05: Enter to City value is: 'Kochport'
+[2023-08-21 15:14:45,605] NC31 06: Enter to State value is: 'Texas'
+[2023-08-21 15:14:45,745] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 15:14:45,884] NC31 08: Enter to Mobile Phone Number value is: '2753116433'
+[2023-08-21 15:14:46,029] NC31 09: Enter to Email value is: 'mei.bailey@hotmail.com'
+[2023-08-21 15:14:46,180] NC31 10: Enter to Email value is: 'fzzvoz51kwz'
+[2023-08-21 15:14:46,337] NC31 11: Click to submit button
+[2023-08-21 15:15:00,394] NC31 12: Get Customer ID
+[2023-08-21 15:15:00,516] NC31 13: Customer ID value is: 31556
+[2023-08-21 15:15:00,523] OS name = windows 10
+[2023-08-21 15:15:00,523] Driver instance name = chromedriver: chrome on windows (f320cae24592916c6e7cf88df59ba4ac)
+[2023-08-21 15:15:00,958] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:15:07,266] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:15:07,474] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:15:07,639] Step 04 - Click to login button
+[2023-08-21 15:15:11,491] Verify Login successfully
+[2023-08-21 15:15:11,593] Step 01 - Open Edit Customer Page
+[2023-08-21 15:15:11,734] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 15:15:15,155] Step 03 -Press tab to navigate next field
+[2023-08-21 15:15:15,223] Step 04 -Verify error message Customer ID field
+[2023-08-21 15:15:15,291] Step 01 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 15:15:15,420] Step 02 - Verify Error Message Displayed
+[2023-08-21 15:15:15,508] Step 01 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 15:15:15,637] Step 02 - Verify Error Message Displayed
+[2023-08-21 15:15:15,723] Step 01 - Send key to Customer ID field value: '31556'
+[2023-08-21 15:15:15,853] Step 02 - Click to submit button
+[2023-08-21 15:15:17,196] Step 01 - Send key to Customer ID field value: '31556'
+[2023-08-21 15:15:17,362] Step 02 - Press Tab to navigate next field at Address Field
+[2023-08-21 15:15:17,414] Step 03 - Verify Error Message Address displayed
+[2023-08-21 15:15:17,492] Step 01 - Send key to City field value: 
+[2023-08-21 15:15:17,617] Step 02 - Press Tab to navigate next field at City Field
+[2023-08-21 15:15:17,662] Step 03 - Verify Error Message City displayed
+[2023-08-21 15:15:17,762] Step 01 - Send key to City field value: 1234
+[2023-08-21 15:15:17,935] Step 02 - Verify Error Message City displayed
+[2023-08-21 15:15:18,029] Step 01 - Send key to City field value: !@#$$$@!
+[2023-08-21 15:15:18,178] Step 02 - Verify Error Message City displayed
+[2023-08-21 15:15:18,261] Step 01 - Send key to State field value: 
+[2023-08-21 15:15:18,377] Step 02 - Press Tab to navigate next field at State Field
+[2023-08-21 15:15:18,425] Step 03 - Verify Error Message State displayed
+[2023-08-21 15:15:48,521] Step 01 - Send key to State field value: 1234
+[2023-08-21 15:15:48,685] Step 02 - Verify Error Message State displayed
+[2023-08-21 15:15:48,773] Step 01 - Send key to State field value: !@#$$$@!
+[2023-08-21 15:15:48,914] Step 02 - Verify Error Message State displayed
+[2023-08-21 15:15:49,003] Step 01 - Send key to PIN field value: 
+[2023-08-21 15:15:49,117] Step 02 - Press Tab to navigate next field at State Field
+[2023-08-21 15:15:49,167] Step 03 - Verify Error Message State displayed
+[2023-08-21 15:16:19,225] Step 01 - Send key to State field value: 1234AB
+[2023-08-21 15:16:19,431] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:16:49,470] Step 01 - Send key to PIN field value: !@#$$$@!
+[2023-08-21 15:16:49,633] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:16:49,721] Step 01 - Send key to PIN field value: 1234
+[2023-08-21 15:16:49,845] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:17:19,928] Step 01 - Send key to TelePhone field value: !@#$$$@!
+[2023-08-21 15:17:20,103] Step 02 - Verify Error Message TelePhone displayed
+[2023-08-21 15:17:20,185] Step 01 - Send key to TelePhone field value: ''
+[2023-08-21 15:17:20,300] Step 02 - Verify Error Message TelePhone displayed
+[2023-08-21 15:17:20,369] Step 01 - Send key to Email field value: ''
+[2023-08-21 15:17:20,500] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:17:20,569] Step 01 - Send key to TelePhone field value: guru99@gmail
+[2023-08-21 15:17:20,687] Step 02 - Verify Error Message Email displayed
+[2023-08-21 15:17:50,729] OS name = windows 10
+[2023-08-21 15:17:50,729] Driver instance name = chromedriver: chrome on windows (7a3017b3a5991377255d3144d1502de0)
+[2023-08-21 15:20:38,916] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:20:44,865] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:20:45,118] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:20:45,274] Step 04 - Click to login button
+[2023-08-21 15:20:46,262] Verify Login successfully
+[2023-08-21 15:20:46,491] NC1 01: Open New Customer Page
+[2023-08-21 15:20:46,724] NC1 02: Enter to Customer Name ''
+[2023-08-21 15:20:49,605] NC1 03: Press TAB to navigate next field
+[2023-08-21 15:20:49,673] NC1 04: Verify error message is displayed
+[2023-08-21 15:20:49,876] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 15:20:50,032] NC2 02: Verify error message is displayed
+[2023-08-21 15:20:50,126] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 15:20:50,266] NC3 02: Verify error message is displayed
+[2023-08-21 15:20:50,355] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:20:50,507] N4 02: Verify error message is displayed
+[2023-08-21 15:20:50,586] N5 01: Enter to Address value ''
+[2023-08-21 15:20:50,720] N5 02: Press tab key to next field
+[2023-08-21 15:20:50,769] N5 03: Verify error message is displayed
+[2023-08-21 15:20:50,850] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:20:50,997] N6 02: Verify error message is displayed
+[2023-08-21 15:20:51,083] N8 01: Enter to City value ''
+[2023-08-21 15:20:51,217] N8 02: Press tab to navigate next field
+[2023-08-21 15:20:51,265] N8 03: Verify error message is displayed
+[2023-08-21 15:20:51,349] N9 01: Enter to City value '213123123'
+[2023-08-21 15:20:51,480] N9 02: Verify error message is displayed
+[2023-08-21 15:20:51,566] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 15:20:51,706] N10 02: Verify error message is displayed
+[2023-08-21 15:20:51,795] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 15:20:51,929] N11 02: Verify error message is displayed
+[2023-08-21 15:20:52,011] N12 01: Enter to State value ''
+[2023-08-21 15:20:52,159] N12 02: Press tab to navigate next field
+[2023-08-21 15:20:52,208] N12 03: Verify error message is displayed
+[2023-08-21 15:20:52,288] N13 01: Enter to State value '123123123123'
+[2023-08-21 15:20:52,422] N13 02: Verify error message is displayed
+[2023-08-21 15:20:52,489] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 15:20:52,629] N14 02: Verify error message is displayed
+[2023-08-21 15:20:52,691] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 15:20:52,824] N15 02: Verify error message is displayed
+[2023-08-21 15:20:52,908] N16 01: Enter to PIN value ''
+[2023-08-21 15:20:53,043] N16 02: Press Tab to navigate next field
+[2023-08-21 15:20:53,093] N16 02: Verify error message is displayed
+[2023-08-21 15:20:53,171] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 15:20:53,300] N17 02: Verify error message is displayed
+[2023-08-21 15:20:53,376] N18 01: Enter to PIN value '12345'
+[2023-08-21 15:20:53,511] N18 02: Verify error message is displayed
+[2023-08-21 15:20:53,601] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 15:20:53,732] N19 02: Verify error message is displayed
+[2023-08-21 15:20:53,819] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 15:20:53,949] NC20 02: Verify error message is displayed
+[2023-08-21 15:20:54,037] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 15:20:54,165] NC21 02: Verify error message is displayed
+[2023-08-21 15:20:54,242] NC22 01: Enter to Telephone value ''
+[2023-08-21 15:20:54,361] NC22 02: Press Tab to navigate next field
+[2023-08-21 15:20:54,412] NC22 03: Verify error message is displayed
+[2023-08-21 15:20:54,492] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 15:20:54,635] NC23 02: Verify error message is displayed
+[2023-08-21 15:20:54,723] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 15:20:54,858] NC24 02: Verify error message is displayed
+[2023-08-21 15:20:54,939] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 15:20:55,068] NC25 02: Verify error message is displayed
+[2023-08-21 15:20:55,159] NC26 01: Enter to Email value ''
+[2023-08-21 15:20:55,295] NC26 01: Press Tab to navigate next field
+[2023-08-21 15:20:55,345] NC26 03: Verify error message is displayed
+[2023-08-21 15:20:55,424] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 15:20:55,557] NC27 02: Verify error message is displayed
+[2023-08-21 15:20:55,629] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 15:20:55,760] NC29 02: Verify error message is displayed
+[2023-08-21 15:20:55,844] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 15:20:55,967] NC30 02: Click to Submit Button
+[2023-08-21 15:20:56,074] NC30 03: Verify all field is required
+[2023-08-21 15:20:56,081] NC30 04: Accept Alert
+[2023-08-21 15:20:56,101] NC31 01: Enter to Customer Name value is: 'Mr. Garfield O'Conner'
+[2023-08-21 15:20:56,262] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 15:20:56,391] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 15:20:56,602] NC31 04: Enter to Address value is: '634 Crooks Island'
+[2023-08-21 15:20:56,751] NC31 05: Enter to City value is: 'South Shana'
+[2023-08-21 15:20:56,893] NC31 06: Enter to State value is: 'South Dakota'
+[2023-08-21 15:20:57,037] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 15:20:57,166] NC31 08: Enter to Mobile Phone Number value is: '6972025430'
+[2023-08-21 15:20:57,311] NC31 09: Enter to Email value is: 'thomasena.kemmer@gmail.com'
+[2023-08-21 15:20:57,470] NC31 10: Enter to Email value is: 'kywqrludsurz'
+[2023-08-21 15:20:57,621] NC31 11: Click to submit button
+[2023-08-21 15:20:57,734] NC31 12: Get Customer ID
+[2023-08-21 15:20:57,756] OS name = windows 10
+[2023-08-21 15:20:57,757] Driver instance name = chromedriver: chrome on windows (3efe00e80a0676ab714ab0d016ae20b3)
+[2023-08-21 15:20:58,133] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:21:02,018] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:21:02,243] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:21:02,427] Step 04 - Click to login button
+[2023-08-21 15:21:03,514] Verify Login successfully
+[2023-08-21 15:21:03,596] Step 01 - Open Edit Customer Page
+[2023-08-21 15:21:04,483] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 15:21:04,652] Step 03 -Press tab to navigate next field
+[2023-08-21 15:21:04,808] Step 04 -Verify error message Customer ID field
+[2023-08-21 15:21:04,887] Step 01 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 15:21:05,035] Step 02 - Verify Error Message Displayed
+[2023-08-21 15:21:05,119] Step 01 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 15:21:05,247] Step 02 - Verify Error Message Displayed
+[2023-08-21 15:21:05,335] Step 01 - Send key to Customer ID field value: 'null'
+[2023-08-21 15:21:05,473] Step 01 - Send key to Customer ID field value: 'null'
+[2023-08-21 15:21:14,307] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:21:24,615] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:21:24,853] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:21:25,011] Step 04 - Click to login button
+[2023-08-21 15:21:26,121] Verify Login successfully
+[2023-08-21 15:21:26,371] NC1 01: Open New Customer Page
+[2023-08-21 15:21:26,616] NC1 02: Enter to Customer Name ''
+[2023-08-21 15:21:35,503] Step 01 - Send key to City field value: 
+[2023-08-21 15:21:43,093] NC1 03: Press TAB to navigate next field
+[2023-08-21 15:21:43,139] NC1 04: Verify error message is displayed
+[2023-08-21 15:21:43,361] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 15:21:43,529] NC2 02: Verify error message is displayed
+[2023-08-21 15:21:43,623] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 15:21:43,766] NC3 02: Verify error message is displayed
+[2023-08-21 15:21:43,856] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:21:44,013] N4 02: Verify error message is displayed
+[2023-08-21 15:21:44,107] N5 01: Enter to Address value ''
+[2023-08-21 15:21:44,257] N5 02: Press tab key to next field
+[2023-08-21 15:21:44,306] N5 03: Verify error message is displayed
+[2023-08-21 15:21:44,385] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:21:44,522] N6 02: Verify error message is displayed
+[2023-08-21 15:21:44,619] N8 01: Enter to City value ''
+[2023-08-21 15:21:44,769] N8 02: Press tab to navigate next field
+[2023-08-21 15:21:44,821] N8 03: Verify error message is displayed
+[2023-08-21 15:21:44,897] N9 01: Enter to City value '213123123'
+[2023-08-21 15:21:45,027] N9 02: Verify error message is displayed
+[2023-08-21 15:21:45,112] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 15:21:45,269] N10 02: Verify error message is displayed
+[2023-08-21 15:21:45,357] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 15:21:45,492] N11 02: Verify error message is displayed
+[2023-08-21 15:21:45,574] N12 01: Enter to State value ''
+[2023-08-21 15:21:45,728] N12 02: Press tab to navigate next field
+[2023-08-21 15:21:45,786] N12 03: Verify error message is displayed
+[2023-08-21 15:21:45,863] N13 01: Enter to State value '123123123123'
+[2023-08-21 15:21:46,016] N13 02: Verify error message is displayed
+[2023-08-21 15:21:46,107] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 15:21:46,263] N14 02: Verify error message is displayed
+[2023-08-21 15:21:46,339] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 15:21:46,484] N15 02: Verify error message is displayed
+[2023-08-21 15:21:46,567] N16 01: Enter to PIN value ''
+[2023-08-21 15:21:46,702] N16 02: Press Tab to navigate next field
+[2023-08-21 15:21:46,752] N16 02: Verify error message is displayed
+[2023-08-21 15:21:46,829] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 15:21:46,977] N17 02: Verify error message is displayed
+[2023-08-21 15:21:47,063] N18 01: Enter to PIN value '12345'
+[2023-08-21 15:21:47,199] N18 02: Verify error message is displayed
+[2023-08-21 15:21:47,290] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 15:21:47,434] N19 02: Verify error message is displayed
+[2023-08-21 15:21:47,523] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 15:21:47,651] NC20 02: Verify error message is displayed
+[2023-08-21 15:21:47,739] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 15:21:47,862] NC21 02: Verify error message is displayed
+[2023-08-21 15:21:47,926] NC22 01: Enter to Telephone value ''
+[2023-08-21 15:21:48,066] NC22 02: Press Tab to navigate next field
+[2023-08-21 15:21:48,125] NC22 03: Verify error message is displayed
+[2023-08-21 15:21:48,205] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 15:21:48,342] NC23 02: Verify error message is displayed
+[2023-08-21 15:21:48,451] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 15:21:48,580] NC24 02: Verify error message is displayed
+[2023-08-21 15:21:48,664] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 15:21:48,792] NC25 02: Verify error message is displayed
+[2023-08-21 15:21:48,879] NC26 01: Enter to Email value ''
+[2023-08-21 15:21:49,013] NC26 01: Press Tab to navigate next field
+[2023-08-21 15:21:49,062] NC26 03: Verify error message is displayed
+[2023-08-21 15:21:49,143] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 15:21:49,272] NC27 02: Verify error message is displayed
+[2023-08-21 15:21:49,359] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 15:21:49,490] NC29 02: Verify error message is displayed
+[2023-08-21 15:21:49,573] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 15:21:49,693] NC30 02: Click to Submit Button
+[2023-08-21 15:21:49,801] NC30 03: Verify all field is required
+[2023-08-21 15:21:49,808] NC30 04: Accept Alert
+[2023-08-21 15:21:49,828] NC31 01: Enter to Customer Name value is: 'Silas Fadel'
+[2023-08-21 15:21:49,976] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 15:21:50,099] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 15:21:50,293] NC31 04: Enter to Address value is: '606 Nicola Drive'
+[2023-08-21 15:21:50,432] NC31 05: Enter to City value is: 'Port Lizette'
+[2023-08-21 15:21:50,570] NC31 06: Enter to State value is: 'Rhode Island'
+[2023-08-21 15:21:50,708] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 15:21:50,843] NC31 08: Enter to Mobile Phone Number value is: '2323688464'
+[2023-08-21 15:21:50,980] NC31 09: Enter to Email value is: 'tandra.welch@yahoo.com'
+[2023-08-21 15:21:51,133] NC31 10: Enter to Email value is: '2mmumneyv986l'
+[2023-08-21 15:21:51,294] NC31 11: Click to submit button
+[2023-08-21 15:21:51,680] NC31 12: Get Customer ID
+[2023-08-21 15:21:51,712] OS name = windows 10
+[2023-08-21 15:21:51,712] Driver instance name = chromedriver: chrome on windows (2f2a79adc642b8b19e2649638906498b)
+[2023-08-21 15:21:52,376] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:21:52,383] Step 01 - Send key to City field value: 1234
+[2023-08-21 15:21:52,391] Step 01 - Send key to City field value: !@#$$$@!
+[2023-08-21 15:21:52,398] Step 01 - Send key to State field value: 
+[2023-08-21 15:21:52,406] Step 01 - Send key to State field value: 1234
+[2023-08-21 15:21:52,431] Step 01 - Send key to State field value: !@#$$$@!
+[2023-08-21 15:21:52,442] Step 01 - Send key to PIN field value: 
+[2023-08-21 15:21:52,452] Step 01 - Send key to PIN field value: 1234AB
+[2023-08-21 15:21:52,462] Step 01 - Send key to PIN field value: !@#$$$@!
+[2023-08-21 15:21:52,472] Step 01 - Send key to PIN field value: 1234
+[2023-08-21 15:21:52,481] Step 01 - Send key to TelePhone field value: !@#$$$@!
+[2023-08-21 15:21:52,491] Step 01 - Send key to TelePhone field value: ''
+[2023-08-21 15:21:52,503] Step 01 - Send key to Email field value: ''
+[2023-08-21 15:21:52,515] Step 01 - Send key to TelePhone field value: guru99@gmail
+[2023-08-21 15:21:52,522] OS name = windows 10
+[2023-08-21 15:21:52,522] Driver instance name = chromedriver: chrome on windows (0a377142658f0dcaf4b5c0688068f850)
+[2023-08-21 15:21:52,524] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:34986
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VN-TANTRANDINH2', ip: '192.168.180.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: driver.version: RemoteWebDriver
+[2023-08-21 15:22:05,150] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:22:11,435] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:22:11,738] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:22:11,913] Step 04 - Click to login button
+[2023-08-21 15:22:13,015] Verify Login successfully
+[2023-08-21 15:22:13,237] NC1 01: Open New Customer Page
+[2023-08-21 15:22:13,462] NC1 02: Enter to Customer Name ''
+[2023-08-21 15:22:15,487] NC1 03: Press TAB to navigate next field
+[2023-08-21 15:22:15,550] NC1 04: Verify error message is displayed
+[2023-08-21 15:22:15,738] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 15:22:15,895] NC2 02: Verify error message is displayed
+[2023-08-21 15:22:15,980] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 15:22:16,120] NC3 02: Verify error message is displayed
+[2023-08-21 15:22:16,209] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:22:16,344] N4 02: Verify error message is displayed
+[2023-08-21 15:22:16,428] N5 01: Enter to Address value ''
+[2023-08-21 15:22:16,559] N5 02: Press tab key to next field
+[2023-08-21 15:22:16,611] N5 03: Verify error message is displayed
+[2023-08-21 15:22:16,709] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 15:22:16,863] N6 02: Verify error message is displayed
+[2023-08-21 15:22:16,999] N8 01: Enter to City value ''
+[2023-08-21 15:22:17,164] N8 02: Press tab to navigate next field
+[2023-08-21 15:22:17,212] N8 03: Verify error message is displayed
+[2023-08-21 15:22:17,292] N9 01: Enter to City value '213123123'
+[2023-08-21 15:22:17,469] N9 02: Verify error message is displayed
+[2023-08-21 15:22:17,553] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 15:22:17,695] N10 02: Verify error message is displayed
+[2023-08-21 15:22:17,785] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 15:22:17,934] N11 02: Verify error message is displayed
+[2023-08-21 15:22:18,015] N12 01: Enter to State value ''
+[2023-08-21 15:22:18,156] N12 02: Press tab to navigate next field
+[2023-08-21 15:22:18,218] N12 03: Verify error message is displayed
+[2023-08-21 15:22:18,308] N13 01: Enter to State value '123123123123'
+[2023-08-21 15:22:18,461] N13 02: Verify error message is displayed
+[2023-08-21 15:22:18,525] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 15:22:18,666] N14 02: Verify error message is displayed
+[2023-08-21 15:22:18,745] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 15:22:18,890] N15 02: Verify error message is displayed
+[2023-08-21 15:22:18,976] N16 01: Enter to PIN value ''
+[2023-08-21 15:22:19,122] N16 02: Press Tab to navigate next field
+[2023-08-21 15:22:19,172] N16 02: Verify error message is displayed
+[2023-08-21 15:22:19,256] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 15:22:19,403] N17 02: Verify error message is displayed
+[2023-08-21 15:22:19,495] N18 01: Enter to PIN value '12345'
+[2023-08-21 15:22:19,628] N18 02: Verify error message is displayed
+[2023-08-21 15:22:19,707] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 15:22:19,848] N19 02: Verify error message is displayed
+[2023-08-21 15:22:19,979] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 15:22:20,122] NC20 02: Verify error message is displayed
+[2023-08-21 15:22:20,205] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 15:22:20,350] NC21 02: Verify error message is displayed
+[2023-08-21 15:22:20,421] NC22 01: Enter to Telephone value ''
+[2023-08-21 15:22:20,556] NC22 02: Press Tab to navigate next field
+[2023-08-21 15:22:20,605] NC22 03: Verify error message is displayed
+[2023-08-21 15:22:20,699] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 15:22:20,857] NC23 02: Verify error message is displayed
+[2023-08-21 15:22:20,948] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 15:22:21,078] NC24 02: Verify error message is displayed
+[2023-08-21 15:22:21,166] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 15:22:21,289] NC25 02: Verify error message is displayed
+[2023-08-21 15:22:21,380] NC26 01: Enter to Email value ''
+[2023-08-21 15:22:21,514] NC26 01: Press Tab to navigate next field
+[2023-08-21 15:22:21,564] NC26 03: Verify error message is displayed
+[2023-08-21 15:22:21,645] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 15:22:21,772] NC27 02: Verify error message is displayed
+[2023-08-21 15:22:21,860] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 15:22:21,995] NC29 02: Verify error message is displayed
+[2023-08-21 15:22:22,077] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 15:22:22,200] NC30 02: Click to Submit Button
+[2023-08-21 15:22:22,305] NC30 03: Verify all field is required
+[2023-08-21 15:22:22,313] NC30 04: Accept Alert
+[2023-08-21 15:22:22,332] NC31 01: Enter to Customer Name value is: 'Donny Jast'
+[2023-08-21 15:22:22,479] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 15:22:22,609] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 15:22:22,818] NC31 04: Enter to Address value is: '889 Swaniawski Ridge'
+[2023-08-21 15:22:22,968] NC31 05: Enter to City value is: 'Emelinefort'
+[2023-08-21 15:22:23,100] NC31 06: Enter to State value is: 'Iowa'
+[2023-08-21 15:22:23,239] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 15:22:23,383] NC31 08: Enter to Mobile Phone Number value is: '0916377528'
+[2023-08-21 15:22:23,520] NC31 09: Enter to Email value is: 'freddie.effertz@gmail.com'
+[2023-08-21 15:22:23,676] NC31 10: Enter to Email value is: 'ch9sh5d9t3gkzic'
+[2023-08-21 15:22:23,834] NC31 11: Click to submit button
+[2023-08-21 15:22:25,014] NC31 12: Get Customer ID
+[2023-08-21 15:22:25,121] NC31 13: Customer ID value is: 37317
+[2023-08-21 15:22:25,125] OS name = windows 10
+[2023-08-21 15:22:25,125] Driver instance name = chromedriver: chrome on windows (6d2638bd0b9ddd3f6ed63b0e9862b0e5)
+[2023-08-21 15:22:25,485] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 15:22:29,581] Step 02 - Input to USERID value mngr522589
+[2023-08-21 15:22:29,833] Step 03 - Input to Password value epEhEgY
+[2023-08-21 15:22:30,048] Step 04 - Click to login button
+[2023-08-21 15:22:31,004] Verify Login successfully
+[2023-08-21 15:22:31,123] Step 01 - Open Edit Customer Page
+[2023-08-21 15:22:32,010] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 15:22:32,171] Step 03 -Press tab to navigate next field
+[2023-08-21 15:22:32,218] Step 04 -Verify error message Customer ID field
+[2023-08-21 15:22:32,360] Step 01 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 15:22:32,512] Step 02 - Verify Error Message Displayed
+[2023-08-21 15:22:32,591] Step 01 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 15:22:32,720] Step 02 - Verify Error Message Displayed
+[2023-08-21 15:22:32,809] Step 01 - Send key to Customer ID field value: '37317'
+[2023-08-21 15:22:32,964] Step 02 - Click to submit button
+[2023-08-21 15:22:33,810] Step 01 - Send key to Customer ID field value: '37317'
+[2023-08-21 15:22:34,053] Step 02 - Press Tab to navigate next field at Address Field
+[2023-08-21 15:22:34,154] Step 03 - Verify Error Message Address displayed
+[2023-08-21 15:22:34,254] Step 01 - Send key to City field value: 
+[2023-08-21 15:22:34,419] Step 02 - Press Tab to navigate next field at City Field
+[2023-08-21 15:22:34,464] Step 03 - Verify Error Message City displayed
+[2023-08-21 15:22:34,546] Step 01 - Send key to City field value: 1234
+[2023-08-21 15:22:34,688] Step 02 - Verify Error Message City displayed
+[2023-08-21 15:22:34,778] Step 01 - Send key to City field value: !@#$$$@!
+[2023-08-21 15:22:34,917] Step 02 - Verify Error Message City displayed
+[2023-08-21 15:22:34,995] Step 01 - Send key to State field value: 
+[2023-08-21 15:22:35,145] Step 02 - Press Tab to navigate next field at State Field
+[2023-08-21 15:22:35,193] Step 03 - Verify Error Message State displayed
+[2023-08-21 15:22:35,273] Step 01 - Send key to State field value: 1234
+[2023-08-21 15:22:35,396] Step 02 - Verify Error Message State displayed
+[2023-08-21 15:22:35,486] Step 01 - Send key to State field value: !@#$$$@!
+[2023-08-21 15:22:35,620] Step 02 - Verify Error Message State displayed
+[2023-08-21 15:22:35,704] Step 01 - Send key to PIN field value: 
+[2023-08-21 15:22:35,840] Step 02 - Press Tab to navigate next field at State Field
+[2023-08-21 15:22:35,888] Step 03 - Verify Error Message PIN displayed
+[2023-08-21 15:22:35,967] Step 01 - Send key to PIN field value: 1234AB
+[2023-08-21 15:22:36,098] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:22:36,172] Step 01 - Send key to PIN field value: !@#$$$@!
+[2023-08-21 15:22:36,321] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:22:36,405] Step 01 - Send key to PIN field value: 1234
+[2023-08-21 15:22:36,534] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:22:36,610] Step 01 - Send key to TelePhone field value: !@#$$$@!
+[2023-08-21 15:22:36,750] Step 02 - Verify Error Message TelePhone displayed
+[2023-08-21 15:22:36,826] Step 01 - Send key to TelePhone field value: ''
+[2023-08-21 15:22:36,944] Step 02 - Verify Error Message TelePhone displayed
+[2023-08-21 15:22:37,030] Step 01 - Send key to Email field value: ''
+[2023-08-21 15:22:37,194] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 15:22:37,260] Step 01 - Send key to TelePhone field value: guru99@gmail
+[2023-08-21 15:22:37,379] Step 02 - Verify Error Message Email displayed
+[2023-08-21 15:22:37,463] OS name = windows 10
+[2023-08-21 15:22:37,463] Driver instance name = chromedriver: chrome on windows (2d85ed4ea8c729be6dd6506b63e85d1a)
+[2023-08-21 17:02:58,865] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 17:03:05,269] Step 02 - Input to USERID value mngr522589
+[2023-08-21 17:03:05,578] Step 03 - Input to Password value epEhEgY
+[2023-08-21 17:03:05,740] Step 04 - Click to login button
+[2023-08-21 17:03:06,724] Verify Login successfully
+[2023-08-21 17:03:06,905] NC1 01: Open New Customer Page
+[2023-08-21 17:03:07,608] NC1 02: Enter to Customer Name ''
+[2023-08-21 17:03:07,771] NC1 03: Press TAB to navigate next field
+[2023-08-21 17:03:07,847] NC1 04: Verify error message is displayed
+[2023-08-21 17:03:08,107] NC2 01: Enter to Customer Name value 'Acc1234'
+[2023-08-21 17:03:08,256] NC2 02: Verify error message is displayed
+[2023-08-21 17:03:08,349] NC3 01: Enter to Customer Name value '123123@##!'
+[2023-08-21 17:03:08,500] NC3 02: Verify error message is displayed
+[2023-08-21 17:03:08,584] N4 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 17:03:08,750] N4 02: Verify error message is displayed
+[2023-08-21 17:03:08,832] N5 01: Enter to Address value ''
+[2023-08-21 17:03:08,981] N5 02: Press tab key to next field
+[2023-08-21 17:03:09,024] N5 03: Verify error message is displayed
+[2023-08-21 17:03:09,109] N6 01: Enter to Customer Name value ' dsdsdsdsdsd'
+[2023-08-21 17:03:09,257] N6 02: Verify error message is displayed
+[2023-08-21 17:03:09,340] N8 01: Enter to City value ''
+[2023-08-21 17:03:09,461] N8 02: Press tab to navigate next field
+[2023-08-21 17:03:09,507] N8 03: Verify error message is displayed
+[2023-08-21 17:03:09,590] N9 01: Enter to City value '213123123'
+[2023-08-21 17:03:09,723] N9 02: Verify error message is displayed
+[2023-08-21 17:03:09,810] N10 01: Enter to City value '!@#@#!#@!#@#!@!#'
+[2023-08-21 17:03:09,956] N10 02: Verify error message is displayed
+[2023-08-21 17:03:10,044] N11 01: Enter to City value ' dsdsdsdsdsd'
+[2023-08-21 17:03:10,191] N11 02: Verify error message is displayed
+[2023-08-21 17:03:10,274] N12 01: Enter to State value ''
+[2023-08-21 17:03:10,410] N12 02: Press tab to navigate next field
+[2023-08-21 17:03:10,457] N12 03: Verify error message is displayed
+[2023-08-21 17:03:10,538] N13 01: Enter to State value '123123123123'
+[2023-08-21 17:03:10,730] N13 02: Verify error message is displayed
+[2023-08-21 17:03:10,821] N14 01: Enter to State value '@&*!#^&*@!#^&'
+[2023-08-21 17:03:10,966] N14 02: Verify error message is displayed
+[2023-08-21 17:03:11,055] N15 01: Enter to State value ' dsdsdsdsdsd'
+[2023-08-21 17:03:11,187] N15 02: Verify error message is displayed
+[2023-08-21 17:03:11,274] N16 01: Enter to PIN value ''
+[2023-08-21 17:03:11,422] N16 02: Press Tab to navigate next field
+[2023-08-21 17:03:11,470] N16 02: Verify error message is displayed
+[2023-08-21 17:03:11,550] N17 01: Enter to PIN value '123PIN'
+[2023-08-21 17:03:11,679] N17 02: Verify error message is displayed
+[2023-08-21 17:03:11,771] N18 01: Enter to PIN value '12345'
+[2023-08-21 17:03:11,908] N18 02: Verify error message is displayed
+[2023-08-21 17:03:11,999] N19 01: Enter to PIN value '123$$$$'
+[2023-08-21 17:03:12,127] N19 02: Verify error message is displayed
+[2023-08-21 17:03:12,214] NC20 01: Enter to PIN value ' sadsadsad'
+[2023-08-21 17:03:12,342] NC20 02: Verify error message is displayed
+[2023-08-21 17:03:12,432] NC21 01: Enter to PIN value '23 454'
+[2023-08-21 17:03:12,555] NC21 02: Verify error message is displayed
+[2023-08-21 17:03:12,616] NC22 01: Enter to Telephone value ''
+[2023-08-21 17:03:12,751] NC22 02: Press Tab to navigate next field
+[2023-08-21 17:03:12,801] NC22 03: Verify error message is displayed
+[2023-08-21 17:03:12,879] NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'
+[2023-08-21 17:03:13,022] NC23 02: Verify error message is displayed
+[2023-08-21 17:03:13,110] NC24 01: Enter to Telephone value '12312 34435'
+[2023-08-21 17:03:13,243] NC24 02: Verify error message is displayed
+[2023-08-21 17:03:13,336] NC25 01: Enter to Telephone value '13123@##'
+[2023-08-21 17:03:13,472] NC25 02: Verify error message is displayed
+[2023-08-21 17:03:13,562] NC26 01: Enter to Email value ''
+[2023-08-21 17:03:13,699] NC26 01: Press Tab to navigate next field
+[2023-08-21 17:03:13,744] NC26 03: Verify error message is displayed
+[2023-08-21 17:03:13,827] NC27 01: Enter to Email value '13123@##'
+[2023-08-21 17:03:13,957] NC27 02: Verify error message is displayed
+[2023-08-21 17:03:14,044] NC29 01: Enter to Email value ' asdasdasdasd'
+[2023-08-21 17:03:14,177] NC29 02: Verify error message is displayed
+[2023-08-21 17:03:14,264] NC30 01: Click to Reset Button to clear all field
+[2023-08-21 17:03:14,372] NC30 02: Click to Submit Button
+[2023-08-21 17:03:14,481] NC30 03: Verify all field is required
+[2023-08-21 17:03:14,487] NC30 04: Accept Alert
+[2023-08-21 17:03:14,509] NC31 01: Enter to Customer Name value is: 'Freeman Lakin'
+[2023-08-21 17:03:14,654] NC31 02: Select to Gender value is: 'Female'
+[2023-08-21 17:03:14,777] NC31 23: Enter to Date of birth value is: 08
+[2023-08-21 17:03:14,978] NC31 04: Enter to Address value is: '86728 Marquardt Locks'
+[2023-08-21 17:03:15,124] NC31 05: Enter to City value is: 'East Marceloburgh'
+[2023-08-21 17:03:15,263] NC31 06: Enter to State value is: 'New Mexico'
+[2023-08-21 17:03:15,397] NC31 07: Enter to PIN value is: 123456
+[2023-08-21 17:03:15,533] NC31 08: Enter to Mobile Phone Number value is: '6553504101'
+[2023-08-21 17:03:15,673] NC31 09: Enter to Email value is: 'dudley.buckridge@hotmail.com'
+[2023-08-21 17:03:15,836] NC31 10: Enter to Email value is: 'ic4brx72ikxwmo'
+[2023-08-21 17:03:15,987] NC31 11: Click to submit button
+[2023-08-21 17:03:17,135] NC31 12: Get Customer ID
+[2023-08-21 17:03:17,238] NC31 13: Customer ID value is: 96530
+[2023-08-21 17:03:17,242] OS name = windows 10
+[2023-08-21 17:03:17,242] Driver instance name = chromedriver: chrome on windows (83dc46339fc486eee267804977276288)
+[2023-08-21 17:03:17,626] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 17:03:21,585] Step 02 - Input to USERID value mngr522589
+[2023-08-21 17:03:21,837] Step 03 - Input to Password value epEhEgY
+[2023-08-21 17:03:22,037] Step 04 - Click to login button
+[2023-08-21 17:03:23,028] Verify Login successfully
+[2023-08-21 17:03:23,115] Step 01 - Open Edit Customer Page
+[2023-08-21 17:03:23,951] Step 02 -Send key to Customer ID field value: ''
+[2023-08-21 17:03:24,114] Step 03 -Press tab to navigate next field
+[2023-08-21 17:03:24,164] Step 04 -Verify error message Customer ID field
+[2023-08-21 17:03:24,331] Step 01 - Send key to Customer ID field value: '123ASD'
+[2023-08-21 17:03:24,459] Step 02 - Verify Error Message Displayed
+[2023-08-21 17:03:24,562] Step 01 - Send key to Customer ID field value: '123$$$$$'
+[2023-08-21 17:03:24,721] Step 02 - Verify Error Message Displayed
+[2023-08-21 17:03:24,807] Step 01 - Send key to Customer ID field value: '96530'
+[2023-08-21 17:03:24,948] Step 02 - Click to submit button
+[2023-08-21 17:03:25,898] Step 01 - Send key to Customer ID field value: '96530'
+[2023-08-21 17:03:26,236] Step 02 - Press Tab to navigate next field at Address Field
+[2023-08-21 17:03:26,294] Step 03 - Verify Error Message Address displayed
+[2023-08-21 17:03:26,392] Step 01 - Send key to City field value: 
+[2023-08-21 17:03:26,531] Step 02 - Press Tab to navigate next field at City Field
+[2023-08-21 17:03:26,575] Step 03 - Verify Error Message City displayed
+[2023-08-21 17:03:26,654] Step 01 - Send key to City field value: 1234
+[2023-08-21 17:03:26,780] Step 02 - Verify Error Message City displayed
+[2023-08-21 17:03:26,860] Step 01 - Send key to City field value: !@#$$$@!
+[2023-08-21 17:03:27,003] Step 02 - Verify Error Message City displayed
+[2023-08-21 17:03:27,096] Step 01 - Send key to State field value: 
+[2023-08-21 17:03:27,238] Step 02 - Press Tab to navigate next field at State Field
+[2023-08-21 17:03:27,289] Step 03 - Verify Error Message State displayed
+[2023-08-21 17:03:27,369] Step 01 - Send key to State field value: 1234
+[2023-08-21 17:03:27,495] Step 02 - Verify Error Message State displayed
+[2023-08-21 17:03:27,585] Step 01 - Send key to State field value: !@#$$$@!
+[2023-08-21 17:03:27,733] Step 02 - Verify Error Message State displayed
+[2023-08-21 17:03:27,814] Step 01 - Send key to PIN field value: 
+[2023-08-21 17:03:27,950] Step 02 - Press Tab to navigate next field at State Field
+[2023-08-21 17:03:27,997] Step 03 - Verify Error Message PIN displayed
+[2023-08-21 17:03:28,064] Step 01 - Send key to PIN field value: 1234AB
+[2023-08-21 17:03:28,196] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 17:03:28,283] Step 01 - Send key to PIN field value: !@#$$$@!
+[2023-08-21 17:03:28,419] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 17:03:28,501] Step 01 - Send key to PIN field value: 1234
+[2023-08-21 17:03:28,628] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 17:03:28,703] Step 01 - Send key to TelePhone field value: !@#$$$@!
+[2023-08-21 17:03:28,839] Step 02 - Verify Error Message TelePhone displayed
+[2023-08-21 17:03:28,922] Step 01 - Send key to TelePhone field value: ''
+[2023-08-21 17:03:29,040] Step 02 - Verify Error Message TelePhone displayed
+[2023-08-21 17:03:29,126] Step 01 - Send key to Email field value: ''
+[2023-08-21 17:03:29,284] Step 02 - Verify Error Message PIN displayed
+[2023-08-21 17:03:29,375] Step 01 - Send key to TelePhone field value: guru99@gmail
+[2023-08-21 17:03:29,495] Step 02 - Verify Error Message Email displayed
+[2023-08-21 17:03:29,575] OS name = windows 10
+[2023-08-21 17:03:29,575] Driver instance name = chromedriver: chrome on windows (33150a15108adef423964ed321b85227)
+[2023-08-21 17:03:29,942] Step 01 - Open URL 'https://demo.guru99.com/v4/'
+[2023-08-21 17:03:33,780] Step 02 - Input to USERID value mngr522589
+[2023-08-21 17:03:34,028] Step 03 - Input to Password value epEhEgY
+[2023-08-21 17:03:34,176] Step 04 - Click to login button
+[2023-08-21 17:03:35,161] Step 05 - Verify Login successfully
+[2023-08-21 17:03:35,250] Open Delete customer page
+[2023-08-21 17:03:36,106] Step 01 - Enter to customer ID value: ''
+[2023-08-21 17:03:36,276] Step 02 - Press tab to navigate next field
+[2023-08-21 17:03:36,322] Step 03 - Verify error message displayed
+[2023-08-21 17:03:36,467] Step 01 - Enter to customer ID value: 'Acc12344'
+[2023-08-21 17:03:36,621] Step 02 - Verify error message displayed
+[2023-08-21 17:03:36,687] Step 01 - Enter to customer ID value: '!@#$$$$'
+[2023-08-21 17:03:36,818] Step 02 - Verify error message displayed
+[2023-08-21 17:03:36,917] Step 01 - Enter to customer ID value: '123 2323'
+[2023-08-21 17:03:37,042] Step 02 - Verify error message displayed
+[2023-08-21 17:03:37,116] Step 01 - Enter to customer ID value: ' '
+[2023-08-21 17:03:37,233] Step 02 - Verify error message displayed
+[2023-08-21 17:03:37,315] OS name = windows 10
+[2023-08-21 17:03:37,315] Driver instance name = chromedriver: chrome on windows (7f2ad17bf09d63214ca174c1b9e31747)

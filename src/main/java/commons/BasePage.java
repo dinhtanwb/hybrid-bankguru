@@ -20,6 +20,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.qameta.allure.Step;
+import pageObjects.DeleteCustomerPO;
+import pageObjects.EditCustomerPO;
 import pageObjects.NewCustomerPO;
 import pageUIs.GlobalUIs;
 
@@ -164,6 +167,8 @@ public class BasePage {
 		element.clear();
 		element.sendKeys(textValue);
 	}
+	
+	
 	public void clearValueElementByPressKey(WebDriver driver, String xpathLocator) {
 		WebElement element = getWebElement(driver, xpathLocator);
 		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
@@ -508,13 +513,21 @@ public class BasePage {
 		}
 		return locator;
 	}
-
 	public NewCustomerPO openNewCustomerPage(WebDriver driver) {
 		waitForClickable(driver, GlobalUIs.NEW_CUSTOMER_PAGE);
 		clickToElement(driver, GlobalUIs.NEW_CUSTOMER_PAGE);
 		return PageGeneratorManager.getNewCustomer(driver);
 		
 	}
-	
+	public EditCustomerPO openEditCustomerPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.EDIT_CUSTOMER_PAGE);
+		clickToElement(driver, GlobalUIs.EDIT_CUSTOMER_PAGE);
+		return PageGeneratorManager.getEditCustomer(driver);
+	}
+	public DeleteCustomerPO openDeleteCustomerPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.EDIT_CUSTOMER_PAGE);
+		clickToElement(driver, GlobalUIs.EDIT_CUSTOMER_PAGE);
+		return PageGeneratorManager.getDeleteCustomer(driver);
+	}
 	
 }

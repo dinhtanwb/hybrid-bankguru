@@ -15,13 +15,14 @@ import org.joda.time.DateTimeZone;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 
+import factoryEnvironment.EnvironmentList;
+import factoryEnvironment.LocalFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
@@ -49,65 +50,69 @@ public class BaseTest {
 		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
 		if (browser.equals(BrowserList.FIREFOX)) {
 			FirefoxProfile profile = new FirefoxProfile();
-			File translate = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\simple_translate-2.8.1.xpi");
+			File translate = new File(
+					GlobalConstances.PROJECT_PATH + "\\browserExtensions\\simple_translate-2.8.1.xpi");
 			profile.addExtension(translate);
 			FirefoxOptions options = new FirefoxOptions();
 			options.setProfile(profile);
 			driver = WebDriverManager.firefoxdriver().capabilities(options).create();
-			
+
 		} else if (browser.equals(BrowserList.H_FIREFOX)) {
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920×1080");
 			driver = WebDriverManager.firefoxdriver().capabilities(options).create();
 		} else if (browser.equals(BrowserList.CHROME)) {
-			
-			//Disable browser log in console
+
+			// Disable browser log in console
 			System.setProperty("webdriver.chrome.args", "--disable-loggin");
 			System.setProperty("webdriver.chrome.silentOutput", "true");
-			
-			//Add extensions
+
+			// Add extensions
 			File file = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\extension_2_0_13_0.crx");
+			File adblockExtension = new File(
+					GlobalConstances.PROJECT_PATH + "\\browserExtensions\\extension_5_9_0_0.crx");
+
 			ChromeOptions options = new ChromeOptions();
 			options.addExtensions(file);
-			
-			//Change language browser
+			options.addExtensions(adblockExtension);
+
+			// Change language browser
 			options.addArguments("--lang=vi");
-			
-			//Notification popup
+
+			// Notification popup
 			options.addArguments("--disable-notifications");
-			
-			//Location popup
+
+			// Location popup
 			options.addArguments("--disable-geolocation");
-			
-			//automation infor bar
+
+			// automation infor bar
 			options.setExperimentalOption("useAutomationExtension", false);
 			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-			
-			//disable save password popup
+
+			// disable save password popup
 			Map<String, Object> prefs = new HashMap<String, Object>();
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
 			options.setExperimentalOption("prefs", prefs);
-			
-			//Auto save/download
+
+			// Auto save/download
 			Map<String, Object> chromePrefs = new HashMap<String, Object>();
 			chromePrefs.put("profile.default_content_settings.popups", 0);
 			chromePrefs.put("download.default_directory", GlobalConstances.PROJECT_PATH + "\\downloadFiles");
 			options.setExperimentalOption("prefs", chromePrefs);
-			
-			//Open InCognito
+
+			// Open InCognito
 			options.addArguments("--incognito");
-			
+
 			driver = WebDriverManager.chromedriver().capabilities(options).create();
-			
-			
+
 		} else if (browser.equals(BrowserList.H_CHROME)) {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920×1080");
 			driver = WebDriverManager.chromedriver().capabilities(options).create();
-			
+
 		} else if (browser.equals(BrowserList.EDGE)) {
 			driver = WebDriverManager.edgedriver().create();
 		} else if (browser.equals(BrowserList.OPERA)) {
@@ -137,65 +142,33 @@ public class BaseTest {
 		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
 		if (browser.equals(BrowserList.FIREFOX)) {
 			FirefoxProfile profile = new FirefoxProfile();
-			File translate = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\simple_translate-2.8.1.xpi");
+			File translate = new File(
+					GlobalConstances.PROJECT_PATH + "\\browserExtensions\\simple_translate-2.8.1.xpi");
 			profile.addExtension(translate);
 			FirefoxOptions options = new FirefoxOptions();
 			options.setProfile(profile);
 			driver = WebDriverManager.firefoxdriver().capabilities(options).create();
-			
 		} else if (browser.equals(BrowserList.H_FIREFOX)) {
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920×1080");
 			driver = WebDriverManager.firefoxdriver().capabilities(options).create();
 		} else if (browser.equals(BrowserList.CHROME)) {
-			
-			//Disable browser log in console
-//			System.setProperty("webdriver.chrome.args", "--disable-loggin");
-//			System.setProperty("webdriver.chrome.silentOutput", "true");
-			
-			//Add extensions
-//			File file = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\extension_2_0_13_0.crx");
 			ChromeOptions options = new ChromeOptions();
-//			options.addExtensions(file);
-			
-			//Change language browser
-//			options.addArguments("--lang=vi");
-			
-			//Notification popup
-//			options.addArguments("--disable-notifications");
-			
-			//Location popup
-//			options.addArguments("--disable-geolocation");
-			
-			//automation infor bar
 			options.setExperimentalOption("useAutomationExtension", false);
 			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-			
-			//disable save password popup
+
 			Map<String, Object> prefs = new HashMap<String, Object>();
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
 			options.setExperimentalOption("prefs", prefs);
-			
-			//Auto save/download
-//			Map<String, Object> chromePrefs = new HashMap<String, Object>();
-//			chromePrefs.put("profile.default_content_settings.popups", 0);
-//			chromePrefs.put("download.default_directory", GlobalConstances.PROJECT_PATH + "\\downloadFiles");
-//			options.setExperimentalOption("prefs", chromePrefs);
-			
-			//Open InCognito
-//			options.addArguments("--incognito");
-			
 			driver = WebDriverManager.chromedriver().capabilities(options).create();
-			
-			
 		} else if (browser.equals(BrowserList.H_CHROME)) {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920×1080");
 			driver = WebDriverManager.chromedriver().capabilities(options).create();
-			
+
 		} else if (browser.equals(BrowserList.EDGE)) {
 			driver = WebDriverManager.edgedriver().create();
 		} else if (browser.equals(BrowserList.OPERA)) {
@@ -216,102 +189,22 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(GlobalConstances.LONG_TIME_OUT, TimeUnit.SECONDS);
 		driver.get(url);
-		// return driver để bên các class con hứng biến này và gắn vào driver ở class
-		// đó. ==> Sau đó sử dụng tiếp tục
 		return driver;
 	}
-
-	public WebDriver openMultipleBrowserJQuery(String browserName) {
-		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
-		if (browser.equals(BrowserList.FIREFOX)) {
-			FirefoxProfile profile = new FirefoxProfile();
-			File translate = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\simple_translate-2.8.1.xpi");
-			profile.addExtension(translate);
-			FirefoxOptions options = new FirefoxOptions();
-			options.setProfile(profile);
-			driver = WebDriverManager.firefoxdriver().capabilities(options).create();
-			
-		} else if (browser.equals(BrowserList.H_FIREFOX)) {
-			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("headless");
-			options.addArguments("window-size=1920×1080");
-			driver = WebDriverManager.firefoxdriver().capabilities(options).create();
-		} else if (browser.equals(BrowserList.CHROME)) {
-			
-			//Disable browser log in console
-			System.setProperty("webdriver.chrome.args", "--disable-loggin");
-			System.setProperty("webdriver.chrome.silentOutput", "true");
-			
-			//Add extensions
-			File file = new File(GlobalConstances.PROJECT_PATH + "\\browserExtensions\\extension_2_0_13_0.crx");
-			ChromeOptions options = new ChromeOptions();
-			options.addExtensions(file);
-			
-			//Change language browser
-			options.addArguments("--lang=vi");
-			
-			//Notification popup
-			options.addArguments("--disable-notifications");
-			
-			//Location popup
-			options.addArguments("--disable-geolocation");
-			
-			//automation infor bar
-			options.setExperimentalOption("useAutomationExtension", false);
-			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-			
-			//disable save password popup
-			Map<String, Object> prefs = new HashMap<String, Object>();
-			prefs.put("credentials_enable_service", false);
-			prefs.put("profile.password_manager_enabled", false);
-			options.setExperimentalOption("prefs", prefs);
-			
-			//Auto save/download
-			Map<String, Object> chromePrefs = new HashMap<String, Object>();
-			chromePrefs.put("profile.default_content_settings.popups", 0);
-			chromePrefs.put("download.default_directory", GlobalConstances.PROJECT_PATH + "\\downloadFiles");
-			options.setExperimentalOption("prefs", chromePrefs);
-			
-			//Open InCognito
-			options.addArguments("--incognito");
-			
-			driver = WebDriverManager.chromedriver().capabilities(options).create();
-			
-			
-		} else if (browser.equals(BrowserList.H_CHROME)) {
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("headless");
-			options.addArguments("window-size=1920×1080");
-			driver = WebDriverManager.chromedriver().capabilities(options).create();
-			
-		} else if (browser.equals(BrowserList.EDGE)) {
-			driver = WebDriverManager.edgedriver().create();
-		} else if (browser.equals(BrowserList.OPERA)) {
-			driver = WebDriverManager.operadriver().create();
-		} else if (browser.equals(BrowserList.COCCOC)) {
-			WebDriverManager.chromedriver().driverVersion("113.0.5672.24").setup();
-			ChromeOptions options = new ChromeOptions();
-			options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
-			driver = new ChromeDriver(options);
-		} else if (browser.equals(BrowserList.BRAVE)) {
-			WebDriverManager.chromedriver().driverVersion("114.0.5735.90").setup();
-			ChromeOptions options = new ChromeOptions();
-			options.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
-			driver = new ChromeDriver(options);
-		} else {
-			throw new RuntimeException("Open invalid browser");
+	
+	public WebDriver getBrowser(String envName, String serverName, String browserName, String osName, String osVersion) {
+		EnvironmentList env = EnvironmentList.valueOf(envName.toUpperCase());
+		switch(env) {
+		case LOCAL:
+			driver = new LocalFactory(browserName).createDriver();
+			break;
 		}
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(GlobalConstances.LONG_TIME_OUT, TimeUnit.SECONDS);
-		driver.get(GlobalConstances.JQuery_UPLOAD_FILE);
-		// return driver để bên các class con hứng biến này và gắn vào driver ở class
-		// đó. ==> Sau đó sử dụng tiếp tục
 		return driver;
 	}
 
 	public int fakeNumber() {
 		Random rand = new Random();
-		return rand.nextInt(99999);
+		return rand.nextInt(999999);
 	}
 
 	protected boolean verifyTrue(boolean condition) {
