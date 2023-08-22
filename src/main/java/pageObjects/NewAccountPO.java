@@ -65,9 +65,9 @@ public class NewAccountPO extends BasePage{
 		return isElementDisplayed(driver, NewAccountUI.SUCCESS_REGISTERED_MESSAGE);
 	}
 
-	public boolean isInformationAccountDisplayed(String string) {
+	public String isInformationAccountDisplayed(String string) {
 		waitForElementVisible(driver, NewAccountUI.INFORMATION_ACCOUNT, string);
-		return isElementDisplayed(driver, NewAccountUI.INFORMATION_ACCOUNT, string);
+		return getElementText(driver, NewAccountUI.INFORMATION_ACCOUNT, string);
 	}
 	
 }

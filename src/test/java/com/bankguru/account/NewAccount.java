@@ -222,9 +222,8 @@ public class NewAccount extends BaseTest{
 		log.info("Step 02 - Account Generated Successfully message displayed");
 		Assert.assertTrue(newAccountPage.isSuccessMessageDisplayed());
 		
-		log.info("Step 03 - Current Amount is generated ");
-		Assert.assertEquals(newAccountPage.isInformationAccountDisplayed(""), initialDeposit);
-		
+		log.info("Step 03 - Current Amount is generated " + initialDeposit);
+		Assert.assertEquals(newAccountPage.isInformationAccountDisplayed("Current Amount"), initialDeposit);
 		
 	}
 	
