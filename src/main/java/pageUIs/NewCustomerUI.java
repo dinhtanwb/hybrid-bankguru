@@ -21,5 +21,7 @@ public class NewCustomerUI {
 	public static final String DATE_OF_BIRD_BUTTON = "xpath=//input[@id='dob']";
 	public static final String PASSWORD = "xpath=//tbody//input[@type = 'password']";
 	public static final String VERIFY_CUSTOMER_ID = "xpath=//table[@id='customer']//tr/td[text()='Customer ID']/following-sibling::td";
+	public static final String SUCCESS_REGISTERED_MESSAGE = "xpath=//table[@id='customer']/tbody//p[contains(text(),'Customer Registered Successfully')]";
+	public static final String INFORMATION_CUSTOMER = "xpath=//table[@id='customer']/tbody/tr/td[text()='%s']/following-sibling::td";
 	
 }

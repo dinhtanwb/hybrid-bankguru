@@ -163,6 +163,16 @@ private WebDriver driver;
 		return getElementText(driver, NewCustomerUI.VERIFY_CUSTOMER_ID);
 	}
 
+	public boolean isRegisteredSuccessfullyDisplayed() {
+		waitForElementVisible(driver, NewCustomerUI.SUCCESS_REGISTERED_MESSAGE);
+		return isElementDisplayed(driver, NewCustomerUI.SUCCESS_REGISTERED_MESSAGE);
+	}
+
+	public String isInformationCustomerDisplayedByText(String string) {
+		waitForElementVisible(driver, NewCustomerUI.INFORMATION_CUSTOMER, string);
+		return getElementText(driver, NewCustomerUI.INFORMATION_CUSTOMER, string);
+	}
+
 	
 
 	

@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Run BankGuru 99">
+<suite name="Run BankGuru 99" parallel="false" thread-cout="3">
 
 
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
 				<listener class-name="org.uncommons.reportng.HTMLReporter" />
-				<listener class-name="org.uncommons.reportng.JUnitXMLReporter"
-		/>-->
-		<!--		<listener class-name="reportConfig.AllureTestListener" />-->
+				<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter"
+		/>--> <!--		<listener class-name="reportConfig.AllureTestListener" />-->
 		<!--		<listener class-name="reportConfig.ExtentTestListener" />-->
 
 	</listeners>
 
-	<parameter name="url" value="https://demo.guru99.com/v4/" />
 
+	<parameter name="envName" value="lambda" />
+	<parameter name="serverName" value="dev" />
+	<parameter name="osName" value="Windows" />
+	<parameter name="osVersion" value="10" />
 
 	<test name="Run on CHROME">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browserName" value="chrome" />
 		<classes>
 			<class name="com.bankguru.customer.NewCustomer" />
-			<class name="com.bankguru.customer.EditCustomer" />
-			<class name="com.bankguru.customer.DeleteCustomer" />
+<!--			<class name="com.bankguru.customer.EditCustomer" />-->
+<!--			<class name="com.bankguru.customer.DeleteCustomer" />-->
+<!--			<class name="com.bankguru.account.NewAccount" />-->
+<!--			<class name="com.bankguru.account.EditAccount" />-->
+<!--			<class name="com.bankguru.account.DeleteAccount" />-->
+<!--			<class name="com.bankguru.others.MiniStatement" />-->
 		</classes>
 	</test>
-
 
 </suite> 

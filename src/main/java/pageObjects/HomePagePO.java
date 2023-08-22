@@ -17,10 +17,12 @@ public class HomePagePO extends BasePage{
 		return isElementDisplayed(driver, HomePageUI.LOGIN_SUCCESS);
 	}
 
-	public void openNewCustomerPage() {
-		// TODO Auto-generated method stub
-		
-	}
+
+	
+
+	
+
+	
 
 	
 

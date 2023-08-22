@@ -20,9 +20,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.qameta.allure.Step;
+import pageObjects.DeleteAccountPO;
 import pageObjects.DeleteCustomerPO;
+import pageObjects.EditAccountPO;
 import pageObjects.EditCustomerPO;
+import pageObjects.MiniStatementPO;
+import pageObjects.NewAccountPO;
 import pageObjects.NewCustomerPO;
 import pageUIs.GlobalUIs;
 
@@ -528,6 +531,26 @@ public class BasePage {
 		waitForClickable(driver, GlobalUIs.EDIT_CUSTOMER_PAGE);
 		clickToElement(driver, GlobalUIs.EDIT_CUSTOMER_PAGE);
 		return PageGeneratorManager.getDeleteCustomer(driver);
+	}
+	public NewAccountPO openNewAccountPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.NEW_ACCOUNT_PAGE);
+		clickToElement(driver, GlobalUIs.NEW_ACCOUNT_PAGE);
+		return PageGeneratorManager.getNewAccount(driver);
+	}
+	public EditAccountPO openEditAccountPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.EDIT_ACCOUNT_PAGE);
+		clickToElement(driver, GlobalUIs.EDIT_ACCOUNT_PAGE);
+		return PageGeneratorManager.getEditAccount(driver);
+	}
+	public DeleteAccountPO openDeleteAccountPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.EDIT_ACCOUNT_PAGE);
+		clickToElement(driver, GlobalUIs.EDIT_ACCOUNT_PAGE);
+		return PageGeneratorManager.getDeleteAccount(driver);
+	}
+	public MiniStatementPO openMiniStatementPage(WebDriver driver) {
+		waitForClickable(driver, GlobalUIs.EDIT_ACCOUNT_PAGE);
+		clickToElement(driver, GlobalUIs.EDIT_ACCOUNT_PAGE);
+		return PageGeneratorManager.getMiniStatement(driver);
 	}
 	
 }

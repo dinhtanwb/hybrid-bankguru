@@ -155,7 +155,7 @@ public class EditCustomer extends BaseTest{
 		editCustomerPage.isStateErrorMessageDisplayed("State must not be blank");
 		
 	}
-	@Test(priority = 2)
+	@Test
 	public void EC_10_State_Cannot_Be_Numeric()  {
 		
 		log.info("Step 01 - Send key to State field value: 1234");
@@ -166,7 +166,7 @@ public class EditCustomer extends BaseTest{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void EC_11_State_Cannot_Be_Special_Character()  {
 		
 		log.info("Step 01 - Send key to State field value: !@#$$$@!");
@@ -177,7 +177,7 @@ public class EditCustomer extends BaseTest{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void EC_12_PIN_Cannot_Be_Empty()  {
 		
 		log.info("Step 01 - Send key to PIN field value: ");
@@ -190,7 +190,7 @@ public class EditCustomer extends BaseTest{
 		editCustomerPage.isPINErrorMessageDisplayed("PIN Code must not be blank");
 		
 	}
-	@Test(priority = 2)
+	@Test
 	public void EC_13_PIN_Must_Be_Numeric()  {
 		
 		log.info("Step 01 - Send key to PIN field value: 1234AB");
@@ -201,7 +201,7 @@ public class EditCustomer extends BaseTest{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void EC_14_PIN_Cannot_Be_Special_Character()  {
 		
 		log.info("Step 01 - Send key to PIN field value: !@#$$$@!");
@@ -211,7 +211,7 @@ public class EditCustomer extends BaseTest{
 		editCustomerPage.isPINErrorMessageDisplayed("Special characters are not allowed");
 		
 	}
-	@Test(priority = 2)
+	@Test
 	public void EC_15_PIN_Must_Have_6_Digits()  {
 		
 		log.info("Step 01 - Send key to PIN field value: 1234");
@@ -222,7 +222,7 @@ public class EditCustomer extends BaseTest{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void EC_16_TelePhone_Cannot_Be_Special_Character()  {
 		
 		log.info("Step 01 - Send key to TelePhone field value: !@#$$$@!");
@@ -232,7 +232,7 @@ public class EditCustomer extends BaseTest{
 		editCustomerPage.isTelephoneErrorMessageDisplayed("Special characters are not allowed");
 		
 	}
-	@Test(priority = 2)
+	@Test
 	public void EC_17_TelePhone_Cannot_Be_Empty()  {
 		
 		log.info("Step 01 - Send key to TelePhone field value: ''");
@@ -242,7 +242,7 @@ public class EditCustomer extends BaseTest{
 		editCustomerPage.isTelephoneErrorMessageDisplayed("Mobile no must not be blank");
 		
 	}
-	@Test(priority = 2)
+	@Test
 	public void EC_18_Email_Not_Be_Empty()  {
 		
 		log.info("Step 01 - Send key to Email field value: ''");
@@ -253,7 +253,7 @@ public class EditCustomer extends BaseTest{
 		
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void EC_19_Email_invalid_format()  {
 		
 		log.info("Step 01 - Send key to TelePhone field value: guru99@gmail");
