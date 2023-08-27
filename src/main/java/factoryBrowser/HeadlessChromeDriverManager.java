@@ -14,6 +14,8 @@ public class HeadlessChromeDriverManager implements BrowserFactory{
 		options.addArguments("headless");
 		options.addArguments("window-size=1920×1080");
 		return WebDriverManager.chromedriver().capabilities(options).create();
+		
+//	
 	}
 
 }

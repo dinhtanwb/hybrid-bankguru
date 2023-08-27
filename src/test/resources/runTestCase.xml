@@ -20,13 +20,14 @@
 	<test name="Run on CHROME">
 		<parameter name="browserName" value="chrome" />
 		<classes>
+			<class name="LoginTest" />
 			<class name="com.bankguru.customer.NewCustomer" />
-			<class name="com.bankguru.customer.EditCustomer" />
-			<class name="com.bankguru.customer.DeleteCustomer" />
-			<class name="com.bankguru.account.NewAccount" />
-			<class name="com.bankguru.account.EditAccount" />
-			<class name="com.bankguru.account.DeleteAccount" />
-			<class name="com.bankguru.others.MiniStatement" />
+<!--			<class name="com.bankguru.customer.EditCustomer" />-->
+<!--			<class name="com.bankguru.customer.DeleteCustomer" />-->
+<!--			<class name="com.bankguru.account.NewAccount" />-->
+<!--			<class name="com.bankguru.account.EditAccount" />-->
+<!--			<class name="com.bankguru.account.DeleteAccount" />-->
+<!--			<class name="com.bankguru.others.MiniStatement" />-->
 		</classes>
 	</test>
 

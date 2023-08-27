@@ -20,8 +20,8 @@ public class ChromeDriverManager implements BrowserFactory {
 		ChromeOptions options = new ChromeOptions();
 
 		// Disable browser log in console
-		System.setProperty("webdriver.chrome.args", "--disable-loggin");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
+		System.setProperty("webdriver.chrome.args", "--disable-loggin");
 
 		// Add extensions
 		File file = new File(GlobalConstances.getGlobalContances().getProjectPath() + "\\browserExtensions\\extension_2_0_13_0.crx");
@@ -29,6 +29,7 @@ public class ChromeDriverManager implements BrowserFactory {
 
 		options.addExtensions(file);
 		options.addExtensions(uBlock);
+		
 		// Change language browser
 		options.addArguments("--lang=vi");
 
@@ -55,7 +56,7 @@ public class ChromeDriverManager implements BrowserFactory {
 		options.setExperimentalOption("prefs", chromePrefs);
 
 		// Open InCognito
-		// options.addArguments("--incognito");
+		 options.addArguments("--incognito");
 
 		return new ChromeDriver(options);
 	}

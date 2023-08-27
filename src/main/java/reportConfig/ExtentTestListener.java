@@ -3,6 +3,8 @@ package reportConfig;
 
 import static reportConfig.ExtentTestManager.getTest;
 
+import java.io.IOException;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +15,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.Status;
 
 import commons.BaseTest;
+import utilities.ExcelUtils;
 
 public class ExtentTestListener extends BaseTest implements ITestListener {
 	private static String getTestMethodName(ITestResult iTestResult) {
@@ -48,7 +51,7 @@ public class ExtentTestListener extends BaseTest implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult iTestResult) {
-//		getTest().log(Status.SKIP, "Test Skipped");
+		getTest().log(Status.SKIP, "Test Skipped");
 	}
 
 	@Override

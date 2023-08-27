@@ -1,2 +1,4 @@
 /target/
 /allure-json/
+/logs/
+/test-output/
