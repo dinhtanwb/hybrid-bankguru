@@ -20,7 +20,6 @@
 	<test name="Run on CHROME">
 		<parameter name="browserName" value="chrome" />
 		<classes>
-			<class name="LoginTest" />
 			<class name="com.bankguru.customer.NewCustomer" />
 <!--			<class name="com.bankguru.customer.EditCustomer" />-->
 <!--			<class name="com.bankguru.customer.DeleteCustomer" />-->
