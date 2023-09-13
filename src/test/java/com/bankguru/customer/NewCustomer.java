@@ -24,8 +24,8 @@ public class NewCustomer extends BaseTest {
 	NewCustomerPO newCustomerPage;
 	String customerName, gender, dateOfBirth, address, city, state, mobileNumber, email, passwordCustomer;
 	public static String customerID;
-	String userID = "mngr522589";
-	String password = "epEhEgY";
+	String userID = "mngr527937";
+	String password = "satAvEp";
 
 	@Parameters({ "envName", "serverName", "browserName", "osName", "osVersion" })
 	@BeforeClass
