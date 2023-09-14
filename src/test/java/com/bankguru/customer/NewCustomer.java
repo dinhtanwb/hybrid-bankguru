@@ -69,6 +69,7 @@ public class NewCustomer extends BaseTest {
 
 		log.info("NC1 04: Verify error message is displayed");
 		Assert.assertTrue(newCustomerPage.isCustomerNameErrorMessageDisplayed("Customer name must not be blank"));
+		///asdasdasd
 	}
 
 //	@Test
