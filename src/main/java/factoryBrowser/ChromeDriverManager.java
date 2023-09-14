@@ -56,7 +56,7 @@ public class ChromeDriverManager implements BrowserFactory {
 		options.setExperimentalOption("prefs", chromePrefs);
 
 		// Open InCognito
-		 options.addArguments("--incognito");
+//		 options.addArguments("--incognito");
 
 		return new ChromeDriver(options);
 	}

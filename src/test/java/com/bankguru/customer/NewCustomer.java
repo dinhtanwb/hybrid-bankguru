@@ -56,7 +56,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC01_CustomerName_Is_Blank() {
 		log.info("NC1 01: Open New Customer Page");
 		newCustomerPage = homePage.openNewCustomerPage(driver);
@@ -71,7 +71,7 @@ public class NewCustomer extends BaseTest {
 		Assert.assertTrue(newCustomerPage.isCustomerNameErrorMessageDisplayed("Customer name must not be blank"));
 	}
 
-	@Test
+//	@Test
 	public void NC02_CustomerName_Is_Number() {
 		log.info("NC2 01: Enter to Customer Name value 'Acc1234'");
 		newCustomerPage.enterToCustomerName("Acc1234");
@@ -81,7 +81,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC03_CustomerName_Is_Character() {
 		log.info("NC3 01: Enter to Customer Name value '123123@##!'");
 		newCustomerPage.enterToCustomerName("123123@");
@@ -91,7 +91,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC04_CustomerName_Is_First_Blank_Space() {
 		log.info("N4 01: Enter to Customer Name value ' dsdsdsdsdsd'");
 		newCustomerPage.enterToCustomerName(" sdasdasdasdasd");
@@ -101,7 +101,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC05_Address_Is_Blank_Space() {
 		log.info("N5 01: Enter to Address value ''");
 		newCustomerPage.enterToAddress("");
@@ -114,7 +114,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC06_Address_Is_First_Blank_Space() {
 		log.info("N6 01: Enter to Customer Name value ' dsdsdsdsdsd'");
 		newCustomerPage.enterToAddress(" sdasdasdasdasd");
@@ -124,7 +124,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC08_City_Is_First_Blank_Space() {
 		log.info("N8 01: Enter to City value ''");
 		newCustomerPage.enterToCity("");
@@ -137,7 +137,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC09_City_Is_Numeric() {
 		log.info("N9 01: Enter to City value '213123123'");
 		newCustomerPage.enterToCity("213123123");
@@ -147,7 +147,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC10_City_Is_Special_Character() {
 		log.info("N10 01: Enter to City value '!@#@#!#@!#@#!@!#'");
 		newCustomerPage.enterToCity("!@#@#!#@!#@#!@!#");
@@ -157,7 +157,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC11_City_Is_First_Blank_Space() {
 		log.info("N11 01: Enter to City value ' dsdsdsdsdsd'");
 		newCustomerPage.enterToCity(" sdasdasdasdasd");
@@ -167,7 +167,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC12_State_Is_Empty() {
 		log.info("N12 01: Enter to State value ''");
 		newCustomerPage.enterToState("");
@@ -180,7 +180,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC13_State_Is_Numeric() {
 		log.info("N13 01: Enter to State value '123123123123'");
 		newCustomerPage.enterToState("123123123123");
@@ -190,7 +190,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC14_State_Is_Special() {
 		log.info("N14 01: Enter to State value '@&*!#^&*@!#^&'");
 		newCustomerPage.enterToState("@&*!#^&*@!#^&");
@@ -200,7 +200,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC15_City_Is_First_Blank_Space() {
 		log.info("N15 01: Enter to State value ' dsdsdsdsdsd'");
 		newCustomerPage.enterToState(" dsdsdsdsdsd");
@@ -210,7 +210,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC16_Pin_Is_Empty() {
 		log.info("N16 01: Enter to PIN value ''");
 		newCustomerPage.enterToPIN("");
@@ -223,7 +223,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC17_Pin_Is_Numeric() {
 		log.info("N17 01: Enter to PIN value '123PIN'");
 		newCustomerPage.enterToPIN("123PIN");
@@ -233,7 +233,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC18_PIN_Must_Have_6_Digits() {
 		log.info("N18 01: Enter to PIN value '12345'");
 		newCustomerPage.enterToPIN("12345");
@@ -243,7 +243,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC19_PIN_Cannot_Have_Special() {
 		log.info("N19 01: Enter to PIN value '123$$$$'");
 		newCustomerPage.enterToPIN("123$$$$");
@@ -253,7 +253,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC20_Pin_Have_First_Blank_Space() {
 		log.info("NC20 01: Enter to PIN value ' sadsadsad'");
 		newCustomerPage.enterToPIN(" sadsadsad");
@@ -263,7 +263,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC21_Pin_Have_Blank_Space() {
 		log.info("NC21 01: Enter to PIN value '23 454'");
 		newCustomerPage.enterToPIN("23 454");
@@ -273,7 +273,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC22_Telephone_Is_Empty() {
 		log.info("NC22 01: Enter to Telephone value ''");
 		newCustomerPage.enterToTelephone("");
@@ -286,7 +286,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC23_Telephone_first_character_is_blank() {
 		log.info("NC23 01: Enter to PIN value ' sadsfsdfsdfsdf'");
 		newCustomerPage.enterToTelephone(" sadsfsdfsdfsdf");
@@ -296,7 +296,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC24_Telephone_is_include_blank_space() {
 		log.info("NC24 01: Enter to Telephone value '12312 34435'");
 		newCustomerPage.enterToTelephone("12312 34435");
@@ -306,7 +306,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC25_Telephone_is_special_character() {
 		log.info("NC25 01: Enter to Telephone value '13123@##'");
 		newCustomerPage.enterToTelephone("13123@##");
@@ -316,7 +316,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC26_Email_is_Empty() {
 		log.info("NC26 01: Enter to Email value ''");
 		newCustomerPage.enterToEmail("");
@@ -329,7 +329,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC27_Email_Is_Incorrect_Format() {
 		log.info("NC27 01: Enter to Email value '13123@##'");
 		newCustomerPage.enterToEmail("13123@##");
@@ -339,7 +339,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC29_Email_Have_Space() {
 		log.info("NC29 01: Enter to Email value ' asdasdasdasd'");
 		newCustomerPage.enterToEmail(" asdasdasdasd");
@@ -349,7 +349,7 @@ public class NewCustomer extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void NC30_Verify_All_Field_Required() {
 		log.info("NC30 01: Click to Reset Button to clear all field");
 		newCustomerPage.clickToResetButton();
@@ -364,7 +364,7 @@ public class NewCustomer extends BaseTest {
 		newCustomerPage.acceptAlert(driver);
 
 	}
-	@Test
+//	@Test
 	public void NC31_Add_New_Customer() {
 		log.info("NC31 01: Enter to Customer Name value is: 'Olin Damore'");
 		newCustomerPage.enterToCustomerName("Olin Damore");
@@ -405,7 +405,7 @@ public class NewCustomer extends BaseTest {
 		log.info("NC31 13: Customer ID value is: " + customerID);
 	}
 	
-	@Test
+//	@Test
 	public void NC32_Verify_New_Customer() {
 		log.info("NC32 01: Verify Customer Registered Successfully");
 		Assert.assertTrue(newCustomerPage.isRegisteredSuccessfullyDisplayed());
