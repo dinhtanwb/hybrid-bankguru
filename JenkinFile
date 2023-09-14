@@ -1,0 +1,13 @@
+node {
+    stage('1 - Get Code') {
+      git credentialsID: 'dinhtanwb', url: 'https://github.com/dinhtanwb/hybrid-bankguru'
+    timestamps {}
+    ansiColor('xterm') {}
+    }
+ stage('2 - Complier Code') {
+     bat label: 'Run Compiler' , script: 'mvn clean'
+ }
+ stage('3 - Run Code') {
+     bat label: 'Run Compiler' , script: 'mvn  test'
+ }
+}
